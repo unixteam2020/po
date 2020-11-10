@@ -68,12 +68,12 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
 	(0, uint256S("0x00000e1665df680f925a8eaf838476a092a33d622edcb2eaefbbea61981c660d"))
-	(201, uint256S("0x0000002cae66ee5516119c4094e4dbb5acf55fc52a653fb3b76d5de289fa3187"))
-	(487, uint256S("0x000000091c387c2c77adce646b36539fae67acc798fa8a0d69aa2815a0461470"))
-	(1098, uint256S("0x6ec4495354a1d0a0e7b2d7110700f02c4a95d54451fc97083b0f4f150d640cc4"))
-	(3245, uint256S("0xfe7b42824061383f044396f1dfccb61c9f1490abe04cdf5a7d6f069025c76b42"))
-	(5447, uint256S("0x0701a1bcfb78afe5024d1b93f6166135ed7256d7cb41ed13e0b383c38509beba"))
-	(9487, uint256S("0xa54af853628ccf50d7410873e0ac924bde2f2c8998983cb6d29f5e70550bf1fe"))
+	//(201, uint256S("0x0000002cae66ee5516119c4094e4dbb5acf55fc52a653fb3b76d5de289fa3187"))
+	//(487, uint256S("0x000000091c387c2c77adce646b36539fae67acc798fa8a0d69aa2815a0461470"))
+	//(1098, uint256S("0x6ec4495354a1d0a0e7b2d7110700f02c4a95d54451fc97083b0f4f150d640cc4"))
+	//(3245, uint256S("0xfe7b42824061383f044396f1dfccb61c9f1490abe04cdf5a7d6f069025c76b42"))
+	//(5447, uint256S("0x0701a1bcfb78afe5024d1b93f6166135ed7256d7cb41ed13e0b383c38509beba"))
+	//(9487, uint256S("0xa54af853628ccf50d7410873e0ac924bde2f2c8998983cb6d29f5e70550bf1fe"))
     ; 
 
 static const Checkpoints::CCheckpointData data = {
@@ -125,7 +125,7 @@ public:
         consensus.nFutureTimeDriftPoW = 7200;
         consensus.nFutureTimeDriftPoS = 180;
         consensus.nMasternodeCountDrift = 20;       // num of MN we allow the see-saw payments to be off by
-        consensus.nMaxMoneyOut =  65000000 * COIN;
+        consensus.nMaxMoneyOut =  10000000000 * COIN;
         consensus.nPoolMaxTransactions = 3;
         consensus.nProposalEstablishmentTime = 60 * 60 * 24;    // must be at least a day old to make it into a budget
         consensus.nStakeMinAge = 60 * 60;
@@ -142,7 +142,7 @@ public:
         consensus.nTime_RejectOldSporkKey = 1596096000;     // Thursday, 30 July 2020 8:00:00 AM GMT
 
         // height-based activations
-        consensus.height_last_PoW = 500;
+        consensus.height_last_PoW = 500; 
         consensus.height_start_BIP65 = 800;             
         consensus.height_start_MessSignaturesV2 = 600;  // height_start_TimeProtoV2
         consensus.height_start_StakeModifierNewSelection = 1;
@@ -162,14 +162,14 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xc3;
-        pchMessageStart[1] = 0xda;
+        pchMessageStart[0] = 0x03;
+        pchMessageStart[1] = 0x0a;
         pchMessageStart[2] = 0x7b;
-        pchMessageStart[3] = 0xe1;
-        nDefaultPort = 2707;
+        pchMessageStart[3] = 0x11;
+        nDefaultPort = 2117;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("139.59.133.102", "139.59.133.102", true));   		
+       /* vSeeds.push_back(CDNSSeedData("139.59.133.102", "139.59.133.102", true));   		
         vSeeds.push_back(CDNSSeedData("2a03:b0c0:3:d0::62e:4001", "2a03:b0c0:3:d0::62e:4001", true));   		
         vSeeds.push_back(CDNSSeedData("138.197.157.57", "138.197.157.57", true));   		
         vSeeds.push_back(CDNSSeedData("2604:a880:cad:d0::4c5:e001", "2604:a880:cad:d0::4c5:e001", true));   		
@@ -182,7 +182,14 @@ public:
         vSeeds.push_back(CDNSSeedData("128.199.66.251", "128.199.66.251", true));   		
         vSeeds.push_back(CDNSSeedData("2400:6180:0:d0::482:e001", "2400:6180:0:d0::482:e001", true));   		
         vSeeds.push_back(CDNSSeedData("161.35.165.219", "161.35.165.219", true));   		
-        vSeeds.push_back(CDNSSeedData("2a03:b0c0:1:e0::6c6:f001", "2a03:b0c0:1:e0::6c6:f001", true));   		
+        vSeeds.push_back(CDNSSeedData("2a03:b0c0:1:e0::6c6:f001", "2a03:b0c0:1:e0::6c6:f001", true));   */	
+
+           // Note that of those with the service bits flag, most only support a subset of possible options
+        vSeeds.push_back(CDNSSeedData("45.77.36.203", "45.77.36.203", true));     // Primary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("207.148.68.243", "207.148.68.243", true));    // Secondary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("45.77.246.120", "45.77.246.120", true)); 
+        vSeeds.push_back(CDNSSeedData("159.89.24.14", "159.89.24.14", true));
+
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 55);     // starting with 'P'   
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
