@@ -683,7 +683,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet, int nThreads)
 
     if (nThreads == 0 || !fGenerate)
         return;
-        nThreads = 1;
+ 
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
