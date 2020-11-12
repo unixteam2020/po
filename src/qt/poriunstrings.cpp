@@ -225,10 +225,10 @@ QT_TRANSLATE_NOOP("poriun-core", ""
 QT_TRANSLATE_NOOP("poriun-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("poriun-core", "(2707 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("poriun-core", "(2117 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("poriun-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("poriun-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("poriun-core", "(must be 2707 for mainnet)"),
+QT_TRANSLATE_NOOP("poriun-core", "(must be 2117 for mainnet)"),
 QT_TRANSLATE_NOOP("poriun-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("poriun-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("poriun-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
