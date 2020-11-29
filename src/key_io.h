@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_KEY_IO_H
-#define Poriun_KEY_IO_H
+#ifndef Sombe_KEY_IO_H
+#define Sombe_KEY_IO_H
 
 #include "chainparams.h"
 #include "key.h"
@@ -25,4 +25,4 @@ namespace KeyIO {
 
 }
 
-#endif //Poriun_KEY_IO_H
+#endif //Sombe_KEY_IO_H

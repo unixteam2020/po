@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 //Copyright (c) 2015-2020 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,10 +12,10 @@
 #include "guiconstants.h"
 #include "guiutil.h"
 #include "walletmodel.h"
-#include "qt/poriun/qtutils.h"
-#include "qt/poriun/loadingdialog.h"
-#include "qt/poriun/defaultdialog.h"
-#include "qt/poriun/poriungui.h"
+#include "qt/Sombe/qtutils.h"
+#include "qt/Sombe/loadingdialog.h"
+#include "qt/Sombe/defaultdialog.h"
+#include "qt/Sombe/Sombegui.h"
 #include <QDebug>
 
 #include <QKeyEvent>
@@ -191,7 +191,7 @@ void AskPassphraseDialog::accept()
         );
         if (ret) {
             newpassCache = newpass1;
-            PoriunGUI* window = static_cast<PoriunGUI*>(parentWidget());
+            SombeGUI* window = static_cast<SombeGUI*>(parentWidget());
             LoadingDialog *dialog = new LoadingDialog(window);
             dialog->execute(this, 1);
             openDialogWithOpaqueBackgroundFullScreen(dialog, window);
@@ -311,7 +311,7 @@ bool AskPassphraseDialog::eventFilter(QObject* object, QEvent* event)
 
 bool AskPassphraseDialog::openStandardDialog(QString title, QString body, QString okBtn, QString cancelBtn)
 {
-    PoriunGUI* gui = static_cast<PoriunGUI*>(parentWidget());
+    SombeGUI* gui = static_cast<SombeGUI*>(parentWidget());
     DefaultDialog *confirmDialog = new DefaultDialog(gui);
     confirmDialog->setText(title, body, okBtn, cancelBtn);
     confirmDialog->adjustSize();
@@ -344,11 +344,11 @@ void AskPassphraseDialog::updateWarningsLabel()
 void AskPassphraseDialog::warningMessage()
 {
     hide();
-    static_cast<PoriunGUI*>(parentWidget())->showHide(true);
+    static_cast<SombeGUI*>(parentWidget())->showHide(true);
     openStandardDialog(
             tr("Wallet encrypted"),
             "<qt>" +
-            tr("Poriun will close now to finish the encryption process. "
+            tr("Sombe will close now to finish the encryption process. "
                "Remember that encrypting your wallet cannot fully protect "
                "your BPRs from being stolen by malware infecting your computer.") +
             "<br><br><b>" +

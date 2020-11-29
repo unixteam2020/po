@@ -5,8 +5,8 @@ Release Process
 
 ### Before every release candidate
 
-* Update translations (ping Fuzzbawls on Discord) see [translation_process.md](https://github.com/Poriun-Project/Poriun/blob/master/doc/translation_process.md#synchronising-translations).
-* Update manpages, see [gen-manpages.sh](https://github.com/poriun-project/poriun/blob/master/contrib/devtools/README.md#gen-manpagessh).
+* Update translations (ping Fuzzbawls on Discord) see [translation_process.md](https://github.com/Sombe-Project/Sombe/blob/master/doc/translation_process.md#synchronising-translations).
+* Update manpages, see [gen-manpages.sh](https://github.com/Sombe-project/Sombe/blob/master/contrib/devtools/README.md#gen-manpagessh).
 * Update release candidate version in `configure.ac` (`CLIENT_VERSION_RC`)
 
 ### Before every major and minor release
@@ -49,12 +49,12 @@ If you're using the automated script (found in [contrib/gitian-build.py](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/poriun-project/gitian.sigs.git
-    git clone https://github.com/poriun-project/poriun-detached-sigs.git
+    git clone https://github.com/Sombe-project/gitian.sigs.git
+    git clone https://github.com/Sombe-project/Sombe-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/poriun-project/poriun.git
+    git clone https://github.com/Sombe-project/Sombe.git
 
-### Poriun maintainers/release engineers, suggestion for writing release notes
+### Sombe maintainers/release engineers, suggestion for writing release notes
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -75,7 +75,7 @@ If you're using the automated script (found in [contrib/gitian-build.py](/contri
 
 Setup Gitian descriptors:
 
-    pushd ./poriun
+    pushd ./Sombe
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -108,10 +108,10 @@ Create the macOS SDK tarball, see the [macOS build instructions](build-osx.md#de
 
 NOTE: Gitian is sometimes unable to download files. If you have errors, try the step below.
 
-By default, Gitian will fetch source files as needed. To cache them ahead of time, make sure you have checked out the tag you want to build in poriun, then:
+By default, Gitian will fetch source files as needed. To cache them ahead of time, make sure you have checked out the tag you want to build in Sombe, then:
 
     pushd ./gitian-builder
-    make -C ../poriun/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../Sombe/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -119,50 +119,50 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url poriun=/path/to/poriun,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url Sombe=/path/to/Sombe,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Poriun Coin for Linux, Windows, and macOS:
+### Build and sign Sombe Coin for Linux, Windows, and macOS:
 
     pushd ./gitian-builder
-    ./bin/gbuild --num-make 2 --memory 3000 --commit poriun=v${VERSION} ../poriun/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-linux --destination ../gitian.sigs/ ../poriun/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/poriun-*.tar.gz build/out/src/poriun-*.tar.gz ../
+    ./bin/gbuild --num-make 2 --memory 3000 --commit Sombe=v${VERSION} ../Sombe/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-linux --destination ../gitian.sigs/ ../Sombe/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/Sombe-*.tar.gz build/out/src/Sombe-*.tar.gz ../
 
-    ./bin/gbuild --num-make 2 --memory 3000 --commit poriun=v${VERSION} ../poriun/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../poriun/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/poriun-*-win-unsigned.tar.gz inputs/poriun-win-unsigned.tar.gz
-    mv build/out/poriun-*.zip build/out/poriun-*.exe ../
+    ./bin/gbuild --num-make 2 --memory 3000 --commit Sombe=v${VERSION} ../Sombe/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../Sombe/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/Sombe-*-win-unsigned.tar.gz inputs/Sombe-win-unsigned.tar.gz
+    mv build/out/Sombe-*.zip build/out/Sombe-*.exe ../
 
-    ./bin/gbuild --num-make 2 --memory 3000 --commit poriun=v${VERSION} ../poriun/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../poriun/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/poriun-*-osx-unsigned.tar.gz inputs/poriun-osx-unsigned.tar.gz
-    mv build/out/poriun-*.tar.gz build/out/poriun-*.dmg ../
+    ./bin/gbuild --num-make 2 --memory 3000 --commit Sombe=v${VERSION} ../Sombe/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../Sombe/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/Sombe-*-osx-unsigned.tar.gz inputs/Sombe-osx-unsigned.tar.gz
+    mv build/out/Sombe-*.tar.gz build/out/Sombe-*.dmg ../
     popd
 
 Build output expected:
 
-  1. source tarball (`poriun-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`poriun-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`poriun-${VERSION}-win[32|64]-setup-unsigned.exe`, `poriun-${VERSION}-win[32|64].zip`)
-  4. macOS unsigned installer and dist tarball (`poriun-${VERSION}-osx-unsigned.dmg`, `poriun-${VERSION}-osx64.tar.gz`)
+  1. source tarball (`Sombe-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`Sombe-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`Sombe-${VERSION}-win[32|64]-setup-unsigned.exe`, `Sombe-${VERSION}-win[32|64].zip`)
+  4. macOS unsigned installer and dist tarball (`Sombe-${VERSION}-osx-unsigned.dmg`, `Sombe-${VERSION}-osx64.tar.gz`)
   5. Gitian signatures (in `gitian.sigs/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
-    gpg --import poriun/contrib/gitian-keys/*.pgp
+    gpg --import Sombe/contrib/gitian-keys/*.pgp
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../poriun/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../poriun/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../poriun/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../Sombe/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../Sombe/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../Sombe/contrib/gitian-descriptors/gitian-osx.yml
     popd
 
 ### Next steps:
@@ -183,22 +183,22 @@ Codesigner only: Create Windows/macOS detached signatures:
 
 Codesigner only: Sign the macOS binary:
 
-    transfer poriun-osx-unsigned.tar.gz to macOS for signing
-    tar xf poriun-osx-unsigned.tar.gz
+    transfer Sombe-osx-unsigned.tar.gz to macOS for signing
+    tar xf Sombe-osx-unsigned.tar.gz
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
-    tar xf poriun-win-unsigned.tar.gz
+    tar xf Sombe-win-unsigned.tar.gz
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
-    cd ~/poriun-detached-sigs
+    cd ~/Sombe-detached-sigs
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -211,24 +211,24 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/macOS detached signatures:
 
 - Once the Windows/macOS builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [poriun-detached-sigs](https://github.com/poriun-Project/poriun-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [Sombe-detached-sigs](https://github.com/Sombe-Project/Sombe-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed macOS binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../poriun/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../poriun/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../poriun/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/poriun-osx-signed.dmg ../poriun-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../Sombe/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../Sombe/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../Sombe/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/Sombe-osx-signed.dmg ../Sombe-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../poriun/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../poriun/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../poriun/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/poriun-*win64-setup.exe ../poriun-${VERSION}-win64-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../Sombe/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer "$SIGNER" --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../Sombe/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-signed ../Sombe/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/Sombe-*win64-setup.exe ../Sombe-${VERSION}-win64-setup.exe
     popd
 
 Commit your signature for the signed macOS/Windows binaries:
@@ -250,16 +250,16 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-poriun-${VERSION}-aarch64-linux-gnu.tar.gz
-poriun-${VERSION}-arm-linux-gnueabihf.tar.gz
-poriun-${VERSION}-i686-pc-linux-gnu.tar.gz
-poriun-${VERSION}-riscv64-linux-gnu.tar.gz
-poriun-${VERSION}-x86_64-linux-gnu.tar.gz
-poriun-${VERSION}-osx64.tar.gz
-poriun-${VERSION}-osx.dmg
-poriun-${VERSION}.tar.gz
-poriun-${VERSION}-win64-setup.exe
-poriun-${VERSION}-win64.zip
+Sombe-${VERSION}-aarch64-linux-gnu.tar.gz
+Sombe-${VERSION}-arm-linux-gnueabihf.tar.gz
+Sombe-${VERSION}-i686-pc-linux-gnu.tar.gz
+Sombe-${VERSION}-riscv64-linux-gnu.tar.gz
+Sombe-${VERSION}-x86_64-linux-gnu.tar.gz
+Sombe-${VERSION}-osx64.tar.gz
+Sombe-${VERSION}-osx.dmg
+Sombe-${VERSION}.tar.gz
+Sombe-${VERSION}-win64-setup.exe
+Sombe-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
@@ -281,10 +281,10 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
   - bitcointalk announcement thread
 
-  - Optionally twitter, reddit /r/poriun, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/Sombe, ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
-  - Create a [new GitHub release](https://github.com/Poriun-Project/Poriun/releases/new) with a link to the archived release notes.
+  - Create a [new GitHub release](https://github.com/Sombe-Project/Sombe/releases/new) with a link to the archived release notes.
 
   - Celebrate

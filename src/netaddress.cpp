@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifdef HAVE_CONFIG_H
-#include "config/poriun-config.h"
+#include "config/Sombe-config.h"
 #endif
 
 #include "netaddress.h"

@@ -1,10 +1,10 @@
 //Copyright (c) 2019 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_ADDRESSBOOK_H
-#define Poriun_ADDRESSBOOK_H
+#ifndef Sombe_ADDRESSBOOK_H
+#define Sombe_ADDRESSBOOK_H
 
 #include <map>
 #include <string>
@@ -44,4 +44,4 @@ namespace AddressBook {
 
 }
 
-#endif //Poriun_ADDRESSBOOK_H
+#endif //Sombe_ADDRESSBOOK_H

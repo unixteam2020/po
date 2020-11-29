@@ -6,7 +6,7 @@
 #define BITCOIN_NETADDRESS_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/poriun-config.h"
+#include "config/Sombe-config.h"
 #endif
 
 #include "compat.h"

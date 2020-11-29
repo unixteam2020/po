@@ -1,5 +1,5 @@
 ---
-name: "poriun-dmg-signer"
+name: "Sombe-dmg-signer"
 distro: "ubuntu"
 suites:
 - "bionic"
@@ -8,10 +8,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/poriun-project/poriun-detached-sigs.git"
+- "url": "https://github.com/Sombe-project/Sombe-detached-sigs.git"
   "dir": "signature"
 files:
-- "poriun-osx-unsigned.tar.gz"
+- "Sombe-osx-unsigned.tar.gz"
 script: |
   set -e -o pipefail
 
@@ -30,8 +30,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=poriun-osx-unsigned.tar.gz
-  SIGNED=poriun-osx-signed.dmg
+  UNSIGNED=Sombe-osx-unsigned.tar.gz
+  SIGNED=Sombe-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

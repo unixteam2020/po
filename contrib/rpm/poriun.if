@@ -1,10 +1,10 @@
 
-## <summary>policy for poriun</summary>
+## <summary>policy for Sombe</summary>
 
 
 ########################################
 ## <summary>
-##	Transition to poriun.
+##	Transition to Sombe.
 ## </summary>
 ## <param name="domain">
 ## <summary>
@@ -12,19 +12,19 @@
 ## </summary>
 ## </param>
 #
-interface(`poriun_domtrans',`
+interface(`Sombe_domtrans',`
 	gen_require(`
-		type poriun_t, poriun_exec_t;
+		type Sombe_t, Sombe_exec_t;
 	')
 
 	corecmd_search_bin($1)
-	domtrans_pattern($1, poriun_exec_t, poriun_t)
+	domtrans_pattern($1, Sombe_exec_t, Sombe_t)
 ')
 
 
 ########################################
 ## <summary>
-##	Execute poriun server in the poriun domain.
+##	Execute Sombe server in the Sombe domain.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -32,18 +32,18 @@ interface(`poriun_domtrans',`
 ##	</summary>
 ## </param>
 #
-interface(`poriun_initrc_domtrans',`
+interface(`Sombe_initrc_domtrans',`
 	gen_require(`
-		type poriun_initrc_exec_t;
+		type Sombe_initrc_exec_t;
 	')
 
-	init_labeled_script_domtrans($1, poriun_initrc_exec_t)
+	init_labeled_script_domtrans($1, Sombe_initrc_exec_t)
 ')
 
 
 ########################################
 ## <summary>
-##	Search poriun lib directories.
+##	Search Sombe lib directories.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -51,18 +51,18 @@ interface(`poriun_initrc_domtrans',`
 ##	</summary>
 ## </param>
 #
-interface(`poriun_search_lib',`
+interface(`Sombe_search_lib',`
 	gen_require(`
-		type poriun_var_lib_t;
+		type Sombe_var_lib_t;
 	')
 
-	allow $1 poriun_var_lib_t:dir search_dir_perms;
+	allow $1 Sombe_var_lib_t:dir search_dir_perms;
 	files_search_var_lib($1)
 ')
 
 ########################################
 ## <summary>
-##	Read poriun lib files.
+##	Read Sombe lib files.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -70,18 +70,18 @@ interface(`poriun_search_lib',`
 ##	</summary>
 ## </param>
 #
-interface(`poriun_read_lib_files',`
+interface(`Sombe_read_lib_files',`
 	gen_require(`
-		type poriun_var_lib_t;
+		type Sombe_var_lib_t;
 	')
 
 	files_search_var_lib($1)
-	read_files_pattern($1, poriun_var_lib_t, poriun_var_lib_t)
+	read_files_pattern($1, Sombe_var_lib_t, Sombe_var_lib_t)
 ')
 
 ########################################
 ## <summary>
-##	Manage poriun lib files.
+##	Manage Sombe lib files.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -89,18 +89,18 @@ interface(`poriun_read_lib_files',`
 ##	</summary>
 ## </param>
 #
-interface(`poriun_manage_lib_files',`
+interface(`Sombe_manage_lib_files',`
 	gen_require(`
-		type poriun_var_lib_t;
+		type Sombe_var_lib_t;
 	')
 
 	files_search_var_lib($1)
-	manage_files_pattern($1, poriun_var_lib_t, poriun_var_lib_t)
+	manage_files_pattern($1, Sombe_var_lib_t, Sombe_var_lib_t)
 ')
 
 ########################################
 ## <summary>
-##	Manage poriun lib directories.
+##	Manage Sombe lib directories.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -108,20 +108,20 @@ interface(`poriun_manage_lib_files',`
 ##	</summary>
 ## </param>
 #
-interface(`poriun_manage_lib_dirs',`
+interface(`Sombe_manage_lib_dirs',`
 	gen_require(`
-		type poriun_var_lib_t;
+		type Sombe_var_lib_t;
 	')
 
 	files_search_var_lib($1)
-	manage_dirs_pattern($1, poriun_var_lib_t, poriun_var_lib_t)
+	manage_dirs_pattern($1, Sombe_var_lib_t, Sombe_var_lib_t)
 ')
 
 
 ########################################
 ## <summary>
 ##	All of the rules required to administrate
-##	a poriun environment
+##	a Sombe environment
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -135,23 +135,23 @@ interface(`poriun_manage_lib_dirs',`
 ## </param>
 ## <rolecap/>
 #
-interface(`poriun_admin',`
+interface(`Sombe_admin',`
 	gen_require(`
-		type poriun_t;
-		type poriun_initrc_exec_t;
-		type poriun_var_lib_t;
+		type Sombe_t;
+		type Sombe_initrc_exec_t;
+		type Sombe_var_lib_t;
 	')
 
-	allow $1 poriun_t:process { ptrace signal_perms };
-	ps_process_pattern($1, poriun_t)
+	allow $1 Sombe_t:process { ptrace signal_perms };
+	ps_process_pattern($1, Sombe_t)
 
-	poriun_initrc_domtrans($1)
+	Sombe_initrc_domtrans($1)
 	domain_system_change_exemption($1)
-	role_transition $2 poriun_initrc_exec_t system_r;
+	role_transition $2 Sombe_initrc_exec_t system_r;
 	allow $2 system_r;
 
 	files_search_var_lib($1)
-	admin_pattern($1, poriun_var_lib_t)
+	admin_pattern($1, Sombe_var_lib_t)
 
 ')
 

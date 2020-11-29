@@ -1,10 +1,10 @@
 //Copyright (c) 2017-2020 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_STAKEINPUT_H
-#define Poriun_STAKEINPUT_H
+#ifndef Sombe_STAKEINPUT_H
+#define Sombe_STAKEINPUT_H
 
 #include "chain.h"
 #include "streams.h"
@@ -56,4 +56,4 @@ public:
 };
 
 
-#endif //Poriun_STAKEINPUT_H
+#endif //Sombe_STAKEINPUT_H

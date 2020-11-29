@@ -1,10 +1,10 @@
 //Copyright (c) 2017-2019 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_BLOCKSIGNATURE_H
-#define Poriun_BLOCKSIGNATURE_H
+#ifndef Sombe_BLOCKSIGNATURE_H
+#define Sombe_BLOCKSIGNATURE_H
 
 #include "key.h"
 #include "primitives/block.h"
@@ -14,4 +14,4 @@ bool SignBlockWithKey(CBlock& block, const CKey& key);
 bool SignBlock(CBlock& block, const CKeyStore& keystore);
 bool CheckBlockSignature(const CBlock& block);
 
-#endif //Poriun_BLOCKSIGNATURE_H
+#endif //Sombe_BLOCKSIGNATURE_H

@@ -1,11 +1,11 @@
 // Copyright (c) 2011-2013 The Bitcoin developers
 //Copyright (c) 2017-2020 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/poriun-config.h"
+#include "config/Sombe-config.h"
 #endif
 
 #include "optionsdialog.h"

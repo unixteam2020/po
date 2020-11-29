@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 //Copyright (c) 2015-2020 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -44,11 +44,11 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case BPR:
-        return QString("poriun");
+        return QString("Sombe");
     case mBPR:
-        return QString("mporiun");
+        return QString("mSombe");
     case uBPR:
-        return QString::fromUtf8("uporiun");
+        return QString::fromUtf8("uSombe");
     default:
         return QString("???");
     }

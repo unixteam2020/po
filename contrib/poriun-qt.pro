@@ -75,7 +75,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/poriun-config.h \
+           src/Sombe-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -128,7 +128,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/poriun-config.h \
+           src/config/Sombe-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -315,7 +315,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/poriun.moc \
+           src/qt/Sombe.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -356,9 +356,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/poriun-cli.cpp \
-           src/poriun-tx.cpp \
-           src/poriun.cpp \
+           src/Sombe-cli.cpp \
+           src/Sombe-tx.cpp \
+           src/Sombe.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -453,8 +453,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/poriun.cpp \
-           src/qt/poriunstrings.cpp \
+           src/qt/Sombe.cpp \
+           src/qt/Sombestrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -579,24 +579,24 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/poriun.qrc src/qt/poriun_locale.qrc
+RESOURCES += src/qt/Sombe.qrc src/qt/Sombe_locale.qrc
 
-TRANSLATIONS += src/qt/locale/poriun_bg.ts \
-                src/qt/locale/poriun_de.ts \
-                src/qt/locale/poriun_en.ts \
-                src/qt/locale/poriun_es.ts \
-                src/qt/locale/poriun_fi.ts \
-                src/qt/locale/poriun_fr.ts \
-                src/qt/locale/poriun_it.ts \
-                src/qt/locale/poriun_ja.ts \
-                src/qt/locale/poriun_pl.ts \
-                src/qt/locale/poriun_pt.ts \
-                src/qt/locale/poriun_ru.ts \
-                src/qt/locale/poriun_sk.ts \
-                src/qt/locale/poriun_sv.ts \
-                src/qt/locale/poriun_vi.ts \
-                src/qt/locale/poriun_zh_CN.ts \
-                src/qt/locale/poriun_zh_TW.ts
+TRANSLATIONS += src/qt/locale/Sombe_bg.ts \
+                src/qt/locale/Sombe_de.ts \
+                src/qt/locale/Sombe_en.ts \
+                src/qt/locale/Sombe_es.ts \
+                src/qt/locale/Sombe_fi.ts \
+                src/qt/locale/Sombe_fr.ts \
+                src/qt/locale/Sombe_it.ts \
+                src/qt/locale/Sombe_ja.ts \
+                src/qt/locale/Sombe_pl.ts \
+                src/qt/locale/Sombe_pt.ts \
+                src/qt/locale/Sombe_ru.ts \
+                src/qt/locale/Sombe_sk.ts \
+                src/qt/locale/Sombe_sv.ts \
+                src/qt/locale/Sombe_vi.ts \
+                src/qt/locale/Sombe_zh_CN.ts \
+                src/qt/locale/Sombe_zh_TW.ts
 
 DISTFILES += \
     README.md

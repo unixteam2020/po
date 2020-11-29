@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>org.poriun.poriund</string>
+	<string>org.Sombe.Sombed</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/local/bin/poriund</string>
+		<string>/usr/local/bin/Sombed</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>

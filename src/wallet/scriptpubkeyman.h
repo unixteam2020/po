@@ -1,11 +1,11 @@
 // Copyright (c) 2019 The Bitcoin Core developers
 //Copyright (c) 2020 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_SCRIPTPUBKEYMAN_H
-#define Poriun_SCRIPTPUBKEYMAN_H
+#ifndef Sombe_SCRIPTPUBKEYMAN_H
+#define Sombe_SCRIPTPUBKEYMAN_H
 
 #include "wallet/hdchain.h"
 #include "wallet/wallet.h"
@@ -161,4 +161,4 @@ private:
 };
 
 
-#endif //Poriun_SCRIPTPUBKEYMAN_H
+#endif //Sombe_SCRIPTPUBKEYMAN_H

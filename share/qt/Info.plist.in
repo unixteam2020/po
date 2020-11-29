@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Poriun Coin developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@.@CLIENT_VERSION_BUILD@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Dash Core developers, 2015-@COPYRIGHT_YEAR@ The Sombe Coin developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Poriun-Qt</string>
+  <string>Sombe-Qt</string>
 
   <key>CFBundleName</key>
-  <string>Poriun-Qt</string>
+  <string>Sombe-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.poriun.Poriun-Qt</string>
+  <string>io.Sombe.Sombe-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +46,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.poriun.PoriunPayment</string>
+      <string>io.Sombe.SombePayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>poriun</string>
+        <string>Sombe</string>
       </array>
     </dict>
   </array>
@@ -58,9 +58,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.poriun.paymentrequest</string>
+      <string>io.Sombe.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Poriun payment request</string>
+      <string>Sombe payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +68,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-poriun-payment-request</string>
+        <string>application/x-Sombe-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>poriunpaymentrequest</string>
+          <string>Sombepaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -84,7 +84,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.poriun.paymentrequest</string>
+        <string>io.Sombe.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

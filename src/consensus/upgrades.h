@@ -1,11 +1,11 @@
 // Copyright (c) 2018 The Zcash developers
 //Copyright (c) 2020 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_CONSENSUS_UPGRADES_H
-#define Poriun_CONSENSUS_UPGRADES_H
+#ifndef Sombe_CONSENSUS_UPGRADES_H
+#define Sombe_CONSENSUS_UPGRADES_H
 
 #include "consensus/params.h"
 #include "optional.h"
@@ -82,4 +82,4 @@ Optional<int> NextActivationHeight(
         int nHeight,
         const Consensus::Params& params);
 
-#endif // Poriun_CONSENSUS_UPGRADES_H
+#endif // Sombe_CONSENSUS_UPGRADES_H

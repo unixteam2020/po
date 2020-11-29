@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_SCRIPT_KEYORIGIN_H
-#define Poriun_SCRIPT_KEYORIGIN_H
+#ifndef Sombe_SCRIPT_KEYORIGIN_H
+#define Sombe_SCRIPT_KEYORIGIN_H
 
 #include <serialize.h>
 #include <vector>
@@ -52,4 +52,4 @@ struct KeyOriginInfo
     }
 };
 
-#endif // Poriun_SCRIPT_KEYORIGIN_H
+#endif // Sombe_SCRIPT_KEYORIGIN_H

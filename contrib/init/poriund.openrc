@@ -2,26 +2,26 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/poriun/.poriun" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/poriun/.poriun"
+if [ -d "/var/lib/Sombe/.Sombe" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/Sombe/.Sombe"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/poriund"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/Sombed"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/poriun/poriun.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/poriund}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/poriund.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/Sombe/Sombe.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/Sombed}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/Sombed.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-poriun}
-BITCOIND_GROUP=${BITCOIND_GROUP:-poriun}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/poriund}
+BITCOIND_USER=${BITCOIND_USER:-${BITCOIN_USER:-Sombe}
+BITCOIND_GROUP=${BITCOIND_GROUP:-Sombe}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/Sombed}
 BITCOIND_NICE=${BITCOIND_NICE:-${NICELEVEL:-0}}
 BITCOIND_OPTS="${BITCOIND_OPTS:-${BITCOIN_OPTS}}"
 
-name="Poriun Coin Daemon"
-description="Poriun crypto-currency p2p network daemon"
+name="Sombe Coin Daemon"
+description="Sombe crypto-currency p2p network daemon"
 
-command="/usr/bin/poriund"
+command="/usr/bin/Sombed"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -71,7 +71,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run poriund."
+		eerror "ERROR: You must set a secure rpcpassword to run Sombed."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "
@@ -84,7 +84,7 @@ checkconfig()
 		eerror "It is recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Poriun Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Sombe Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

@@ -1,10 +1,10 @@
 //Copyright (c) 2019 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_PAIRRESULT_H
-#define Poriun_PAIRRESULT_H
+#ifndef Sombe_PAIRRESULT_H
+#define Sombe_PAIRRESULT_H
 
 
 class PairResult {
@@ -18,4 +18,4 @@ public:
 };
 
 
-#endif //Poriun_PAIRRESULT_H
+#endif //Sombe_PAIRRESULT_H

@@ -1,10 +1,10 @@
 //Copyright (c) 2017-2019 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_CSPORKDB_H
-#define Poriun_CSPORKDB_H
+#ifndef Sombe_CSPORKDB_H
+#define Sombe_CSPORKDB_H
 
 #include "fs.h"
 #include "dbwrapper.h"
@@ -26,4 +26,4 @@ public:
 };
 
 
-#endif //Poriun_CSPORKDB_H
+#endif //Sombe_CSPORKDB_H

@@ -1,6 +1,6 @@
 [Protocol]
-exec=poriun-qt '%u'
-protocol=poriun
+exec=Sombe-qt '%u'
+protocol=Sombe
 input=none
 output=none
 helper=true

@@ -1,3 +1,3 @@
-<a href='https://github.com/poriun/PoriunCoin/releases' target='_blank'>
-<img src='https://raw.githubusercontent.com/poriun/PoriunCoin/master/src/qt/res/icons/bpr.png'></img>
+<a href='https://github.com/Sombe/SombeCoin/releases2' target='_blank'>
+<img src='https://raw.githubusercontent.com/Sombe/SombeCoin/master/src/qt/res/icons/bpr.png'></img>
 </a>

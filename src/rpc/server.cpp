@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 //Copyright (c) 2015-2020 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -270,11 +270,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw std::runtime_error(
             "stop\n"
-            "\nStop Poriun server.");
+            "\nStop Sombe server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "Poriun server stopping";
+    return "Sombe server stopping";
 }
 
 
@@ -361,33 +361,33 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblock",           &waitforblock,           true,  true,  false  },
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true,  true,  false  },
 
-        /* Poriun features */
-        {"poriun", "listmasternodes", &listmasternodes, true, true, false},
-        {"poriun", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"poriun", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"poriun", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"poriun", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"poriun", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"poriun", "masternodedebug", &masternodedebug, true, true, false},
-        {"poriun", "startmasternode", &startmasternode, true, true, false},
-        {"poriun", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"poriun", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"poriun", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"poriun", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"poriun", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"poriun", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"poriun", "preparebudget", &preparebudget, true, true, false},
-        {"poriun", "submitbudget", &submitbudget, true, true, false},
-        {"poriun", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"poriun", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"poriun", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"poriun", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"poriun", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"poriun", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"poriun", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"poriun", "checkbudgets", &checkbudgets, true, true, false},
-        {"poriun", "mnsync", &mnsync, true, true, false},
-        {"poriun", "spork", &spork, true, true, false},
+        /* Sombe features */
+        {"Sombe", "listmasternodes", &listmasternodes, true, true, false},
+        {"Sombe", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"Sombe", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"Sombe", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"Sombe", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"Sombe", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"Sombe", "masternodedebug", &masternodedebug, true, true, false},
+        {"Sombe", "startmasternode", &startmasternode, true, true, false},
+        {"Sombe", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"Sombe", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"Sombe", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"Sombe", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"Sombe", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"Sombe", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"Sombe", "preparebudget", &preparebudget, true, true, false},
+        {"Sombe", "submitbudget", &submitbudget, true, true, false},
+        {"Sombe", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"Sombe", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"Sombe", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"Sombe", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"Sombe", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"Sombe", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"Sombe", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"Sombe", "checkbudgets", &checkbudgets, true, true, false},
+        {"Sombe", "mnsync", &mnsync, true, true, false},
+        {"Sombe", "spork", &spork, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -614,7 +614,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(std::string methodname, std::string args)
 {
-    return "> poriun-cli " + methodname + " " + args + "\n";
+    return "> Sombe-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(std::string methodname, std::string args)

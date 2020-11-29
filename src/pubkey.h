@@ -1,11 +1,11 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2016-2018 The Poriun Coin developers
+// Copyright (c) 2016-2018 The Sombe Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_PUBKEY_H
-#define Poriun_PUBKEY_H
+#ifndef Sombe_PUBKEY_H
+#define Sombe_PUBKEY_H
 
 #include "hash.h"
 #include "serialize.h"
@@ -259,4 +259,4 @@ public:
     ~ECCVerifyHandle();
 };
 
-#endif // Poriun_PUBKEY_H
+#endif // Sombe_PUBKEY_H

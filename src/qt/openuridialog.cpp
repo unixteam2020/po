@@ -1,5 +1,5 @@
 //Copyright (c) 2019 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,7 +8,7 @@
 
 #include "guiutil.h"
 #include "walletmodel.h"
-#include "qt/poriun/qtutils.h"
+#include "qt/Sombe/qtutils.h"
 
 #include <QUrl>
 #include <QFile>
@@ -18,7 +18,7 @@ OpenURIDialog::OpenURIDialog(QWidget* parent) : QDialog(parent, Qt::WindowSystem
 {
     ui->setupUi(this);
     this->setStyleSheet(parent->styleSheet());
-    ui->uriEdit->setPlaceholderText("poriun:");
+    ui->uriEdit->setPlaceholderText("Sombe:");
 
     ui->labelSubtitle->setText("URI");
     setCssProperty(ui->labelSubtitle, "text-title2-dialog");
@@ -80,8 +80,8 @@ void OpenURIDialog::on_selectFileButton_clicked()
         }
 
         QString str = QString::fromStdString(std::string(r.constData(), r.length()));
-        if (!str.startsWith("poriun")) {
-            inform(tr("Invalid URI, not starting with \"poriun\" prefix"));
+        if (!str.startsWith("Sombe")) {
+            inform(tr("Invalid URI, not starting with \"Sombe\" prefix"));
         }
         ui->uriEdit->setText(str);
     }

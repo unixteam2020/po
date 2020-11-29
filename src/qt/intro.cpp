@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 //Copyright (c) 2015-2019 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,7 +12,7 @@
 #include "guiutil.h"
 
 #include "util.h"
-#include "qt/poriun/qtutils.h"
+#include "qt/Sombe/qtutils.h"
 
 #include <QFileDialog>
 #include <QMessageBox>
@@ -197,7 +197,7 @@ bool Intro::pickDataDirectory()
                 TryCreateDirectory(GUIUtil::qstringToBoostPath(dataDir));
                 break;
             } catch (const fs::filesystem_error& e) {
-                QMessageBox::critical(0, tr("Poriun Coin"),
+                QMessageBox::critical(0, tr("Sombe Coin"),
                     tr("Error: Specified data directory \"%1\" cannot be created.").arg(dataDir));
                 // fall through, back to choosing screen
             }
@@ -207,8 +207,8 @@ bool Intro::pickDataDirectory()
     }
 
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the poriun.conf file in the default data directory
-     * (to be consistent with poriund behavior)
+     * override -datadir in the Sombe.conf file in the default data directory
+     * (to be consistent with Sombed behavior)
      */
 
     if (dataDir != getDefaultDataDirectory())

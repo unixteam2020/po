@@ -1,15 +1,15 @@
 
 #!/bin/sh
 
-# setup poriun account, homedir etc
+# setup Sombe account, homedir etc
 
 set -e
 
-BCUSER="poriun"
-BCHOME="/var/lib/poriun"
+BCUSER="Sombe"
+BCHOME="/var/lib/Sombe"
 
 if [ "$1" = "configure" ]; then
-	# Add poriun user/group - this will gracefully abort if the user already exists.
+	# Add Sombe user/group - this will gracefully abort if the user already exists.
 	# A homedir is never created.
 	set +e
 	adduser --system --home "${BCHOME}" --no-create-home --group "${BCUSER}" 2>/dev/null

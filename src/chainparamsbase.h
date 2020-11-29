@@ -1,6 +1,6 @@
 // Copyright (c) 2014 The Bitcoin developers
 //Copyright (c) 2017-2020 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,8 +11,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between poriun-cli and poriund)
- * of a given instance of the Poriun system.
+ * CBaseChainParams defines the base parameters (shared between Sombe-cli and Sombed)
+ * of a given instance of the Sombe system.
  */
 class CBaseChainParams
 {

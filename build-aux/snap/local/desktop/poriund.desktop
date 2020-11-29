@@ -2,14 +2,14 @@
 
 [Desktop Entry]
 Encoding=UTF-8
-Name=Poriun Coin Daemon SNAP
+Name=Sombe Coin Daemon SNAP
 Comment=main
-GenericName=Poriun Digital Currency Daemon Client main network
-Exec=poriun-core.daemon %u
+GenericName=Sombe Digital Currency Daemon Client main network
+Exec=Sombe-core.daemon %u
 Terminal=true
 Type=Application
-Icon=${SNAP}/share/pixmaps/poriun.png
+Icon=${SNAP}/share/pixmaps/Sombe.png
 MimeType=x-scheme-handler/bpr;
 Categories=X-Office;X-Finance;
-Keywords=internet;poriun;zbpr;core;wallet;daemon;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Keywords=internet;Sombe;zbpr;core;wallet;daemon;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
 Version=1.0

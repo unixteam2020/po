@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  poriund The Poriun core server.
+#  Sombed The Sombe core server.
 #
 #
 # chkconfig: 345 80 20
-# description: poriund
-# processname: poriund
+# description: Sombed
+# processname: Sombed
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/poriund, see below
-if [ -f /etc/sysconfig/poriund ]; then
-        . /etc/sysconfig/poriund
+# you can override defaults in /etc/sysconfig/Sombed, see below
+if [ -f /etc/sysconfig/Sombed ]; then
+        . /etc/sysconfig/Sombed
 fi
 
 RETVAL=0
 
-prog=poriund
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/poriund
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/poriund}
+prog=Sombed
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/Sombed
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/Sombed}
 
-# poriund defaults to /usr/bin/poriund, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/poriund}
+# Sombed defaults to /usr/bin/Sombed, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/Sombed}
 
-# poriund opts default to -disablewallet, override with BITCOIND_OPTS
+# Sombed opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

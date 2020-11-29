@@ -2,7 +2,7 @@ CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 
 set(QT_MINIMUM_VERSION 5.5.1)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_CURRENT_SOURCE_DIR}/forms ${CMAKE_CURRENT_SOURCE_DIR}/poriun/forms ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/forms)
+set(CMAKE_AUTOUIC_SEARCH_PATHS ${CMAKE_CURRENT_SOURCE_DIR}/forms ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/forms ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/forms)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
@@ -112,80 +112,80 @@ SET(QT_SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/transactiontablemodel.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/walletmodel.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/walletmodeltransaction.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/poriungui.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/loadingdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/pwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/focuseddialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/guitransactionsutils.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/snackbar.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/navmenuwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/lockunlock.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/receivedialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/furabstractlistitemdelegate.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/txviewholder.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/qtutils.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/expandablebutton.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/topbar.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/txrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/addressfilterproxymodel.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/dashboardwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/addresslabelrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/contactdropdownrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/contactsdropdown.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/optionbutton.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/mninfodialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/coldstakingmodel.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/mnmodel.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/masternodewizarddialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/mnrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/masternodeswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/sendchangeaddressdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/sendconfirmdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/sendcustomfeedialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/sendchangeaddressdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/sendmultirow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/send.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/addnewaddressdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/addnewcontactdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/requestdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/receivewidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/myaddressrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/csrow.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/addressholder.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/tooltipmenu.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/addresseswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/defaultdialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/coldstakingwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsbackupwallet.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsbittoolwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsconsolewidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsdisplayoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsfaqwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsinformationwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsmainoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsmultisenddialog.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsmultisendwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingssignmessagewidgets.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingswalletoptionswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingswalletrepairwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsexportcsv.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingswidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/welcomecontentwidget.cpp
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/splash.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/Sombegui.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/loadingdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/pwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/focuseddialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/guitransactionsutils.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/snackbar.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/navmenuwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/lockunlock.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/receivedialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/furabstractlistitemdelegate.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/txviewholder.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/qtutils.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/expandablebutton.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/topbar.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/txrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/addressfilterproxymodel.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/dashboardwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/addresslabelrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/contactdropdownrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/contactsdropdown.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/optionbutton.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/mninfodialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/coldstakingmodel.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/mnmodel.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/masternodewizarddialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/mnrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/masternodeswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/sendchangeaddressdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/sendconfirmdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/sendcustomfeedialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/sendchangeaddressdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/sendmultirow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/send.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/addnewaddressdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/addnewcontactdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/requestdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/receivewidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/myaddressrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/csrow.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/addressholder.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/tooltipmenu.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/addresseswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/defaultdialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/coldstakingwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsbackupwallet.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsbittoolwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsconsolewidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsdisplayoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsfaqwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsinformationwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsmainoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsmultisenddialog.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsmultisendwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingssignmessagewidgets.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingswalletoptionswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingswalletrepairwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsexportcsv.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingswidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/welcomecontentwidget.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/splash.cpp
         )
 
 # Workaround until the old rpcconsole UI window is fully removed
-set_property(SOURCE ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings/settingsconsolewidget.cpp PROPERTY SKIP_AUTOMOC ON)
+set_property(SOURCE ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings/settingsconsolewidget.cpp PROPERTY SKIP_AUTOMOC ON)
 execute_process(
         COMMAND ${MOC_BIN} -o moc_settingsconsolewidget.cpp settingsconsolewidget.h
-        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings
 )
 
 execute_process(
         COMMAND ${MOC_BIN} -o moc_pfborderimage.cpp pfborderimage.h
-        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/poriun
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/Sombe
 )
-list(APPEND QT_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/poriun/moc_pfborderimage.cpp)
+list(APPEND QT_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/moc_pfborderimage.cpp)
 
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
     list(APPEND QT_SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/macdockiconhandler.mm)
@@ -198,8 +198,8 @@ target_include_directories(qt_stuff PUBLIC ${CMAKE_SOURCE_DIR}/src
         ${CMAKE_SOURCE_DIR}/src/univalue/include
         ${CMAKE_SOURCE_DIR}/src/secp256k1/include
         ${CMAKE_CURRENT_SOURCE_DIR}
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun
-        ${CMAKE_CURRENT_SOURCE_DIR}/poriun/settings
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe
+        ${CMAKE_CURRENT_SOURCE_DIR}/Sombe/settings
         ${OPENSSL_INCLUDE_DIR}
         ${BerkeleyDB_INCLUDE_DIRS}
         )
@@ -213,13 +213,13 @@ set_source_files_properties(${QT_TRANSLATIONS_FILES} PROPERTIES OUTPUT_LOCATION 
 QT5_ADD_TRANSLATION(QM ${QT_TRANSLATIONS_FILES})
 add_custom_target(translations_target ALL DEPENDS ${QM})
 
-QT5_ADD_RESOURCES(QRC_RESOURCE poriun.qrc)
-QT5_ADD_RESOURCES(QRC_LOCALE_RESOURCE poriun_locale.qrc)
+QT5_ADD_RESOURCES(QRC_RESOURCE Sombe.qrc)
+QT5_ADD_RESOURCES(QRC_LOCALE_RESOURCE Sombe_locale.qrc)
 
-add_executable(poriun-qt poriun.cpp ${QM} ${QRC_RESOURCE} ${QRC_LOCALE_RESOURCE})
-add_dependencies(poriun-qt translations_target libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
-target_include_directories(poriun-qt PUBLIC ${ENDIAN_INCLUDES})
-target_link_libraries(poriun-qt
+add_executable(Sombe-qt Sombe.cpp ${QM} ${QRC_RESOURCE} ${QRC_LOCALE_RESOURCE})
+add_dependencies(Sombe-qt translations_target libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
+target_include_directories(Sombe-qt PUBLIC ${ENDIAN_INCLUDES})
+target_link_libraries(Sombe-qt
         qt_stuff
         univalue
         SERVER_A UTIL_A WALLET_A CLI_A COMMON_A BITCOIN_CRYPTO_A
@@ -228,30 +228,30 @@ target_link_libraries(poriun-qt
         pthread
         )
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
-    target_link_libraries(poriun-qt "-framework Cocoa")
+    target_link_libraries(Sombe-qt "-framework Cocoa")
 endif()
 if(GMP_FOUND)
-    target_link_libraries(poriun-qt ${GMP_LIBRARY})
-    target_include_directories(poriun-qt PUBLIC ${GMP_INCLUDE_DIR})
+    target_link_libraries(Sombe-qt ${GMP_LIBRARY})
+    target_include_directories(Sombe-qt PUBLIC ${GMP_INCLUDE_DIR})
 endif()
 if(ZMQ_FOUND)
-    target_link_libraries(poriun-qt ZMQ_A ${ZMQ_LIB})
-    target_include_directories(poriun-qt PUBLIC ${ZMQ_INCLUDE_DIR})
+    target_link_libraries(Sombe-qt ZMQ_A ${ZMQ_LIB})
+    target_include_directories(Sombe-qt PUBLIC ${ZMQ_INCLUDE_DIR})
 endif()
 if (QRCODE_FOUND)
-    target_link_libraries(poriun-qt ${QRCODE_LIB})
-    target_include_directories(poriun-qt PUBLIC ${QRCODE_INCLUDE_DIR})
+    target_link_libraries(Sombe-qt ${QRCODE_LIB})
+    target_include_directories(Sombe-qt PUBLIC ${QRCODE_INCLUDE_DIR})
 endif()
 if(MINIUPNP_FOUND)
-    target_compile_definitions(poriun-qt PUBLIC "-DSTATICLIB -DMINIUPNP_STATICLIB")
-    target_link_libraries(poriun-qt ${MINIUPNP_LIBRARY})
-    target_include_directories(poriun-qt PUBLIC ${MINIUPNP_INCLUDE_DIR})
+    target_compile_definitions(Sombe-qt PUBLIC "-DSTATICLIB -DMINIUPNP_STATICLIB")
+    target_link_libraries(Sombe-qt ${MINIUPNP_LIBRARY})
+    target_include_directories(Sombe-qt PUBLIC ${MINIUPNP_INCLUDE_DIR})
 endif()
 
-target_link_libraries(poriun-qt Qt5::Gui Qt5::Core Qt5::Widgets Qt5::Network Qt5::Svg ${QT_LIBRARIES})
+target_link_libraries(Sombe-qt Qt5::Gui Qt5::Core Qt5::Widgets Qt5::Network Qt5::Svg ${QT_LIBRARIES})
 if (Qt5DBus_FOUND)
-    target_link_libraries(poriun-qt Qt5::DBus ${QT_LIBRARIES})
+    target_link_libraries(Sombe-qt Qt5::DBus ${QT_LIBRARIES})
 endif()
 if (Qt5Charts_FOUND)
-    target_link_libraries(poriun-qt Qt5::Charts ${QT_LIBRARIES})
+    target_link_libraries(Sombe-qt Qt5::Charts ${QT_LIBRARIES})
 endif()

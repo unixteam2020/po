@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2013 The Bitcoin developers
 //Copyright (c) 2017-2019 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,12 +8,12 @@
 #define BITCOIN_QT_ASKPASSPHRASEDIALOG_H
 
 #include <QDialog>
-#include "qt/poriun/prunnable.h"
+#include "qt/Sombe/prunnable.h"
 #include "allocators.h"
 #include <QCheckBox>
 
 class WalletModel;
-class PoriunGUI;
+class SombeGUI;
 
 namespace Ui
 {

@@ -65,15 +65,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += poriund
+  bin_PROGRAMS += Sombed
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += poriun-cli poriun-tx
+  bin_PROGRAMS += Sombe-cli Sombe-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# poriun coin #
+# Sombe coin #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -206,7 +206,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between poriund and poriun-qt
+# server: shared between Sombed and Sombe-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -255,7 +255,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between poriund and poriun-qt, but only linked
+# wallet: shared between Sombed and Sombe-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -326,7 +326,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/sph_skein.h \
   crypto/sph_types.h
 
-# common: shared between poriund, and poriun-qt and non-server tools
+# common: shared between Sombed, and Sombe-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -393,7 +393,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 endif
 
-# cli: shared between poriun-cli and poriun-qt
+# cli: shared between Sombe-cli and Sombe-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -403,16 +403,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# poriund binary #
-poriund_SOURCES = poriund.cpp
-poriund_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-poriund_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-poriund_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# Sombed binary #
+Sombed_SOURCES = Sombed.cpp
+Sombed_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+Sombed_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+Sombed_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-poriund_SOURCES += poriund-res.rc
+Sombed_SOURCES += Sombed-res.rc
 endif
-poriund_LDADD = \
+Sombed_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -425,45 +425,45 @@ poriund_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-poriund_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+Sombed_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# poriun-cli binary #
-poriun_cli_SOURCES = poriun-cli.cpp
-poriun_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-poriun_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-poriun_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# Sombe-cli binary #
+Sombe_cli_SOURCES = Sombe-cli.cpp
+Sombe_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+Sombe_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+Sombe_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-poriun_cli_SOURCES += poriun-cli-res.rc
+Sombe_cli_SOURCES += Sombe-cli-res.rc
 endif
 
-poriun_cli_LDADD = \
+Sombe_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-poriun_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+Sombe_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# poriun-tx binary #
-poriun_tx_SOURCES = poriun-tx.cpp
-poriun_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-poriun_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-poriun_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# Sombe-tx binary #
+Sombe_tx_SOURCES = Sombe-tx.cpp
+Sombe_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+Sombe_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+Sombe_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-poriun_tx_SOURCES += poriun-tx-res.rc
+Sombe_tx_SOURCES += Sombe-tx-res.rc
 endif
 
-poriun_tx_LDADD = \
+Sombe_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-poriun_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+Sombe_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
@@ -524,12 +524,12 @@ CTAES_DIST += crypto/ctaes/test.c
 EXTRA_DIST = $(CTAES_DIST)
 
 
-config/poriun-config.h: config/stamp-h1
+config/Sombe-config.h: config/stamp-h1
 	@$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-config/stamp-h1: $(top_srcdir)/$(subdir)/config/poriun-config.h.in $(top_builddir)/config.status
+config/stamp-h1: $(top_srcdir)/$(subdir)/config/Sombe-config.h.in $(top_builddir)/config.status
 	$(AM_V_at)$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-$(top_srcdir)/$(subdir)/config/poriun-config.h.in:  $(am__configure_deps)
-	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/poriun-config.h.in
+$(top_srcdir)/$(subdir)/config/Sombe-config.h.in:  $(am__configure_deps)
+	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/Sombe-config.h.in
 
 clean-local:
 	-$(MAKE) -C secp256k1 clean

@@ -38,20 +38,20 @@ from the root of the repository.
 
 **Note**: You only need Berkeley DB if the wallet is enabled (see [*Disable-wallet mode*](/doc/build-osx.md#disable-wallet-mode)).
 
-Build Poriun Coin
+Build Sombe Coin
 ------------------------
 
-1. Clone the Poriun Coin source code:
+1. Clone the Sombe Coin source code:
 
-        git clone https://github.com/poriun-project/poriun
-        cd poriun
+        git clone https://github.com/Sombe-project/Sombe
+        cd Sombe
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).
 
         export LDFLAGS+=-L/usr/local/opt/openssl/lib
         export CPPFLAGS+=-I/usr/local/opt/openssl/include
 
-3.  Build Poriun Coin:
+3.  Build Sombe Coin:
 
         ./autogen.sh
         ./configure
@@ -69,7 +69,7 @@ Disable-wallet mode
 --------------------
 **Note:** This functionality is not yet completely implemented, and compilation using the below option will currently fail.
 
-When the intention is to run only a P2P node without a wallet, Poriun Coin may be compiled in
+When the intention is to run only a P2P node without a wallet, Sombe Coin may be compiled in
 disable-wallet mode with:
 
     ./configure --disable-wallet
@@ -79,28 +79,28 @@ In this case there is no dependency on Berkeley DB 4.8.
 Running
 -------
 
-Poriun Coin is now available at `./src/poriund`
+Sombe Coin is now available at `./src/Sombed`
 
 Before running, you may create an empty configuration file:
 
-    mkdir -p "/Users/${USER}/Library/Application Support/Poriun"
+    mkdir -p "/Users/${USER}/Library/Application Support/Sombe"
 
-    touch "/Users/${USER}/Library/Application Support/Poriun/poriun.conf"
+    touch "/Users/${USER}/Library/Application Support/Sombe/Sombe.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/Poriun/poriun.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/Sombe/Sombe.conf"
 
-The first time you run poriund, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+The first time you run Sombed, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
 You can monitor the download process by looking at the debug.log file:
 
-    tail -f $HOME/Library/Application\ Support/Poriun/debug.log
+    tail -f $HOME/Library/Application\ Support/Sombe/debug.log
 
 Other commands:
 -------
 
-    ./src/poriund -daemon # Starts the poriun daemon.
-    ./src/poriun-cli --help # Outputs a list of command-line options.
-    ./src/poriun-cli help # Outputs a list of RPC commands when the daemon is running.
+    ./src/Sombed -daemon # Starts the Sombe daemon.
+    ./src/Sombe-cli --help # Outputs a list of command-line options.
+    ./src/Sombe-cli help # Outputs a list of RPC commands when the daemon is running.
 
 Notes
 -----

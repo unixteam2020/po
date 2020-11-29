@@ -13,29 +13,29 @@
 %endif
 %endif
 
-Name:		poriun
+Name:		Sombe
 Version:	0.12.0
 Release:	2%{?dist}
 Summary:	Peer to Peer Cryptographic Currency
 
 Group:		Applications/System
 License:	MIT
-URL:		https://poriun.org/
-Source0:	https://poriun.org/bin/poriun-core-%{version}/poriun-%{version}.tar.gz
+URL:		https://Sombe.org/
+Source0:	https://Sombe.org/bin/Sombe-core-%{version}/Sombe-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
-Source10:	https://raw.githubusercontent.com/poriun-project/poriun/v%{version}/contrib/debian/examples/poriun.conf
+Source10:	https://raw.githubusercontent.com/Sombe-project/Sombe/v%{version}/contrib/debian/examples/Sombe.conf
 
 #man pages
-Source20:	https://raw.githubusercontent.com/poriun-project/poriun/v%{version}/doc/man/poriund.1
-Source21:	https://raw.githubusercontent.com/poriun-project/poriun/v%{version}/doc/man/poriun-cli.1
-Source22:	https://raw.githubusercontent.com/poriun-project/poriun/v%{version}/doc/man/poriun-qt.1
+Source20:	https://raw.githubusercontent.com/Sombe-project/Sombe/v%{version}/doc/man/Sombed.1
+Source21:	https://raw.githubusercontent.com/Sombe-project/Sombe/v%{version}/doc/man/Sombe-cli.1
+Source22:	https://raw.githubusercontent.com/Sombe-project/Sombe/v%{version}/doc/man/Sombe-qt.1
 
 #selinux
-Source30:	https://raw.githubusercontent.com/poriun-project/poriun/v%{version}/contrib/rpm/poriun.te
-# Source31 - what about poriun-tx and bench_poriun ???
-Source31:	https://raw.githubusercontent.com/poriun-project/poriun/v%{version}/contrib/rpm/poriun.fc
-Source32:	https://raw.githubusercontent.com/poriun-project/poriun/v%{version}/contrib/rpm/poriun.if
+Source30:	https://raw.githubusercontent.com/Sombe-project/Sombe/v%{version}/contrib/rpm/Sombe.te
+# Source31 - what about Sombe-tx and bench_Sombe ???
+Source31:	https://raw.githubusercontent.com/Sombe-project/Sombe/v%{version}/contrib/rpm/Sombe.fc
+Source32:	https://raw.githubusercontent.com/Sombe-project/Sombe/v%{version}/contrib/rpm/Sombe.if
 
 Source100:	https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg
 
@@ -50,13 +50,13 @@ BuildRequires:	autoconf automake libtool
 BuildRequires:	libevent-devel
 
 
-Patch0:		poriun-0.12.0-libressl.patch
+Patch0:		Sombe-0.12.0-libressl.patch
 
 
 %description
 Bitcoin is a digital cryptographic currency that uses peer-to-peer technology to
 operate with no central authority or banks; managing transactions and the
-issuing of poriuns is carried out collectively by the network.
+issuing of Sombes is carried out collectively by the network.
 
 %if %{_buildqt}
 %package core
@@ -81,7 +81,7 @@ BuildRequires:	%{_bindir}/convert
 %description core
 Bitcoin is a digital cryptographic currency that uses peer-to-peer technology to
 operate with no central authority or banks; managing transactions and the
-issuing of poriuns is carried out collectively by the network.
+issuing of Sombes is carried out collectively by the network.
 
 This package contains the Qt based graphical client and node. If you are looking
 to run a Bitcoin wallet, this is probably the package you want.
@@ -93,28 +93,28 @@ Summary:	Bitcoin shared libraries
 Group:		System Environment/Libraries
 
 %description libs
-This package provides the poriunconsensus shared libraries. These libraries
+This package provides the Sombeconsensus shared libraries. These libraries
 may be used by third party software to provide consensus verification
 functionality.
 
 Unless you know need this package, you probably do not.
 
 %package devel
-Summary:	Development files for poriun
+Summary:	Development files for Sombe
 Group:		Development/Libraries
 Requires:	%{name}-libs = %{version}-%{release}
 
 %description devel
 This package contains the header files and static library for the
-poriunconsensus shared library. If you are developing or compiling software
+Sombeconsensus shared library. If you are developing or compiling software
 that wants to link against that library, then you need this package installed.
 
 Most people do not need this package installed.
 
 %package server
-Summary:	The poriun daemon
+Summary:	The Sombe daemon
 Group:		System Environment/Daemons
-Requires:	poriun-utils = %{version}-%{release}
+Requires:	Sombe-utils = %{version}-%{release}
 Requires:	selinux-policy policycoreutils-python
 Requires(pre):	shadow-utils
 Requires(post):	%{_sbindir}/semodule %{_sbindir}/restorecon %{_sbindir}/fixfiles %{_sbindir}/sestatus
@@ -124,13 +124,13 @@ BuildRequires:	checkpolicy
 BuildRequires:	%{_datadir}/selinux/devel/Makefile
 
 %description server
-This package provides a stand-alone poriun-core daemon. For most users, this
+This package provides a stand-alone Sombe-core daemon. For most users, this
 package is only needed if they need a full-node without the graphical client.
 
 Some third party wallet software will want this package to provide the actual
-poriun-core node they use to connect to the network.
+Sombe-core node they use to connect to the network.
 
-If you use the graphical poriun-core client then you almost certainly do not
+If you use the graphical Sombe-core client then you almost certainly do not
 need this package.
 
 %package utils
@@ -139,19 +139,19 @@ Group:		Applications/System
 
 %description utils
 This package provides several command line utilities for interacting with a
-poriun-core daemon.
+Sombe-core daemon.
 
-The poriun-cli utility allows you to communicate and control a poriun daemon
-over RPC, the poriun-tx utility allows you to create a custom transaction, and
-the bench_poriun utility can be used to perform some benchmarks.
+The Sombe-cli utility allows you to communicate and control a Sombe daemon
+over RPC, the Sombe-tx utility allows you to create a custom transaction, and
+the bench_Sombe utility can be used to perform some benchmarks.
 
-This package contains utilities needed by the poriun-server package.
+This package contains utilities needed by the Sombe-server package.
 
 
 %prep
 %setup -q
 %patch0 -p1 -b .libressl
-cp -p %{SOURCE10} ./poriun.conf.example
+cp -p %{SOURCE10} ./Sombe.conf.example
 tar -zxf %{SOURCE1}
 cp -p db-%{bdbv}.NC/LICENSE ./db-%{bdbv}.NC-LICENSE
 mkdir db4 SELinux
@@ -172,7 +172,7 @@ make %{?_smp_mflags}
 pushd SELinux
 for selinuxvariant in %{selinux_variants}; do
 	make NAME=${selinuxvariant} -f %{_datadir}/selinux/devel/Makefile
-	mv poriun.pp poriun.pp.${selinuxvariant}
+	mv Sombe.pp Sombe.pp.${selinuxvariant}
 	make NAME=${selinuxvariant} -f %{_datadir}/selinux/devel/Makefile clean
 done
 popd
@@ -182,42 +182,42 @@ popd
 make install DESTDIR=%{buildroot}
 
 mkdir -p -m755 %{buildroot}%{_sbindir}
-mv %{buildroot}%{_bindir}/poriund %{buildroot}%{_sbindir}/poriund
+mv %{buildroot}%{_bindir}/Sombed %{buildroot}%{_sbindir}/Sombed
 
 # systemd stuff
 mkdir -p %{buildroot}%{_tmpfilesdir}
-cat <<EOF > %{buildroot}%{_tmpfilesdir}/poriun.conf
-d /run/poriund 0750 poriun poriun -
+cat <<EOF > %{buildroot}%{_tmpfilesdir}/Sombe.conf
+d /run/Sombed 0750 Sombe Sombe -
 EOF
-touch -a -m -t 201504280000 %{buildroot}%{_tmpfilesdir}/poriun.conf
+touch -a -m -t 201504280000 %{buildroot}%{_tmpfilesdir}/Sombe.conf
 
 mkdir -p %{buildroot}%{_sysconfdir}/sysconfig
-cat <<EOF > %{buildroot}%{_sysconfdir}/sysconfig/poriun
-# Provide options to the poriun daemon here, for example
+cat <<EOF > %{buildroot}%{_sysconfdir}/sysconfig/Sombe
+# Provide options to the Sombe daemon here, for example
 # OPTIONS="-testnet -disable-wallet"
 
 OPTIONS=""
 
 # System service defaults.
 # Don't change these unless you know what you're doing.
-CONFIG_FILE="%{_sysconfdir}/poriun/poriun.conf"
-DATA_DIR="%{_localstatedir}/lib/poriun"
-PID_FILE="/run/poriund/poriund.pid"
+CONFIG_FILE="%{_sysconfdir}/Sombe/Sombe.conf"
+DATA_DIR="%{_localstatedir}/lib/Sombe"
+PID_FILE="/run/Sombed/Sombed.pid"
 EOF
-touch -a -m -t 201504280000 %{buildroot}%{_sysconfdir}/sysconfig/poriun
+touch -a -m -t 201504280000 %{buildroot}%{_sysconfdir}/sysconfig/Sombe
 
 mkdir -p %{buildroot}%{_unitdir}
-cat <<EOF > %{buildroot}%{_unitdir}/poriun.service
+cat <<EOF > %{buildroot}%{_unitdir}/Sombe.service
 [Unit]
 Description=Bitcoin daemon
 After=syslog.target network.target
 
 [Service]
 Type=forking
-ExecStart=%{_sbindir}/poriund -daemon -conf=\${CONFIG_FILE} -datadir=\${DATA_DIR} -pid=\${PID_FILE} \$OPTIONS
-EnvironmentFile=%{_sysconfdir}/sysconfig/poriun
-User=poriun
-Group=poriun
+ExecStart=%{_sbindir}/Sombed -daemon -conf=\${CONFIG_FILE} -datadir=\${DATA_DIR} -pid=\${PID_FILE} \$OPTIONS
+EnvironmentFile=%{_sysconfdir}/sysconfig/Sombe
+User=Sombe
+Group=Sombe
 
 Restart=on-failure
 PrivateTmp=true
@@ -229,63 +229,63 @@ StartLimitBurst=5
 [Install]
 WantedBy=multi-user.target
 EOF
-touch -a -m -t 201504280000 %{buildroot}%{_unitdir}/poriun.service
+touch -a -m -t 201504280000 %{buildroot}%{_unitdir}/Sombe.service
 #end systemd stuff
 
-mkdir %{buildroot}%{_sysconfdir}/poriun
-mkdir -p %{buildroot}%{_localstatedir}/lib/poriun
+mkdir %{buildroot}%{_sysconfdir}/Sombe
+mkdir -p %{buildroot}%{_localstatedir}/lib/Sombe
 
 #SELinux
 for selinuxvariant in %{selinux_variants}; do
 	install -d %{buildroot}%{_datadir}/selinux/${selinuxvariant}
-	install -p -m 644 SELinux/poriun.pp.${selinuxvariant} %{buildroot}%{_datadir}/selinux/${selinuxvariant}/poriun.pp
+	install -p -m 644 SELinux/Sombe.pp.${selinuxvariant} %{buildroot}%{_datadir}/selinux/${selinuxvariant}/Sombe.pp
 done
 
 %if %{_buildqt}
 # qt icons
-install -D -p share/pixmaps/poriun.ico %{buildroot}%{_datadir}/pixmaps/poriun.ico
+install -D -p share/pixmaps/Sombe.ico %{buildroot}%{_datadir}/pixmaps/Sombe.ico
 install -p share/pixmaps/nsis-header.bmp %{buildroot}%{_datadir}/pixmaps/
 install -p share/pixmaps/nsis-wizard.bmp %{buildroot}%{_datadir}/pixmaps/
-install -p %{SOURCE100} %{buildroot}%{_datadir}/pixmaps/poriun.svg
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/poriun16.png -w16 -h16
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/poriun32.png -w32 -h32
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/poriun64.png -w64 -h64
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/poriun128.png -w128 -h128
-%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/poriun256.png -w256 -h256
-%{_bindir}/convert -resize 16x16 %{buildroot}%{_datadir}/pixmaps/poriun256.png %{buildroot}%{_datadir}/pixmaps/poriun16.xpm
-%{_bindir}/convert -resize 32x32 %{buildroot}%{_datadir}/pixmaps/poriun256.png %{buildroot}%{_datadir}/pixmaps/poriun32.xpm
-%{_bindir}/convert -resize 64x64 %{buildroot}%{_datadir}/pixmaps/poriun256.png %{buildroot}%{_datadir}/pixmaps/poriun64.xpm
-%{_bindir}/convert -resize 128x128 %{buildroot}%{_datadir}/pixmaps/poriun256.png %{buildroot}%{_datadir}/pixmaps/poriun128.xpm
-%{_bindir}/convert %{buildroot}%{_datadir}/pixmaps/poriun256.png %{buildroot}%{_datadir}/pixmaps/poriun256.xpm
+install -p %{SOURCE100} %{buildroot}%{_datadir}/pixmaps/Sombe.svg
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/Sombe16.png -w16 -h16
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/Sombe32.png -w32 -h32
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/Sombe64.png -w64 -h64
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/Sombe128.png -w128 -h128
+%{_bindir}/inkscape %{SOURCE100} --export-png=%{buildroot}%{_datadir}/pixmaps/Sombe256.png -w256 -h256
+%{_bindir}/convert -resize 16x16 %{buildroot}%{_datadir}/pixmaps/Sombe256.png %{buildroot}%{_datadir}/pixmaps/Sombe16.xpm
+%{_bindir}/convert -resize 32x32 %{buildroot}%{_datadir}/pixmaps/Sombe256.png %{buildroot}%{_datadir}/pixmaps/Sombe32.xpm
+%{_bindir}/convert -resize 64x64 %{buildroot}%{_datadir}/pixmaps/Sombe256.png %{buildroot}%{_datadir}/pixmaps/Sombe64.xpm
+%{_bindir}/convert -resize 128x128 %{buildroot}%{_datadir}/pixmaps/Sombe256.png %{buildroot}%{_datadir}/pixmaps/Sombe128.xpm
+%{_bindir}/convert %{buildroot}%{_datadir}/pixmaps/Sombe256.png %{buildroot}%{_datadir}/pixmaps/Sombe256.xpm
 touch %{buildroot}%{_datadir}/pixmaps/*.png -r %{SOURCE100}
 touch %{buildroot}%{_datadir}/pixmaps/*.xpm -r %{SOURCE100}
 
 # Desktop File - change the touch timestamp if modifying
 mkdir -p %{buildroot}%{_datadir}/applications
-cat <<EOF > %{buildroot}%{_datadir}/applications/poriun-core.desktop
+cat <<EOF > %{buildroot}%{_datadir}/applications/Sombe-core.desktop
 [Desktop Entry]
 Encoding=UTF-8
 Name=Bitcoin
 Comment=Bitcoin P2P Cryptocurrency
 Comment[fr]=Bitcoin, monnaie virtuelle cryptographique pair à pair
 Comment[tr]=Bitcoin, eşten eşe kriptografik sanal para birimi
-Exec=poriun-qt %u
+Exec=Sombe-qt %u
 Terminal=false
 Type=Application
-Icon=poriun128
-MimeType=x-scheme-handler/poriun;
+Icon=Sombe128
+MimeType=x-scheme-handler/Sombe;
 Categories=Office;Finance;
 EOF
 # change touch date when modifying desktop
-touch -a -m -t 201511100546 %{buildroot}%{_datadir}/applications/poriun-core.desktop
-%{_bindir}/desktop-file-validate %{buildroot}%{_datadir}/applications/poriun-core.desktop
+touch -a -m -t 201511100546 %{buildroot}%{_datadir}/applications/Sombe-core.desktop
+%{_bindir}/desktop-file-validate %{buildroot}%{_datadir}/applications/Sombe-core.desktop
 
 # KDE protocol - change the touch timestamp if modifying
 mkdir -p %{buildroot}%{_datadir}/kde4/services
-cat <<EOF > %{buildroot}%{_datadir}/kde4/services/poriun-core.protocol
+cat <<EOF > %{buildroot}%{_datadir}/kde4/services/Sombe-core.protocol
 [Protocol]
-exec=poriun-qt '%u'
-protocol=poriun
+exec=Sombe-qt '%u'
+protocol=Sombe
 input=none
 output=none
 helper=true
@@ -296,14 +296,14 @@ makedir=false
 deleting=false
 EOF
 # change touch date when modifying protocol
-touch -a -m -t 201511100546 %{buildroot}%{_datadir}/kde4/services/poriun-core.protocol
+touch -a -m -t 201511100546 %{buildroot}%{_datadir}/kde4/services/Sombe-core.protocol
 %endif
 
 # man pages
-install -D -p %{SOURCE20} %{buildroot}%{_mandir}/man1/poriund.1
-install -p %{SOURCE21} %{buildroot}%{_mandir}/man1/poriun-cli.1
+install -D -p %{SOURCE20} %{buildroot}%{_mandir}/man1/Sombed.1
+install -p %{SOURCE21} %{buildroot}%{_mandir}/man1/Sombe-cli.1
 %if %{_buildqt}
-install -p %{SOURCE22} %{buildroot}%{_mandir}/man1/poriun-qt.1
+install -p %{SOURCE22} %{buildroot}%{_mandir}/man1/Sombe-qt.1
 %endif
 
 # nuke these, we do extensive testing of binaries in %%check before packaging
@@ -318,37 +318,37 @@ srcdir=src
 %postun libs -p /sbin/ldconfig
 
 %pre server
-getent group poriun >/dev/null || groupadd -r poriun
-getent passwd poriun >/dev/null ||
-	useradd -r -g poriun -d /var/lib/poriun -s /sbin/nologin \
-	-c "Bitcoin wallet server" poriun
+getent group Sombe >/dev/null || groupadd -r Sombe
+getent passwd Sombe >/dev/null ||
+	useradd -r -g Sombe -d /var/lib/Sombe -s /sbin/nologin \
+	-c "Bitcoin wallet server" Sombe
 exit 0
 
 %post server
-%systemd_post poriun.service
+%systemd_post Sombe.service
 # SELinux
 if [ `%{_sbindir}/sestatus |grep -c "disabled"` -eq 0 ]; then
 for selinuxvariant in %{selinux_variants}; do
-	%{_sbindir}/semodule -s ${selinuxvariant} -i %{_datadir}/selinux/${selinuxvariant}/poriun.pp &> /dev/null || :
+	%{_sbindir}/semodule -s ${selinuxvariant} -i %{_datadir}/selinux/${selinuxvariant}/Sombe.pp &> /dev/null || :
 done
-%{_sbindir}/semanage port -a -t poriun_port_t -p tcp 8332
-%{_sbindir}/semanage port -a -t poriun_port_t -p tcp 8333
-%{_sbindir}/semanage port -a -t poriun_port_t -p tcp 18332
-%{_sbindir}/semanage port -a -t poriun_port_t -p tcp 18333
-%{_sbindir}/semanage port -a -t poriun_port_t -p tcp 18443
-%{_sbindir}/semanage port -a -t poriun_port_t -p tcp 18444
-%{_sbindir}/fixfiles -R poriun-server restore &> /dev/null || :
-%{_sbindir}/restorecon -R %{_localstatedir}/lib/poriun || :
+%{_sbindir}/semanage port -a -t Sombe_port_t -p tcp 8332
+%{_sbindir}/semanage port -a -t Sombe_port_t -p tcp 8333
+%{_sbindir}/semanage port -a -t Sombe_port_t -p tcp 18332
+%{_sbindir}/semanage port -a -t Sombe_port_t -p tcp 18333
+%{_sbindir}/semanage port -a -t Sombe_port_t -p tcp 18443
+%{_sbindir}/semanage port -a -t Sombe_port_t -p tcp 18444
+%{_sbindir}/fixfiles -R Sombe-server restore &> /dev/null || :
+%{_sbindir}/restorecon -R %{_localstatedir}/lib/Sombe || :
 fi
 
 %posttrans server
 %{_bindir}/systemd-tmpfiles --create
 
 %preun server
-%systemd_preun poriun.service
+%systemd_preun Sombe.service
 
 %postun server
-%systemd_postun poriun.service
+%systemd_postun Sombe.service
 # SELinux
 if [ $1 -eq 0 ]; then
 	if [ `%{_sbindir}/sestatus |grep -c "disabled"` -eq 0 ]; then
@@ -359,11 +359,11 @@ if [ $1 -eq 0 ]; then
 	%{_sbindir}/semanage port -d -p tcp 18443
 	%{_sbindir}/semanage port -d -p tcp 18444
 	for selinuxvariant in %{selinux_variants}; do
-		%{_sbindir}/semodule -s ${selinuxvariant} -r poriun &> /dev/null || :
+		%{_sbindir}/semodule -s ${selinuxvariant} -r Sombe &> /dev/null || :
 	done
-	%{_sbindir}/fixfiles -R poriun-server restore &> /dev/null || :
-	[ -d %{_localstatedir}/lib/poriun ] && \
-		%{_sbindir}/restorecon -R %{_localstatedir}/lib/poriun &> /dev/null || :
+	%{_sbindir}/fixfiles -R Sombe-server restore &> /dev/null || :
+	[ -d %{_localstatedir}/lib/Sombe ] && \
+		%{_sbindir}/restorecon -R %{_localstatedir}/lib/Sombe &> /dev/null || :
 	fi
 fi
 
@@ -374,16 +374,16 @@ rm -rf %{buildroot}
 %files core
 %defattr(-,root,root,-)
 %license COPYING db-%{bdbv}.NC-LICENSE
-%doc COPYING poriun.conf.example doc/README.md doc/bips.md doc/files.md doc/multiwallet-qt.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
-%attr(0755,root,root) %{_bindir}/poriun-qt
-%attr(0644,root,root) %{_datadir}/applications/poriun-core.desktop
-%attr(0644,root,root) %{_datadir}/kde4/services/poriun-core.protocol
+%doc COPYING Sombe.conf.example doc/README.md doc/bips.md doc/files.md doc/multiwallet-qt.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
+%attr(0755,root,root) %{_bindir}/Sombe-qt
+%attr(0644,root,root) %{_datadir}/applications/Sombe-core.desktop
+%attr(0644,root,root) %{_datadir}/kde4/services/Sombe-core.protocol
 %attr(0644,root,root) %{_datadir}/pixmaps/*.ico
 %attr(0644,root,root) %{_datadir}/pixmaps/*.bmp
 %attr(0644,root,root) %{_datadir}/pixmaps/*.svg
 %attr(0644,root,root) %{_datadir}/pixmaps/*.png
 %attr(0644,root,root) %{_datadir}/pixmaps/*.xpm
-%attr(0644,root,root) %{_mandir}/man1/poriun-qt.1*
+%attr(0644,root,root) %{_mandir}/man1/Sombe-qt.1*
 %endif
 
 %files libs
@@ -405,30 +405,30 @@ rm -rf %{buildroot}
 %files server
 %defattr(-,root,root,-)
 %license COPYING db-%{bdbv}.NC-LICENSE
-%doc COPYING poriun.conf.example doc/README.md doc/REST-interface.md doc/bips.md doc/dnsseed-policy.md doc/files.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
-%attr(0755,root,root) %{_sbindir}/poriund
-%attr(0644,root,root) %{_tmpfilesdir}/poriun.conf
-%attr(0644,root,root) %{_unitdir}/poriun.service
-%dir %attr(0750,poriun,poriun) %{_sysconfdir}/poriun
-%dir %attr(0750,poriun,poriun) %{_localstatedir}/lib/poriun
-%config(noreplace) %attr(0600,root,root) %{_sysconfdir}/sysconfig/poriun
+%doc COPYING Sombe.conf.example doc/README.md doc/REST-interface.md doc/bips.md doc/dnsseed-policy.md doc/files.md doc/reduce-traffic.md doc/release-notes.md doc/tor.md
+%attr(0755,root,root) %{_sbindir}/Sombed
+%attr(0644,root,root) %{_tmpfilesdir}/Sombe.conf
+%attr(0644,root,root) %{_unitdir}/Sombe.service
+%dir %attr(0750,Sombe,Sombe) %{_sysconfdir}/Sombe
+%dir %attr(0750,Sombe,Sombe) %{_localstatedir}/lib/Sombe
+%config(noreplace) %attr(0600,root,root) %{_sysconfdir}/sysconfig/Sombe
 %attr(0644,root,root) %{_datadir}/selinux/*/*.pp
-%attr(0644,root,root) %{_mandir}/man1/poriund.1*
+%attr(0644,root,root) %{_mandir}/man1/Sombed.1*
 
 %files utils
 %defattr(-,root,root,-)
 %license COPYING
-%doc COPYING poriun.conf.example doc/README.md
-%attr(0755,root,root) %{_bindir}/poriun-cli
-%attr(0755,root,root) %{_bindir}/poriun-tx
-%attr(0755,root,root) %{_bindir}/bench_poriun
-%attr(0644,root,root) %{_mandir}/man1/poriun-cli.1*
+%doc COPYING Sombe.conf.example doc/README.md
+%attr(0755,root,root) %{_bindir}/Sombe-cli
+%attr(0755,root,root) %{_bindir}/Sombe-tx
+%attr(0755,root,root) %{_bindir}/bench_Sombe
+%attr(0644,root,root) %{_mandir}/man1/Sombe-cli.1*
 
 
 
 %changelog
 * Fri Feb 26 2016 Alice Wonder <buildmaster@librelamp.com> - 0.12.0-2
-- Rename Qt package from poriun to poriun-core
+- Rename Qt package from Sombe to Sombe-core
 - Make building of the Qt package optional
 - When building the Qt package, default to Qt5 but allow building
 -  against Qt4
@@ -438,4 +438,4 @@ rm -rf %{buildroot}
 - Initial spec file for 0.12.0 release
 
 # This spec file is written from scratch but a lot of the packaging decisions are directly
-# based upon the 0.11.2 package spec file from https://www.ringingliberty.com/poriun/
+# based upon the 0.11.2 package spec file from https://www.ringingliberty.com/Sombe/

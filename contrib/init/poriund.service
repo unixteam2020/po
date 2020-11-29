@@ -5,19 +5,19 @@
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/poriun/poriun.conf
+# /etc/Sombe/Sombe.conf
 
 [Unit]
-Description=Poriun daemon
+Description=Sombe daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/poriund -daemon -conf=/etc/poriun/poriun.conf -pid=/run/poriund/poriund.pid
-# Creates /run/poriund owned by poriun
-RuntimeDirectory=poriund
-User=poriun
+ExecStart=/usr/bin/Sombed -daemon -conf=/etc/Sombe/Sombe.conf -pid=/run/Sombed/Sombed.pid
+# Creates /run/Sombed owned by Sombe
+RuntimeDirectory=Sombed
+User=Sombe
 Type=forking
-PIDFile=/run/poriund/poriund.pid
+PIDFile=/run/Sombed/Sombed.pid
 Restart=on-failure
 
 # Hardening measures

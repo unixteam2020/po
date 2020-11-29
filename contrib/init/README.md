@@ -1,11 +1,11 @@
 Sample configuration files for:
 ```
-SystemD: poriund.service
-Upstart: poriund.conf
-OpenRC:  poriund.openrc
-         poriund.openrcconf
-CentOS:  poriund.init
-macOS:    org.poriun.poriund.plist
+SystemD: Sombed.service
+Upstart: Sombed.conf
+OpenRC:  Sombed.openrc
+         Sombed.openrcconf
+CentOS:  Sombed.init
+macOS:    org.Sombe.Sombed.plist
 ```
 have been made available to assist packagers in creating node packages here.
 

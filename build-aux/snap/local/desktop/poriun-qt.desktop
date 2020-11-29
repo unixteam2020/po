@@ -2,14 +2,14 @@
 
 [Desktop Entry]
 Encoding=UTF-8
-Name=Poriun Coin
-Comment=Poriun Coin QT main network
-GenericName=Poriun Digital Currency QT client main network
-Exec=poriun-core.qt %u
+Name=Sombe Coin
+Comment=Sombe Coin QT main network
+GenericName=Sombe Digital Currency QT client main network
+Exec=Sombe-core.qt %u
 Terminal=false
 Type=Application
-Icon=${SNAP}/share/pixmaps/poriun.png
-MimeType=x-scheme-handler/poriun;
+Icon=${SNAP}/share/pixmaps/Sombe.png
+MimeType=x-scheme-handler/Sombe;
 Categories=X-Office;X-Finance;
-Keywords=internet;poriun;zbpr;bpr;core;wallet;qt;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
+Keywords=internet;Sombe;zbpr;bpr;core;wallet;qt;main;snap;launchpad;crypto;digital;currency;coin;token;zerocoin;
 Version=1.0

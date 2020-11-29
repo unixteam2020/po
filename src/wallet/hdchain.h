@@ -1,10 +1,10 @@
 //Copyright (c) 2020 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef Poriun_HDCHAIN_H
-#define Poriun_HDCHAIN_H
+#ifndef Sombe_HDCHAIN_H
+#define Sombe_HDCHAIN_H
 
 #include "key.h"
 
@@ -64,4 +64,4 @@ public:
     }
 };
 
-#endif // Poriun_HDCHAIN_H
+#endif // Sombe_HDCHAIN_H

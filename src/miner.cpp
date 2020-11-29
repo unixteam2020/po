@@ -5,7 +5,7 @@
 // Copyright (c) 2013-2014 The NovaCoin Developers
 // Copyright (c) 2014-2018 The BlackCoin Developers
 //Copyright (c) 2015-2020 The PIVX developers
-//Copyright (c) 2020 The Poriun Coin developers
+//Copyright (c) 2020 The Sombe Coin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -38,7 +38,7 @@
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// PoriunMiner
+// SombeMiner
 //
 
 //
@@ -459,7 +459,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         WAIT_LOCK(g_best_block_mutex, lock);
         if (pblock->hashPrevBlock != g_best_block)
-            return error("PoriunMiner : generated block is stale");
+            return error("SombeMiner : generated block is stale");
     }
 
     // Remove key from key pool
@@ -477,7 +477,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     // Process this block the same as if we had received it from another node
     CValidationState state;
     if (!ProcessNewBlock(state, NULL, pblock)) {
-        return error("PoriunMiner : ProcessNewBlock, block not accepted");
+        return error("SombeMiner : ProcessNewBlock, block not accepted");
     }
 
     for (CNode* node : vNodes) {
@@ -503,9 +503,9 @@ void CheckForCoins(CWallet* pwallet, const int minutes)
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrintf("PoriunMiner started\n");
+    LogPrintf("SombeMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    util::ThreadRename("poriun-miner");
+    util::ThreadRename("Sombe-miner");
     const int64_t nSpacingMillis = Params().GetConsensus().nTargetSpacing * 1000;
     const int last_pow_block = Params().GetConsensus().height_last_PoW;
 
@@ -576,7 +576,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
         // POW - miner main
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        LogPrintf("Running PoriunMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrintf("Running SombeMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
             ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -662,12 +662,12 @@ void static ThreadBitcoinMiner(void* parg)
         BitcoinMiner(pwallet, false);
         boost::this_thread::interruption_point();
     } catch (const std::exception& e) {
-        LogPrintf("PoriunMiner exception");
+        LogPrintf("SombeMiner exception");
     } catch (...) {
-        LogPrintf("PoriunMiner exception");
+        LogPrintf("SombeMiner exception");
     }
 
-    LogPrintf("PoriunMiner exiting\n");
+    LogPrintf("SombeMiner exiting\n");
 }
 
 void GenerateBitcoins(bool fGenerate, CWallet* pwallet, int nThreads)
