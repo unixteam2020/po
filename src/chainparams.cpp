@@ -68,8 +68,11 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
 	(0, uint256S("0x00000e1665df680f925a8eaf838476a092a33d622edcb2eaefbbea61981c660d"))
-	(412, uint256S("0x0000000e98f5a6a59fc6165a4769a5e6f92729cb246ec5385469a88694241fb8"))
-	(920, uint256S("0x646edc7f9e1641618e0e7526ac9b632ad21c5f014a23d57348cd50de53032967"))
+	/*
+    (412, uint256S("0x0000000e98f5a6a59fc6165a4769a5e6f92729cb246ec5385469a88694241fb8"))
+	(920, uint256S("0x646edc7f9e1641618e0e7526ac9b632ad21c5f014a23d57348cd50de53032967")) 
+    */
+
 	//(1098, uint256S("0x6ec4495354a1d0a0e7b2d7110700f02c4a95d54451fc97083b0f4f150d640cc4"))
 	//(3245, uint256S("0xfe7b42824061383f044396f1dfccb61c9f1490abe04cdf5a7d6f069025c76b42"))
 	//(5447, uint256S("0x0701a1bcfb78afe5024d1b93f6166135ed7256d7cb41ed13e0b383c38509beba"))
@@ -111,6 +114,7 @@ public:
         strNetworkID = "main";
 
         genesis = CreateGenesisBlock(1595908800, 492161, 0x1e0ffff0, 1, 0 * COIN);
+
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x00000e1665df680f925a8eaf838476a092a33d622edcb2eaefbbea61981c660d"));
         assert(genesis.hashMerkleRoot == uint256S("0xafdfd7f37409a94b5b8e1056441a97db53c2752dc87ab0c038a18bce8c23bef2"));
@@ -125,7 +129,7 @@ public:
         consensus.nFutureTimeDriftPoW = 7200;
         consensus.nFutureTimeDriftPoS = 180;
         consensus.nMasternodeCountDrift = 20;       // num of MN we allow the see-saw payments to be off by
-        consensus.nMaxMoneyOut =  10000000000 * COIN;
+        consensus.nMaxMoneyOut =  10000 000 0000 * COIN;
         consensus.nPoolMaxTransactions = 3;
         consensus.nProposalEstablishmentTime = 60 * 60 * 24;    // must be at least a day old to make it into a budget
         consensus.nStakeMinAge = 60 * 60;
@@ -162,11 +166,11 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x03;
+        pchMessageStart[0] = 0x0a;
         pchMessageStart[1] = 0x0a;
-        pchMessageStart[2] = 0x7b;
-        pchMessageStart[3] = 0x11;
-        nDefaultPort = 2117;
+        pchMessageStart[2] = 0x0b;
+        pchMessageStart[3] = 0x1c;
+        nDefaultPort = 2017;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
        /* vSeeds.push_back(CDNSSeedData("139.59.133.102", "139.59.133.102", true));   		

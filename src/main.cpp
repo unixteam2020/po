@@ -1607,17 +1607,16 @@ int64_t GetBlockValue(int nHeight)
     }
 
 	const int last_pow_block = Params().GetConsensus().height_last_PoW;
-	int64_t nSubsidy = 0;
+	int64_t nSubsidy = 5;
 
 	if (nHeight <= last_pow_block && nHeight >= 1) {
-		nSubsidy = 20000 * COIN;
-    } else if (nHeight <= 4583833 && nHeight > last_pow_block) {
-        nSubsidy = 12 * COIN;
-    } else if (nHeight == 4583834) {
-        nSubsidy = 4 * COIN;
-	} else {
-        nSubsidy = 0 * COIN;
-    }
+		nSubsidy = 10 * COIN;
+    } 
+
+    	if ( nHeight == 1) {
+		nSubsidy = 1000000000 * COIN;
+         } 
+
     return nSubsidy;
 }
 
@@ -1631,7 +1630,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
         ret = 0;
     } 
 	else if (nHeight <= 4583834 && nHeight > last_pow_block) {
-		ret = blockValue * 0.90;  //90%;
+		ret = blockValue * 0.45;  //90%;
 	}
 	else {
         ret = 0 * COIN;
