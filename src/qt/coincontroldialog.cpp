@@ -688,7 +688,7 @@ void CoinControlDialog::updateLabels()
     }
 
     // actually update labels
-    int nDisplayUnit = BitcoinUnits::BPR;
+    int nDisplayUnit = BitcoinUnits::SBE;
     if (model && model->getOptionsModel())
         nDisplayUnit = model->getOptionsModel()->getDisplayUnit();
 

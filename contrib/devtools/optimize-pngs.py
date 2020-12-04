@@ -8,7 +8,7 @@ Run this script every time you change one of the png files. Using pngcrush, it w
 '''
 import os
 import sys
-import subprocess
+import suSBEocess
 import hashlib
 from PIL import Image  # pip3 install Pillow
 
@@ -27,7 +27,7 @@ def content_hash(filename):
 pngcrush = 'pngcrush'
 git = 'git'
 folders = ["src/qt/res/icons", "share/pixmaps"]
-basePath = subprocess.check_output([git, 'rev-parse', '--show-toplevel'], universal_newlines=True, encoding='utf8').rstrip('\n')
+basePath = suSBEocess.check_output([git, 'rev-parse', '--show-toplevel'], universal_newlines=True, encoding='utf8').rstrip('\n')
 totalSaveBytes = 0
 noHashChange = True
 
@@ -43,14 +43,14 @@ for folder in folders:
             fileMetaMap['contentHashPre'] = content_hash(file_path)
 
             try:
-                subprocess.call([pngcrush, "-brute", "-ow", "-rem", "gAMA", "-rem", "cHRM", "-rem", "iCCP", "-rem", "sRGB", "-rem", "alla", "-rem", "text", file_path],
-                                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                suSBEocess.call([pngcrush, "-brute", "-ow", "-rem", "gAMA", "-rem", "cHRM", "-rem", "iCCP", "-rem", "sRGB", "-rem", "alla", "-rem", "text", file_path],
+                                stdout=suSBEocess.DEVNULL, stderr=suSBEocess.DEVNULL)
             except:
                 print("pngcrush is not installed, aborting...")
                 sys.exit(0)
 
             #verify
-            if "Not a PNG file" in subprocess.check_output([pngcrush, "-n", "-v", file_path], stderr=subprocess.STDOUT, universal_newlines=True, encoding='utf8'):
+            if "Not a PNG file" in suSBEocess.check_output([pngcrush, "-n", "-v", file_path], stderr=suSBEocess.STDOUT, universal_newlines=True, encoding='utf8'):
                 print("PNG file "+file+" is corrupted after crushing, check out pngcursh version")
                 sys.exit(1)
 

@@ -94,7 +94,7 @@ size_t nCoinCacheUsage = 5000 * 300;
 /* If the tip is older than this (in seconds), the node is considered to be in initial block download. */
 int64_t nMaxTipAge = DEFAULT_MAX_TIP_AGE;
 
-/** Fees smaller than this (in ubpr) are considered zero fee (for relaying, mining and transaction creation)
+/** Fees smaller than this (in uSBE) are considered zero fee (for relaying, mining and transaction creation)
  * We are ~100 times smaller then bitcoin now (2015-06-23), set minRelayTxFee only 10 times higher
  * so it's still 10 times lower comparing to bitcoin.
  */
@@ -789,7 +789,7 @@ bool IsStandardTx(const CTransaction& tx, std::string& reason)
     return true;
 }
 
-bool RecalculateBPRSupply(int nHeightStart)
+bool RecalculateSBESupply(int nHeightStart)
 {
 	AssertLockHeld(cs_main);
 
@@ -800,12 +800,12 @@ bool RecalculateBPRSupply(int nHeightStart)
 
 	CBlockIndex* pindex = chainActive[nHeightStart];
 
-	uiInterface.ShowProgress(_("Recalculating BPR supply..."), 0);
+	uiInterface.ShowProgress(_("Recalculating SBE supply..."), 0);
 	while (true) {
 		if (pindex->nHeight % 1000 == 0) {
 			LogPrintf("%s : block %d...\n", __func__, pindex->nHeight);
 			int percent = std::max(1, std::min(99, (int)((double)((pindex->nHeight - nHeightStart) * 100) / (chainHeight - nHeightStart))));
-			uiInterface.ShowProgress(_("Recalculating BPR supply..."), percent);
+			uiInterface.ShowProgress(_("Recalculating SBE supply..."), percent);
 		}
 
 		CBlock block;
@@ -2274,7 +2274,7 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     // add this block to the view's block chain
     view.SetBestBlock(pindex->GetBlockHash());
 
-    // Update BPR money supply
+    // Update SBE money supply
     nMoneySupply += (nValueOut - nValueIn);
 
     int64_t nTime3 = GetTimeMicros();
@@ -3631,20 +3631,20 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
         CTransaction &stakeTxIn = block.vtx[1];
 
         // Inputs
-        std::vector<CTxIn> bprInputs;
+        std::vector<CTxIn> SBEInputs;
 
         for (const CTxIn& stakeIn : stakeTxIn.vin) {
-                bprInputs.push_back(stakeIn);
+                SBEInputs.push_back(stakeIn);
         }
-        const bool hasBPRInputs = !bprInputs.empty();
+        const bool hasSBEInputs = !SBEInputs.empty();
 
         for (const CTransaction& tx : block.vtx) {
             for (const CTxIn& in: tx.vin) {
                 if(tx.IsCoinStake()) continue;
-                if(hasBPRInputs) {
+                if(hasSBEInputs) {
                     // Check if coinstake input is double spent inside the same block
-                    for (const CTxIn& bprIn : bprInputs)
-                        if(bprIn.prevout == in.prevout)
+                    for (const CTxIn& SBEIn : SBEInputs)
+                        if(SBEIn.prevout == in.prevout)
                             // double spent coinstake input inside block
                             return error("%s: double spent coinstake input inside block", __func__);
                 }
@@ -3679,8 +3679,8 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
                     // Loop through every input of this tx
                     for (const CTxIn& in: t.vin) {
                         // Loop through every input of the staking tx
-                        if (hasBPRInputs) {
-                            for (const CTxIn& stakeIn : bprInputs)
+                        if (hasSBEInputs) {
+                            for (const CTxIn& stakeIn : SBEInputs)
                                 // check if the tx input is double spending any coinstake input
                                 if (stakeIn.prevout == in.prevout)
                                     return state.DoS(100, error("%s: input already spent on a previous block", __func__));

@@ -4,7 +4,7 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 import os, sys
-from subprocess import check_output
+from suSBEocess import check_output
 
 def countRelevantCommas(line):
     openParensPosStack = []

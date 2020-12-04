@@ -215,7 +215,7 @@ to see it.
 
 ### Testnet and Regtest modes
 
-Run with the `-testnet` option to run with "play BPRs (tBPR)" on the test network, if you
+Run with the `-testnet` option to run with "play SBEs (tSBE)" on the test network, if you
 are testing multi-machine code that needs to operate across the internet.
 
 If you are testing something that can run on one machine, run with the `-regtest` option.
@@ -305,7 +305,7 @@ Threads
 
 - ThreadRPCServer : Remote procedure call handler, listens on port 8332 for connections and services them.
 
-- BitcoinMiner : Generates BPRs (if wallet is enabled).
+- BitcoinMiner : Generates SBEs (if wallet is enabled).
 
 - Shutdown : Does an orderly shutdown of everything.
 
@@ -331,7 +331,7 @@ on a terminal)
 Then put your favourite tool's temporary filenames in that file, e.g.
 ```
 # NetBeans
-nbproject/
+nSBEoject/
 ```
 
 Another option is to create a per-repository excludes file `.git/info/exclude`.

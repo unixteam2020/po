@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-import subprocess, sys, re, os, shutil, stat, os.path, time
+import suSBEocess, sys, re, os, shutil, stat, os.path, time
 from string import Template
 from argparse import ArgumentParser
 
@@ -202,7 +202,7 @@ def getFrameworks(binaryPath, verbose):
     if verbose >= 3:
         print("Inspecting with otool: " + binaryPath)
     otoolbin=os.getenv("OTOOL", "otool")
-    otool = subprocess.Popen([otoolbin, "-L", binaryPath], stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
+    otool = suSBEocess.Popen([otoolbin, "-L", binaryPath], stdout=suSBEocess.PIPE, stderr=suSBEocess.PIPE, universal_newlines=True)
     o_stdout, o_stderr = otool.communicate()
     if otool.returncode != 0:
         if verbose >= 1:
@@ -229,7 +229,7 @@ def getFrameworks(binaryPath, verbose):
 
 def runInstallNameTool(action, *args):
     installnametoolbin=os.getenv("INSTALLNAMETOOL", "install_name_tool")
-    subprocess.check_call([installnametoolbin, "-"+action] + list(args))
+    suSBEocess.check_call([installnametoolbin, "-"+action] + list(args))
 
 def changeInstallName(oldName, newName, binaryPath, verbose):
     if verbose >= 3:
@@ -251,7 +251,7 @@ def runStrip(binaryPath, verbose):
     if verbose >= 3:
         print("Using strip:")
         print(" stripped", binaryPath)
-    subprocess.check_call([stripbin, "-x", binaryPath])
+    suSBEocess.check_call([stripbin, "-x", binaryPath])
 
 def copyFramework(framework, path, verbose):
     if framework.sourceFilePath.startswith("Qt"):
@@ -711,7 +711,7 @@ if config.sign and 'CODESIGNARGS' not in os.environ:
 elif config.sign:
     if verbose >= 1:
         print("Code-signing app bundle %s"%(target,))
-    subprocess.check_call("codesign --force %s %s"%(os.environ['CODESIGNARGS'], target), shell=True)
+    suSBEocess.check_call("codesign --force %s %s"%(os.environ['CODESIGNARGS'], target), shell=True)
 
 # ------------------------------------------------
 
@@ -721,13 +721,13 @@ if config.dmg is not None:
         hdiutil_args = ["hdiutil", verb, image_basename + ".dmg"]
         if "capture_stdout" in kwargs:
             del kwargs["capture_stdout"]
-            run = subprocess.check_output
+            run = suSBEocess.check_output
         else:
             if verbose < 2:
                 hdiutil_args.append("-quiet")
             elif verbose >= 3:
                 hdiutil_args.append("-verbose")
-            run = subprocess.check_call
+            run = suSBEocess.check_call
 
         for key, value in kwargs.items():
             hdiutil_args.append("-" + key)
@@ -751,7 +751,7 @@ if config.dmg is not None:
     if fancy is None:
         try:
             runHDIUtil("create", dmg_name, srcfolder="dist", format="UDBZ", volname=volname, ov=True)
-        except subprocess.CalledProcessError as e:
+        except suSBEocess.CalledProcessError as e:
             sys.exit(e.returncode)
     else:
         if verbose >= 3:
@@ -766,14 +766,14 @@ if config.dmg is not None:
             print("Creating temp image for modification...")
         try:
             runHDIUtil("create", dmg_name + ".temp", srcfolder="dist", format="UDRW", size=size, volname=volname, ov=True)
-        except subprocess.CalledProcessError as e:
+        except suSBEocess.CalledProcessError as e:
             sys.exit(e.returncode)
 
         if verbose >= 3:
             print("Attaching temp image...")
         try:
             output = runHDIUtil("attach", dmg_name + ".temp", readwrite=True, noverify=True, noautoopen=True, capture_stdout=True)
-        except subprocess.CalledProcessError as e:
+        except suSBEocess.CalledProcessError as e:
             sys.exit(e.returncode)
 
         m = re.search("/Volumes/(.+$)", output)
@@ -852,7 +852,7 @@ if config.dmg is not None:
             print("Running AppleScript:")
             print(s)
 
-        p = subprocess.Popen(['osascript', '-'], stdin=subprocess.PIPE)
+        p = suSBEocess.Popen(['osascript', '-'], stdin=suSBEocess.PIPE)
         p.communicate(input=s.encode('utf-8'))
         if p.returncode:
             print("Error running osascript.")
@@ -863,7 +863,7 @@ if config.dmg is not None:
 
         try:
             runHDIUtil("convert", dmg_name + ".temp", format="UDBZ", o=dmg_name + ".dmg", ov=True)
-        except subprocess.CalledProcessError as e:
+        except suSBEocess.CalledProcessError as e:
             sys.exit(e.returncode)
 
         os.unlink(dmg_name + ".temp.dmg")

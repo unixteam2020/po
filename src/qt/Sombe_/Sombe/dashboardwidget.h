@@ -81,8 +81,8 @@ public:
 
     QMap<int, std::pair<qint64, qint64>> amountsByCache;
     qreal maxValue = 0;
-    qint64 totalBpr = 0;
-    QList<qreal> valuesBpr;
+    qint64 totalSBE = 0;
+    QList<qreal> valuesSBE;
     QStringList xLabels;
 };
 

@@ -4,7 +4,7 @@ Extract _("...") strings for translation and convert to Qt stringdefs so that
 they can be picked up by Qt linguist.
 '''
 from __future__ import division,print_function,unicode_literals
-from subprocess import Popen, PIPE
+from suSBEocess import Popen, PIPE
 import glob
 import operator
 import os

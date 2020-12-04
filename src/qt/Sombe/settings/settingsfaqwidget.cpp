@@ -28,7 +28,7 @@ SettingsFaqWidget::SettingsFaqWidget(SombeGUI *parent) :
     // Content
     setCssProperty({
            ui->labelNumber_Intro,
-           ui->labelNumber_UnspendableBPR,
+           ui->labelNumber_UnspendableSBE,
            ui->labelNumber_Stake,
            ui->labelNumber_Support,
            ui->labelNumber_Masternode,
@@ -37,7 +37,7 @@ SettingsFaqWidget::SettingsFaqWidget(SombeGUI *parent) :
 
     setCssProperty({
               ui->labelSubtitle_Intro,
-              ui->labelSubtitle_UnspendableBPR,
+              ui->labelSubtitle_UnspendableSBE,
               ui->labelSubtitle_Stake,
               ui->labelSubtitle_Support,
               ui->labelSubtitle_Masternode,
@@ -47,7 +47,7 @@ SettingsFaqWidget::SettingsFaqWidget(SombeGUI *parent) :
 
     setCssProperty({
               ui->labelContent_Intro,
-              ui->labelContent_UnspendableBPR,
+              ui->labelContent_UnspendableSBE,
               ui->labelContent_Stake,
               ui->labelContent_Support,
               ui->labelContent_Masternode,
@@ -57,7 +57,7 @@ SettingsFaqWidget::SettingsFaqWidget(SombeGUI *parent) :
 
     setCssProperty({
               ui->pushButton_Intro,
-              ui->pushButton_UnspendableBPR,
+              ui->pushButton_UnspendableSBE,
               ui->pushButton_Stake,
               ui->pushButton_Support,
               ui->pushButton_Masternode,
@@ -76,7 +76,7 @@ SettingsFaqWidget::SettingsFaqWidget(SombeGUI *parent) :
     // Buttons
     connect(ui->pushButtonExit, &QPushButton::clicked, this, &SettingsFaqWidget::close);
     connect(ui->pushButton_Intro, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Intro);});
-    connect(ui->pushButton_UnspendableBPR, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_UnspendableBPR);});
+    connect(ui->pushButton_UnspendableSBE, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_UnspendableSBE);});
     connect(ui->pushButton_Stake, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Stake);});
     connect(ui->pushButton_Support, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Support);});
     connect(ui->pushButton_Masternode, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Masternode);});
@@ -118,7 +118,7 @@ std::vector<QPushButton*> SettingsFaqWidget::getButtons()
 {
     return {
             ui->pushButton_Intro,
-            ui->pushButton_UnspendableBPR,
+            ui->pushButton_UnspendableSBE,
             ui->pushButton_Stake,
             ui->pushButton_Support,
             ui->pushButton_Masternode,

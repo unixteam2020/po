@@ -8,7 +8,7 @@ Exit status will be 0 if successful, and the program will be silent.
 Otherwise the exit status will be 1 and it will log which executables failed which checks.
 Needs `readelf` (for ELF) and `objdump` (for PE).
 '''
-import subprocess
+import suSBEocess
 import sys
 import os
 
@@ -20,7 +20,7 @@ def check_ELF_PIE(executable):
     '''
     Check for position independent executable (PIE), allowing for address space randomization.
     '''
-    p = subprocess.Popen([READELF_CMD, '-h', '-W', executable], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, universal_newlines=True)
+    p = suSBEocess.Popen([READELF_CMD, '-h', '-W', executable], stdout=suSBEocess.PIPE, stderr=suSBEocess.PIPE, stdin=suSBEocess.PIPE, universal_newlines=True)
     (stdout, stderr) = p.communicate()
     if p.returncode:
         raise IOError('Error opening file')
@@ -34,7 +34,7 @@ def check_ELF_PIE(executable):
 
 def get_ELF_program_headers(executable):
     '''Return type and flags for ELF program headers'''
-    p = subprocess.Popen([READELF_CMD, '-l', '-W', executable], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, universal_newlines=True)
+    p = suSBEocess.Popen([READELF_CMD, '-l', '-W', executable], stdout=suSBEocess.PIPE, stderr=suSBEocess.PIPE, stdin=suSBEocess.PIPE, universal_newlines=True)
     (stdout, stderr) = p.communicate()
     if p.returncode:
         raise IOError('Error opening file')
@@ -91,7 +91,7 @@ def check_ELF_RELRO(executable):
             have_gnu_relro = True
 
     have_bindnow = False
-    p = subprocess.Popen([READELF_CMD, '-d', '-W', executable], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, universal_newlines=True)
+    p = suSBEocess.Popen([READELF_CMD, '-d', '-W', executable], stdout=suSBEocess.PIPE, stderr=suSBEocess.PIPE, stdin=suSBEocess.PIPE, universal_newlines=True)
     (stdout, stderr) = p.communicate()
     if p.returncode:
         raise IOError('Error opening file')
@@ -105,7 +105,7 @@ def check_ELF_Canary(executable):
     '''
     Check for use of stack canary
     '''
-    p = subprocess.Popen([READELF_CMD, '--dyn-syms', '-W', executable], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, universal_newlines=True)
+    p = suSBEocess.Popen([READELF_CMD, '--dyn-syms', '-W', executable], stdout=suSBEocess.PIPE, stderr=suSBEocess.PIPE, stdin=suSBEocess.PIPE, universal_newlines=True)
     (stdout, stderr) = p.communicate()
     if p.returncode:
         raise IOError('Error opening file')
@@ -121,7 +121,7 @@ def get_PE_dll_characteristics(executable):
     Returns a tuple (arch,bits) where arch is 'i386:x86-64' or 'i386'
     and bits is the DllCharacteristics value.
     '''
-    p = subprocess.Popen([OBJDUMP_CMD, '-x',  executable], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, universal_newlines=True)
+    p = suSBEocess.Popen([OBJDUMP_CMD, '-x',  executable], stdout=suSBEocess.PIPE, stderr=suSBEocess.PIPE, stdin=suSBEocess.PIPE, universal_newlines=True)
     (stdout, stderr) = p.communicate()
     if p.returncode:
         raise IOError('Error opening file')

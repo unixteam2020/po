@@ -22,18 +22,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(BPR);
-    unitlist.append(mBPR);
-    unitlist.append(uBPR);
+    unitlist.append(SBE);
+    unitlist.append(mSBE);
+    unitlist.append(uSBE);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case BPR:
-    case mBPR:
-    case uBPR:
+    case SBE:
+    case mSBE:
+    case uSBE:
         return true;
     default:
         return false;
@@ -43,11 +43,11 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case BPR:
+    case SBE:
         return QString("Sombe");
-    case mBPR:
+    case mSBE:
         return QString("mSombe");
-    case uBPR:
+    case uSBE:
         return QString::fromUtf8("uSombe");
     default:
         return QString("???");
@@ -59,22 +59,22 @@ QString BitcoinUnits::name(int unit)
     const QString CURR_UNIT = QString(CURRENCY_UNIT.c_str());
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case BPR:
+        case SBE:
             return CURR_UNIT;
-        case mBPR:
+        case mSBE:
             return QString("m") + CURR_UNIT;
-        case uBPR:
+        case uSBE:
             return QString::fromUtf8("μ") + CURR_UNIT;
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case BPR:
+        case SBE:
             return QString("t") + CURR_UNIT;
-        case mBPR:
+        case mSBE:
             return QString("mt") + CURR_UNIT;
-        case uBPR:
+        case uSBE:
             return QString::fromUtf8("μt") + CURR_UNIT;
         default:
             return QString("???");
@@ -87,22 +87,22 @@ QString BitcoinUnits::description(int unit)
     const QString CURR_UNIT = QString(CURRENCY_UNIT.c_str());
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case BPR:
+        case SBE:
             return CURR_UNIT;
-        case mBPR:
+        case mSBE:
             return QString("Milli-") + CURR_UNIT + QString(" (1 / 1" THIN_SP_UTF8 "000)");
-        case uBPR:
+        case uSBE:
             return QString("Micro-") + CURR_UNIT + QString(" (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case BPR:
+        case SBE:
             return QString("Test") + CURR_UNIT;
-        case mBPR:
+        case mSBE:
             return QString("Milli-Test") + CURR_UNIT + QString(" (1 / 1" THIN_SP_UTF8 "000)");
-        case uBPR:
+        case uSBE:
             return QString("Micro-Test") + CURR_UNIT + QString(" (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
@@ -113,11 +113,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case BPR:
+    case SBE:
         return 100000000;
-    case mBPR:
+    case mSBE:
         return 100000;
-    case uBPR:
+    case uSBE:
         return 100;
     default:
         return 100000000;
@@ -127,11 +127,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case BPR:
+    case SBE:
         return 8;
-    case mBPR:
+    case mSBE:
         return 5;
-    case uBPR:
+    case uSBE:
         return 2;
     default:
         return 0;

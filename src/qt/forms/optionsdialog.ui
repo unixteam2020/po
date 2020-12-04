@@ -131,8 +131,8 @@
         </spacer>
        </item>
        <item>
-        <widget class="QWidget" name="verticalZbprOptionsWidget" native="true">
-         <layout class="QVBoxLayout" name="verticalZbprOptionsLayout">
+        <widget class="QWidget" name="verticalZSBEOptionsWidget" native="true">
+         <layout class="QVBoxLayout" name="verticalZSBEOptionsLayout">
           <property name="margin">
            <number>0</number>
           </property>
@@ -141,20 +141,20 @@
             <item>
              <widget class="QCheckBox" name="checkBoxZeromintEnable">
               <property name="toolTip">
-               <string>Enable automatic minting of BPR units to zBPR</string>
+               <string>Enable automatic minting of SBE units to zSBE</string>
               </property>
               <property name="layoutDirection">
                <enum>Qt::LeftToRight</enum>
               </property>
               <property name="text">
-               <string>Enable zBPR Automint</string>
+               <string>Enable zSBE Automint</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QCheckBox" name="checkBoxZeromintAddresses">
               <property name="toolTip">
-               <string>Enable automatic zBPR minting from specific addresses</string>
+               <string>Enable automatic zSBE minting from specific addresses</string>
               </property>
               <property name="layoutDirection">
                <enum>Qt::LeftToRight</enum>
@@ -171,10 +171,10 @@
             <item>
              <widget class="QLabel" name="percentage_label">
               <property name="toolTip">
-               <string>Percentage of incoming BPR which get automatically converted to zBPR via Zerocoin Protocol (min: 10%)</string>
+               <string>Percentage of incoming SBE which get automatically converted to zSBE via Zerocoin Protocol (min: 10%)</string>
               </property>
               <property name="text">
-               <string>Percentage of autominted zBPR</string>
+               <string>Percentage of autominted zSBE</string>
               </property>
              </widget>
             </item>
@@ -204,10 +204,10 @@
                </size>
               </property>
               <property name="toolTip">
-               <string>Wait with automatic conversion to Zerocoin until enough BPR for this denomination is available</string>
+               <string>Wait with automatic conversion to Zerocoin until enough SBE for this denomination is available</string>
               </property>
               <property name="text">
-               <string>Preferred Automint zBPR Denomination</string>
+               <string>Preferred Automint zSBE Denomination</string>
               </property>
              </widget>
             </item>
@@ -220,7 +220,7 @@
                </size>
               </property>
               <property name="toolTip">
-               <string>Wait with automatic conversion to Zerocoin until enough BPR for this denomination is available</string>
+               <string>Wait with automatic conversion to Zerocoin until enough SBE for this denomination is available</string>
               </property>
               <property name="maxVisibleItems">
                <number>9</number>
@@ -561,8 +561,8 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</string>
         </layout>
        </item>
        <item>
-        <widget class="QWidget" name="verticalZbprDisplayWidget" native="true">
-         <layout class="QVBoxLayout" name="verticalZbprDisplayLayout">
+        <widget class="QWidget" name="verticalZSBEDisplayWidget" native="true">
+         <layout class="QVBoxLayout" name="verticalZSBEDisplayLayout">
           <property name="margin">
            <number>0</number>
           </property>

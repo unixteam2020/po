@@ -380,8 +380,8 @@ za staking</translation>
         <translation>Ako napravite enkripciju Vašeg novčanika i izgubite lozinku, tada ćete</translation>
     </message>
     <message>
-        <source>LOSE ALL OF YOUR BPR</source>
-        <translation>IZGUBITI SVE VAŠE BPR-ove</translation>
+        <source>LOSE ALL OF YOUR SBE</source>
+        <translation>IZGUBITI SVE VAŠE SBE-ove</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
@@ -396,8 +396,8 @@ za staking</translation>
         <translation>UPOZORENJE: Caps Lock tipka je uključena!</translation>
     </message>
     <message>
-        <source>Sombe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BPRs from being stolen by malware infecting your computer.</source>
-        <translation>Sombe će se sada zatvoriti kako bi se dovršio proces šifriranja. Ne zaboravite da šifriranje Vašeg novčanika ne može u potpunosti zaštititi vaše BPR od krađje zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>Sombe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SBEs from being stolen by malware infecting your computer.</source>
+        <translation>Sombe će se sada zatvoriti kako bi se dovršio proces šifriranja. Ne zaboravite da šifriranje Vašeg novčanika ne može u potpunosti zaštititi vaše SBE od krađje zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -466,8 +466,8 @@ za staking</translation>
         <translation>Ušteđjevina</translation>
     </message>
     <message>
-        <source>0,00 BPR</source>
-        <translation>0,00 BPR</translation>
+        <source>0,00 SBE</source>
+        <translation>0,00 SBE</translation>
     </message>
     <message>
         <source>address</source>
@@ -508,8 +508,8 @@ za staking</translation>
         <translation>Odabir novčića</translation>
     </message>
     <message>
-        <source>Select BPR Outputs to Spend</source>
-        <translation>Odaberi BPR za potrošiti</translation>
+        <source>Select SBE Outputs to Spend</source>
+        <translation>Odaberi SBE za potrošiti</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -536,8 +536,8 @@ za staking</translation>
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>0.00 BPR</source>
-        <translation>0.00 BPR</translation>
+        <source>0.00 SBE</source>
+        <translation>0.00 SBE</translation>
     </message>
     <message>
         <source>0</source>
@@ -720,8 +720,8 @@ za staking</translation>
         <translation>Ova oznaka postaje crvena ako neki primatelj prima iznos manji od %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubpr per input.</source>
-        <translation>Može varirati +/- %1 ubpr po unosu.</translation>
+        <source>Can vary +/- %1 uSBE per input.</source>
+        <translation>Može varirati +/- %1 uSBE po unosu.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -803,17 +803,17 @@ za staking</translation>
         <translation>Greška pri učitavanju delegacija: %1</translation>
     </message>
     <message>
-        <source>You can delegate your BPRs, letting a hot node (24/7 online node)
+        <source>You can delegate your SBEs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>Možete delegirati svoje BPR-ove, dopuštajući hot node-u (24/7 online node) da stake-a za Vas, dok su Vaši ključevi offline na sigurnom.</translation>
+        <translation>Možete delegirati svoje SBE-ove, dopuštajući hot node-u (24/7 online node) da stake-a za Vas, dok su Vaši ključevi offline na sigurnom.</translation>
     </message>
     <message>
         <source>Enter owner address</source>
         <translation>Unesi adresu vlasnika</translation>
     </message>
     <message>
-        <source>Accept BPR delegation / Delegate BPR</source>
-        <translation>Prihvati BPR delegaciju / Delegiraj BPR</translation>
+        <source>Accept SBE delegation / Delegate SBE</source>
+        <translation>Prihvati SBE delegaciju / Delegiraj SBE</translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -879,8 +879,8 @@ Potrošnja ovih novčića morat će se obaviti iz novčanika ili uredjaja koji s
         <translation>Novčići delegirani</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>Nemate BPR-a za odabrati</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>Nemate SBE-a za odabrati</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
@@ -1011,12 +1011,12 @@ vlasnika</translation>
         <translation>Statistika stakinga</translation>
     </message>
     <message>
-        <source>BPR</source>
-        <translation>BPR</translation>
+        <source>SBE</source>
+        <translation>SBE</translation>
     </message>
     <message>
-        <source>zBPR</source>
-        <translation>zBPR</translation>
+        <source>zSBE</source>
+        <translation>zSBE</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -1047,8 +1047,8 @@ vlasnika</translation>
         <translation>Možete pregledati povijest računa</translation>
     </message>
     <message>
-        <source>Amount of BPR and zBPR staked.</source>
-        <translation>Iznos BPR i zBPR koji se stakea.</translation>
+        <source>Amount of SBE and zSBE staked.</source>
+        <translation>Iznos SBE i zSBE koji se stakea.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1059,8 +1059,8 @@ vlasnika</translation>
         <translation>Nema još transakcija</translation>
     </message>
     <message>
-        <source>How to get BPR or zBPR</source>
-        <translation>Kako nabaviti BPR ili zBPR</translation>
+        <source>How to get SBE or zSBE</source>
+        <translation>Kako nabaviti SBE ili zSBE</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1399,8 +1399,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Stvori novi Masternode Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Sombe Masternode you must dedicate 10,000 BPR (the unit of Sombe) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti Sombe Masternode, morate odvojiti 10,000 BPR (jedinica Sombe-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Sombe Masternode you must dedicate 10,000 SBE (the unit of Sombe) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti Sombe Masternode, morate odvojiti 10,000 SBE (jedinica Sombe-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1419,8 +1419,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Obavezno imajte tu količinu novčića.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 BPR will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transakcija od 10,000 BPR će biti napravljena&lt;/p&gt;&lt;p&gt;u novu praznu adresu u Vašem novčaniku.&lt;/p&gt;&lt;p&gt;Adresa je označena pod imenom Masternode-a.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 SBE will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transakcija od 10,000 SBE će biti napravljena&lt;/p&gt;&lt;p&gt;u novu praznu adresu u Vašem novčaniku.&lt;/p&gt;&lt;p&gt;Adresa je označena pod imenom Masternode-a.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1662,8 +1662,8 @@ Jeste li sigurni?</translation>
         <translation>Ne može se kreirati Masternode controller, novčanik je zaključan</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 BPR required.</source>
-        <translation>Nema dovoljno novčića za stvaranje Masternodea, potrebno je 10000 BPR.</translation>
+        <source>Not enough balance to create a masternode, 10,000 SBE required.</source>
+        <translation>Nema dovoljno novčića za stvaranje Masternodea, potrebno je 10000 SBE.</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
@@ -1910,36 +1910,36 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
         <translation>Mapiranje porta koristeći &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BPR units to zBPR</source>
-        <translation>Omogući automatsko stvaranje BPR jedinica na zBPR</translation>
+        <source>Enable automatic minting of SBE units to zSBE</source>
+        <translation>Omogući automatsko stvaranje SBE jedinica na zSBE</translation>
     </message>
     <message>
-        <source>Enable zBPR Automint</source>
-        <translation>Omogući automatsko stvaranje zBPR-a</translation>
+        <source>Enable zSBE Automint</source>
+        <translation>Omogući automatsko stvaranje zSBE-a</translation>
     </message>
     <message>
-        <source>Enable automatic zBPR minting from specific addresses</source>
-        <translation>Omogući automatsko stvaranje zBPR-a s određjenih adresa</translation>
+        <source>Enable automatic zSBE minting from specific addresses</source>
+        <translation>Omogući automatsko stvaranje zSBE-a s određjenih adresa</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Omogući Automint adrese</translation>
     </message>
     <message>
-        <source>Percentage of incoming BPR which get automatically converted to zBPR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih BPR koji se automatski pretvara u zBPR putem Zerocoin Protokola (min: 10%)</translation>
+        <source>Percentage of incoming SBE which get automatically converted to zSBE via Zerocoin Protocol (min: 10%)</source>
+        <translation>Postotak dolaznih SBE koji se automatski pretvara u zSBE putem Zerocoin Protokola (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBPR</source>
-        <translation>Postotak automatski stvorenog zBPR-a</translation>
+        <source>Percentage of autominted zSBE</source>
+        <translation>Postotak automatski stvorenog zSBE-a</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BPR for this denomination is available</source>
-        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno BPR-a za ovu denominaciju</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough SBE for this denomination is available</source>
+        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno SBE-a za ovu denominaciju</translation>
     </message>
     <message>
-        <source>Preferred Automint zBPR Denomination</source>
-        <translation>Preferirana denominacija za automatsko stvaranje zBPR-a</translation>
+        <source>Preferred Automint zSBE Denomination</source>
+        <translation>Preferirana denominacija za automatsko stvaranje zSBE-a</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2122,7 +2122,7 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
     </message>
     <message>
         <source>Sombe Coin client</source>
-        <translation>BPRIX Core Klijent</translation>
+        <translation>SBEIX Core Klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2310,50 +2310,50 @@ Adresa: %4
         <translation>Stvori</translation>
     </message>
     <message>
-        <source>Minting zBPR anonymizes your BPR by removing any
+        <source>Minting zSBE anonymizes your SBE by removing any
 transaction history, making transactions untraceable </source>
-        <translation>Stvaranje zBPR-a anonimizira Vaš BPR brišući cijelu
+        <translation>Stvaranje zSBE-a anonimizira Vaš SBE brišući cijelu
 povijest transakcija, čineći transakcije nepratljivima</translation>
     </message>
     <message>
-        <source>Mint new zBPR or convert back to BPR</source>
-        <translation>Stvori novi zBPR ili pretvori natrag u BPR</translation>
+        <source>Mint new zSBE or convert back to SBE</source>
+        <translation>Stvori novi zSBE ili pretvori natrag u SBE</translation>
     </message>
     <message>
-        <source>Last zBPR Movements</source>
-        <translation>Posljednja zBPR kretanja</translation>
+        <source>Last zSBE Movements</source>
+        <translation>Posljednja zSBE kretanja</translation>
     </message>
     <message>
         <source>No transactions yet</source>
         <translation>Nema još transakcija</translation>
     </message>
     <message>
-        <source>Mint zBPR</source>
-        <translation>Stvori zBPR</translation>
+        <source>Mint zSBE</source>
+        <translation>Stvori zSBE</translation>
     </message>
     <message>
-        <source>Enter amount of BPR to mint into zBPR</source>
-        <translation>Unesite iznos BPR-a za pretvorbu u zBPR</translation>
+        <source>Enter amount of SBE to mint into zSBE</source>
+        <translation>Unesite iznos SBE-a za pretvorbu u zSBE</translation>
     </message>
     <message>
-        <source>Convert back to BPR</source>
-        <translation>Pretvori natrag u BPR</translation>
+        <source>Convert back to SBE</source>
+        <translation>Pretvori natrag u SBE</translation>
     </message>
     <message>
-        <source>Enter amount of zBPR to convert back into BPR</source>
-        <translation>Upišite iznos zBPR za konverziju natrag u BPR</translation>
+        <source>Enter amount of zSBE to convert back into SBE</source>
+        <translation>Upišite iznos zSBE za konverziju natrag u SBE</translation>
     </message>
     <message>
         <source>Zerocoin</source>
         <translation>Zerocoin</translation>
     </message>
     <message>
-        <source>zBPR is currently undergoing maintenance</source>
-        <translation>zBPR se trenutno održava</translation>
+        <source>zSBE is currently undergoing maintenance</source>
+        <translation>zSBE se trenutno održava</translation>
     </message>
     <message>
-        <source>You need to unlock the wallet to be able to %1 zBPR</source>
-        <translation>Morate otključati novčanik kako biste mogli %1 zBPR</translation>
+        <source>You need to unlock the wallet to be able to %1 zSBE</source>
+        <translation>Morate otključati novčanik kako biste mogli %1 zSBE</translation>
     </message>
     <message>
         <source>convert</source>
@@ -2368,16 +2368,16 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Nevažeća vrijednost</translation>
     </message>
     <message>
-        <source>zBPR minted successfully</source>
-        <translation>zBPR uspješno stvoren</translation>
+        <source>zSBE minted successfully</source>
+        <translation>zSBE uspješno stvoren</translation>
     </message>
     <message>
-        <source>zBPR converted back to BPR</source>
-        <translation>zBPR pretvoren natrag u BPR</translation>
+        <source>zSBE converted back to SBE</source>
+        <translation>zSBE pretvoren natrag u SBE</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>Nemate BPR-a za odabrati</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>Nemate SBE-a za odabrati</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
@@ -2388,8 +2388,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Vaši zerocoin novčići skenirat će se iz blockchaina od samog početka</translation>
     </message>
     <message>
-        <source>Reset Spent zBPR</source>
-        <translation>Resetiraj potrošeni zBPR</translation>
+        <source>Reset Spent zSBE</source>
+        <translation>Resetiraj potrošeni zSBE</translation>
     </message>
     <message>
         <source>Your zerocoin spends are going to be scanned from the blockchain from scratch</source>
@@ -2802,8 +2802,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Put prilagođenog sigurnosnog kopiranja:</translation>
     </message>
     <message>
-        <source>Custom zBPR Backup Path:</source>
-        <translation>Prilagođeni put zBPR sigurnosne kopije:</translation>
+        <source>Custom zSBE Backup Path:</source>
+        <translation>Prilagođeni put zSBE sigurnosne kopije:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3048,8 +3048,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Primi</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive BPR.</source>
-        <translation>Skenirajte QR kod ili kopirajte adresu da biste primili BPR.</translation>
+        <source>Scan the QR code or copy the address to receive SBE.</source>
+        <translation>Skenirajte QR kod ili kopirajte adresu da biste primili SBE.</translation>
     </message>
     <message>
         <source>No address </source>
@@ -3158,8 +3158,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>BPR</source>
-        <translation>BPR</translation>
+        <source>SBE</source>
+        <translation>SBE</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -3292,8 +3292,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Preporučeno</translation>
     </message>
     <message>
-        <source>BPR/kilobyte</source>
-        <translation>BPR/kilobajt</translation>
+        <source>SBE/kilobyte</source>
+        <translation>SBE/kilobajt</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3362,8 +3362,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Pošalji</translation>
     </message>
     <message>
-        <source>You can transfer public coins (BPR) or private coins (zBPR)</source>
-        <translation>Mogućnost prijenosa javnih novčića (BPR) ili anonimnih novčića (zBPR)</translation>
+        <source>You can transfer public coins (SBE) or private coins (zSBE)</source>
+        <translation>Mogućnost prijenosa javnih novčića (SBE) ili anonimnih novčića (zSBE)</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3394,12 +3394,12 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Ukupno za slanje</translation>
     </message>
     <message>
-        <source>Send BPR</source>
-        <translation>Pošalji BPR</translation>
+        <source>Send SBE</source>
+        <translation>Pošalji SBE</translation>
     </message>
     <message>
-        <source>Send zBPR</source>
-        <translation>Pošalji zBPR</translation>
+        <source>Send zSBE</source>
+        <translation>Pošalji zSBE</translation>
     </message>
     <message>
         <source>Total remaining from the selected UTXO</source>
@@ -3474,8 +3474,8 @@ Ovi novčići više neće biti cold-stakeani.</translation>
         <translation>Potroši Zerocoin</translation>
     </message>
     <message>
-        <source>zBPR is currently undergoing maintenance.</source>
-        <translation>Radovi u tijeku na zBPR.</translation>
+        <source>zSBE is currently undergoing maintenance.</source>
+        <translation>Radovi u tijeku na zSBE.</translation>
     </message>
     <message>
         <source>Coin control mint not found</source>
@@ -3494,12 +3494,12 @@ Ovi novčići više neće biti cold-stakeani.</translation>
 %2</translation>
     </message>
     <message>
-        <source>zBPR transaction sent!</source>
-        <translation>zBPR transakcija poslana!</translation>
+        <source>zSBE transaction sent!</source>
+        <translation>zSBE transakcija poslana!</translation>
     </message>
     <message>
-        <source>Version 1 zBPR require a security level of 100 to successfully spend.</source>
-        <translation>Verzija 1 zBPR zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
+        <source>Version 1 zSBE require a security level of 100 to successfully spend.</source>
+        <translation>Verzija 1 zSBE zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
@@ -3534,12 +3534,12 @@ Ili mintaj više vrijedne denominacije (tako da je potrebno manje ulaza) ili sma
         <translation>Prilagođjena naknada %1</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>Nemate BPR-a za odabrati</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>Nemate SBE-a za odabrati</translation>
     </message>
     <message>
-        <source>You don't have any zBPR in your balance to select.</source>
-        <translation>Nemate zBPR u svom saldu za odabir.</translation>
+        <source>You don't have any zSBE in your balance to select.</source>
+        <translation>Nemate zSBE u svom saldu za odabir.</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
@@ -4042,30 +4042,30 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>1) Što je Sombe?</translation>
     </message>
     <message>
-        <source>2) Why are my BPR unspendable?</source>
-        <translation>2) Zašto se moji BPR ne mogu potrošiti?</translation>
+        <source>2) Why are my SBE unspendable?</source>
+        <translation>2) Zašto se moji SBE ne mogu potrošiti?</translation>
     </message>
     <message>
-        <source>3) Sombe privacy? What is Zerocoin (zBPR)?</source>
-        <translation>3) Sombe privatnost? Što je Zerocoin (zBPR)?</translation>
+        <source>3) Sombe privacy? What is Zerocoin (zSBE)?</source>
+        <translation>3) Sombe privatnost? Što je Zerocoin (zSBE)?</translation>
     </message>
     <message>
-        <source>4) Why are my zBPR unspendable?</source>
-        <translation>4) Zašto se moji zBPR ne mogu potrošiti?</translation>
+        <source>4) Why are my zSBE unspendable?</source>
+        <translation>4) Zašto se moji zSBE ne mogu potrošiti?</translation>
     </message>
     <message>
         <source>5) Why did my wallet convert the balance
-    into zBPR automatically?</source>
+    into zSBE automatically?</source>
         <translation>5) Zašto je moj novčanik pretvorio saldo
-u zBPR automatski?</translation>
+u zSBE automatski?</translation>
     </message>
     <message>
-        <source>6) How do I receive BPR/zBPR?</source>
-        <translation>6) Kako mogu primiti BPR/zBPR?</translation>
+        <source>6) How do I receive SBE/zSBE?</source>
+        <translation>6) Kako mogu primiti SBE/zSBE?</translation>
     </message>
     <message>
-        <source>7) How do I stake BPR/zBPR?</source>
-        <translation>7) Kako stakeam BPR/zBPR?</translation>
+        <source>7) How do I stake SBE/zSBE?</source>
+        <translation>7) Kako stakeam SBE/zSBE?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -4094,7 +4094,7 @@ u zBPR automatski?</translation>
                            that can be easily transferred globally, instantly, and with near
                            zero fees.  Sombe incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
-                           to implement ZeroCoin(zBPR) and Zerocoin staking.
+                           to implement ZeroCoin(zSBE) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Sombe utilizes a Proof of Stake (PoS) consensus system algorithm,
                            allowing all owners of Sombe to participate in earning block rewards
@@ -4108,7 +4108,7 @@ Sombe je oblik digitalnog online novca koji koristi blockchain tehnologiju
 koji se lako može slati i primati globalno, trenutno, i gotovo bez naknade.
 Sombe uključuje vodeću sigurnost  i privatnost na tržištu
 i takođjer je prva PoS (Proof of Stake) kriptovaluta
-koja je implementirala ZeroCoin (zBPR) i Zerocoin staking.
+koja je implementirala ZeroCoin (zSBE) i Zerocoin staking.
 &lt;/p&gt;&lt;p align="justify"&gt;
 Sombe koristi algoritam konsenzusa Proof of Stake (PoS),
 omogućujući svim vlasnicima Sombe-a sudjelovanje u zarađi blokovih nagrada
@@ -4122,8 +4122,8 @@ vodjenje Masternode-ova za stvaranje i glasanje o prijedlozima.
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my BPR unspendable?</source>
-        <translation>Zašto se moji BPR ne mogu potrošiti?</translation>
+        <source>Why are my SBE unspendable?</source>
+        <translation>Zašto se moji SBE ne mogu potrošiti?</translation>
     </message>
     <message>
         <source>
@@ -4150,25 +4150,25 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
         <translation>3</translation>
     </message>
     <message>
-        <source>Sombe privacy? What is Zerocoin (zBPR)?</source>
-        <translation>Sombe privatnost? Što je Zerocoin (zBPR)?</translation>
+        <source>Sombe privacy? What is Zerocoin (zSBE)?</source>
+        <translation>Sombe privatnost? Što je Zerocoin (zSBE)?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zBPR is an optional privacy-centric method of coin mixing on the
+                           zSBE is an optional privacy-centric method of coin mixing on the
                            Sombe blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt;
-                           "Sombe Zerocoin (zBPR) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt;
+                           "Sombe Zerocoin (zSBE) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-zBPR je opcionalna metoda miješanja novčića usmjerena na privatnost
+zSBE je opcionalna metoda miješanja novčića usmjerena na privatnost
 na Sombe blockchainu. Sve transakcije ne mogu biti praćene na bilo kojem block exploreru. Više o tehničkim detaljima možete pročitati na
-&lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt;
-"Sombe Zerocoin (zBPR) Technical Paper"&lt;/a&gt;.
+&lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt;
+"Sombe Zerocoin (zSBE) Technical Paper"&lt;/a&gt;.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
     </message>
@@ -4177,20 +4177,20 @@ na Sombe blockchainu. Sve transakcije ne mogu biti praćene na bilo kojem block 
         <translation>4</translation>
     </message>
     <message>
-        <source>Why are my zBPR unspendable?</source>
-        <translation>Zašto se moji zBPR ne mogu potrošiti?</translation>
+        <source>Why are my zSBE unspendable?</source>
+        <translation>Zašto se moji zSBE ne mogu potrošiti?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           After minting, zBPR will require 20 confirmations as well as 1
+                           After minting, zSBE will require 20 confirmations as well as 1
                            additional mint of the same denomination on the network to
                            become eligible for spending.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Nakon stvaranja, zBPR će zahtjevati 20 potvrda kao i 1
+Nakon stvaranja, zSBE će zahtjevati 20 potvrda kao i 1
 dodatno stvaranje iste denominacije na mreži
 da bi se mogli potrošiti.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4201,39 +4201,39 @@ da bi se mogli potrošiti.
         <translation>5</translation>
     </message>
     <message>
-        <source>Why did my wallet convert the balance into zBPR automatically?</source>
-        <translation>Zašto je moj novčanik automatski pretvorio saldo u zBPR?</translation>
+        <source>Why did my wallet convert the balance into zSBE automatically?</source>
+        <translation>Zašto je moj novčanik automatski pretvorio saldo u zSBE?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           By default the Sombe wallet will convert 10% of your entire BPR
-                           balance to zBPR to assist the network. If you do not wish to
-                           stake zBPR or take advantage of the privacy benefit it brings,
+                           By default the Sombe wallet will convert 10% of your entire SBE
+                           balance to zSBE to assist the network. If you do not wish to
+                           stake zSBE or take advantage of the privacy benefit it brings,
                            you can disable the automatic minting in your Sombe wallet by
-                           going to Settings-&gt;Options and deselecting “Enable zBPR Automint”.
+                           going to Settings-&gt;Options and deselecting “Enable zSBE Automint”.
                            If you are not making use of the Sombe-QT or GUI you can simply open
                            your Sombe.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           You can read more about zBPR in the
-                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt; "Sombe Zerocoin (zBPR) Technical Paper"&lt;/a&gt;.
-                           If you would like to keep and stake your zBPR, please read the "How do I stake"
+                           You can read more about zSBE in the
+                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt; "Sombe Zerocoin (zSBE) Technical Paper"&lt;/a&gt;.
+                           If you would like to keep and stake your zSBE, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Prema početno zadanom Sombe novčanik će pretvoriti 10% vaših BPR sredstava u zBPR da pomognu mreži. Ako ne želite stake-ati zBPR ili iskoristiti prednosti privatnosti koje donosi,
+Prema početno zadanom Sombe novčanik će pretvoriti 10% vaših SBE sredstava u zSBE da pomognu mreži. Ako ne želite stake-ati zSBE ili iskoristiti prednosti privatnosti koje donosi,
 možete onemogućiti autoamtsko stvaranje u vašem Sombe novčaniku tako da
-odete u Postavke -&gt; Mogućnosti i odznačite "Omogući automatsko stvaranje zBPR-a".
+odete u Postavke -&gt; Mogućnosti i odznačite "Omogući automatsko stvaranje zSBE-a".
 Ako ne koristite Sombe-QT ili grafičko sučelje, jednostavno možete otvoriti
 vašu Sombe.conf datoteku i dodati &lt;i&gt;enablezeromint=0&lt;/i&gt; bez navodnika
 i ponovno pokrenuti novčanik da biste onemogućili automatsko stvaranje.&lt;/p&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
-Više o zBPR-u možete pročitati u
-&lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt;"Sombe Zerocoin (zBPR) Technical Paper"&lt;/a&gt;.
-Ako želite zadržati i stake-ati vaš zBPR, molimo pročitajte "Kako mogu stake-ati"
+Više o zSBE-u možete pročitati u
+&lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt;"Sombe Zerocoin (zSBE) Technical Paper"&lt;/a&gt;.
+Ako želite zadržati i stake-ati vaš zSBE, molimo pročitajte "Kako mogu stake-ati"
 odjeljak u najčešće postavljenim pitanjima ispod.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -4242,24 +4242,24 @@ odjeljak u najčešće postavljenim pitanjima ispod.
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive BPR/zBPR?</source>
-        <translation>Kako mogu primiti BPR/zBPR?</translation>
+        <source>How do I receive SBE/zSBE?</source>
+        <translation>Kako mogu primiti SBE/zSBE?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zBPR can be spent and sent to any Sombe address. The receiver will
-                           receive standard Sombe but the origin of the Sombe is anonymized by the zBPR Protocol.
+                           zSBE can be spent and sent to any Sombe address. The receiver will
+                           receive standard Sombe but the origin of the Sombe is anonymized by the zSBE Protocol.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           If you want more zBPR you will need to mint your balance in the “Privacy” tab.
+                           If you want more zSBE you will need to mint your balance in the “Privacy” tab.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-zBPR se može trošiti i slati na bilo koju Sombe adresu. Primatelj će
-primiti standardni Sombe, ali podrijetlo Sombe-a je postalo anonimno zBPR Protokolom.
+zSBE se može trošiti i slati na bilo koju Sombe adresu. Primatelj će
+primiti standardni Sombe, ali podrijetlo Sombe-a je postalo anonimno zSBE Protokolom.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Ako želite više zBPR-a, morat ćete stvoriti svoj saldo u kartici "Privatnost" .
+Ako želite više zSBE-a, morat ćete stvoriti svoj saldo u kartici "Privatnost" .
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
     </message>
@@ -4268,8 +4268,8 @@ Ako želite više zBPR-a, morat ćete stvoriti svoj saldo u kartici "Privatnost"
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake BPR/zBPR?</source>
-        <translation>Kako stakeam BPR/zBPR?</translation>
+        <source>How do I stake SBE/zSBE?</source>
+        <translation>Kako stakeam SBE/zSBE?</translation>
     </message>
     <message>
         <source>
@@ -4288,12 +4288,12 @@ Ako želite više zBPR-a, morat ćete stvoriti svoj saldo u kartici "Privatnost"
                            You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state "Staking Enabled" to indicate it is staking.  Using the command line interface (Sombe-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
                            &lt;/li&gt;&lt;/ol&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           To Stake zBPR:
+                           To Stake zSBE:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ol&gt;&lt;li&gt;
                            Make sure your wallet is completely synchronized and you are using the latest release.
                            &lt;li&gt;
-                           Your newly minted or existing zBPR balance must have a minimum of 200 confirmations.
+                           Your newly minted or existing zSBE balance must have a minimum of 200 confirmations.
                            &lt;li&gt;
                            Your wallet must stay online and be unlocked for anonymization and staking purposes.
                            Staking should now be enabled.
@@ -4316,11 +4316,11 @@ Kada su svi navedeni koraci napravljeni, tada će staking biti omogućen.
 Status stakinga možete vidjeti u vašem novčaniku prelaskom miša preko Staking ikone u gornjem desnom kutu. Ikona će zasvjetliti i ispisati "Staking omogućen" i potvrditi staking. Koristeći sučelje naredbene linije (Sombe-cli); naredba &lt;i&gt;getstakingstatus&lt;/i&gt;će potvrditi da je staking aktivan.
 &lt;/li&gt;&lt;/ol&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
-Da biste stake-ali zBPR:&lt;/p&gt;&lt;p align="justify"&gt;
+Da biste stake-ali zSBE:&lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ol&gt;&lt;li&gt;
 Provjerite da je vaš wallet u potpunosti sinkroniziran i koristite li najnoviju verziju.
 &lt;li&gt;
-Vaši novostvoreni ili postojeći zBPR saldo mora imati najmanje 200 potvrda.
+Vaši novostvoreni ili postojeći zSBE saldo mora imati najmanje 200 potvrda.
 &lt;li&gt;
 Vaš novčanik mora ostati online i biti otključan za staking.
 Sada bi staking trebao biti omogućen.
@@ -4341,8 +4341,8 @@ Sada bi staking trebao biti omogućen.
         <translation>Što je Masternode Controller?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 BPR collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Masternode Controller novčanik je mjesto gdje zalog od 10,000 BPR može stajati tijekom Controller-Remote podešavanja masternode-a. To je novčanik koji može aktivirati Remote masternode novčanik(e) i omogućiti Vam držanje zaloga novčića offline dok Remote masternode novčanik ostaje online.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 SBE collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Masternode Controller novčanik je mjesto gdje zalog od 10,000 SBE može stajati tijekom Controller-Remote podešavanja masternode-a. To je novčanik koji može aktivirati Remote masternode novčanik(e) i omogućiti Vam držanje zaloga novčića offline dok Remote masternode novčanik ostaje online.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>8</source>
@@ -4378,7 +4378,7 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            A masternode is a computer running a full node Sombe core wallet with a
-                           requirement of 10,000 BPR secured collateral to provide extra services
+                           requirement of 10,000 SBE secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -4410,7 +4410,7 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 BPR per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 SBE per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -4420,7 +4420,7 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 Masternode je računalo koje pokreće full node Sombe Coin novčanik sa
-zahtjevanih 10,000 BPR-a osiguranog zaloga da pruži dodatne usluge
+zahtjevanih 10,000 SBE-a osiguranog zaloga da pruži dodatne usluge
 mreži, i zauzvrat redovito primi dio nagrade blokova.
 Te usluge uključuju:
 &lt;/p&gt;&lt;p align="justify"&gt;
@@ -4452,7 +4452,7 @@ Povlastice masternode-ova:
 Zahtjevi:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;10,000 BPR po svakom Masternode-u&lt;/li&gt;
+&lt;li&gt;10,000 SBE po svakom Masternode-u&lt;/li&gt;
 &lt;li&gt;Mora biti pohranjem u Core novčaniku&lt;/li&gt;
 &lt;li&gt;Mora biti jedinstvena IP adresa&lt;/li&gt;
 &lt;li&gt;Masternode novčanik treba ostati online&lt;/li&gt;
@@ -5746,40 +5746,40 @@ se nova sigurnosna kopija.
         <translation>Zaprimljeno s</translation>
     </message>
     <message>
-        <source>BPR Stake</source>
-        <translation>BPR Stake</translation>
+        <source>SBE Stake</source>
+        <translation>SBE Stake</translation>
     </message>
     <message>
-        <source>zBPR Stake</source>
-        <translation>zBPR Stake</translation>
+        <source>zSBE Stake</source>
+        <translation>zSBE Stake</translation>
     </message>
     <message>
-        <source>BPR Cold Stake</source>
-        <translation>BPR Cold Stake</translation>
+        <source>SBE Cold Stake</source>
+        <translation>SBE Cold Stake</translation>
     </message>
     <message>
         <source>Stake delegation</source>
         <translation>Stake delegacija</translation>
     </message>
     <message>
-        <source>Converted BPR to zBPR</source>
-        <translation>Pretvoreni BPR u zBPR</translation>
+        <source>Converted SBE to zSBE</source>
+        <translation>Pretvoreni SBE u zSBE</translation>
     </message>
     <message>
-        <source>Spent zBPR</source>
-        <translation>Potrošeni zBPR</translation>
+        <source>Spent zSBE</source>
+        <translation>Potrošeni zSBE</translation>
     </message>
     <message>
-        <source>Received BPR from zBPR</source>
-        <translation>Primljeni BPR od zBPR</translation>
+        <source>Received SBE from zSBE</source>
+        <translation>Primljeni SBE od zSBE</translation>
     </message>
     <message>
-        <source>Minted Change as zBPR from zBPR Spend</source>
-        <translation>Mintana razlika zBPR od zBPR Utroška</translation>
+        <source>Minted Change as zSBE from zSBE Spend</source>
+        <translation>Mintana razlika zSBE od zSBE Utroška</translation>
     </message>
     <message>
-        <source>Converted zBPR to BPR</source>
-        <translation>Pretvoreni zBPR u BPR</translation>
+        <source>Converted zSBE to SBE</source>
+        <translation>Pretvoreni zSBE u SBE</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5794,8 +5794,8 @@ se nova sigurnosna kopija.
         <translation>Plaćanje sebi</translation>
     </message>
     <message>
-        <source>BPR Stake on behalf of</source>
-        <translation>BPR Stake u korist</translation>
+        <source>SBE Stake on behalf of</source>
+        <translation>SBE Stake u korist</translation>
     </message>
     <message>
         <source>Stake delegation spent by</source>
@@ -5960,8 +5960,8 @@ se nova sigurnosna kopija.
         <translation>18/05/18</translation>
     </message>
     <message>
-        <source>+0.000585 BPR</source>
-        <translation>+0.000585 BPR</translation>
+        <source>+0.000585 SBE</source>
+        <translation>+0.000585 SBE</translation>
     </message>
 </context>
 <context>
@@ -5971,8 +5971,8 @@ se nova sigurnosna kopija.
         <translation>Šalji novčiće</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BPR.</source>
-        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 BPR.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 SBE.</source>
+        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 SBE.</translation>
     </message>
 </context>
 <context>
@@ -6045,10 +6045,10 @@ Sombe temeljni novčanik</translation>
     </message>
 </context>
 <context>
-    <name>ZBprControlDialog</name>
+    <name>ZSBEControlDialog</name>
     <message>
-        <source>Select zBPR to Spend</source>
-        <translation>Odabrani zBPR za utrošiti</translation>
+        <source>Select zSBE to Spend</source>
+        <translation>Odabrani zSBE za utrošiti</translation>
     </message>
     <message>
         <source>Coin Control</source>
@@ -6059,8 +6059,8 @@ Sombe temeljni novčanik</translation>
         <translation>TipkaZaPritisak</translation>
     </message>
     <message>
-        <source>zBpr</source>
-        <translation>zBpr</translation>
+        <source>zSBE</source>
+        <translation>zSBE</translation>
     </message>
     <message>
         <source>0.00 </source>
@@ -6083,8 +6083,8 @@ Sombe temeljni novčanik</translation>
         <translation>Odaberite/poništi odabir za Sve</translation>
     </message>
     <message>
-        <source>Select zBPR Denominations to Spend</source>
-        <translation>Odaberite zBPR denominacije za potrošnju</translation>
+        <source>Select zSBE Denominations to Spend</source>
+        <translation>Odaberite zSBE denominacije za potrošnju</translation>
     </message>
 </context>
 <context>
@@ -6142,12 +6142,12 @@ Sombe temeljni novčanik</translation>
         <translation>Omogući cold staking funkcionalnost (0-1, zadano: %u). Onemogućeno ako je staking=0</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BPR inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za BPR unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for SBE inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za SBE unose (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBPR inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za zBPR unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zSBE inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za zSBE unose (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -6186,12 +6186,12 @@ Sombe temeljni novčanik</translation>
         <translation>Izvrši naredbu kada se promijeni najbolji blok (%s u cmd zamjenjuje se blokovskim raspršivanjem)</translation>
     </message>
     <message>
-        <source>Fees (in BPR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Naknade (u BPR / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
+        <source>Fees (in SBE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Naknade (u SBE / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BPR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Naknade (u BPR / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
+        <source>Fees (in SBE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Naknade (u SBE / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -6559,8 +6559,8 @@ Sombe temeljni novčanik</translation>
         <translation>Greška čitanja bloka</translation>
     </message>
     <message>
-        <source>Fee (in BPR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Naknada (u BPR / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
+        <source>Fee (in SBE/kB) to add to transactions you send (default: %s)</source>
+        <translation>Naknada (u SBE / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -6635,12 +6635,12 @@ Sombe temeljni novčanik</translation>
         <translation>Nevažeći port otkriven u masternode.conf</translation>
     </message>
     <message>
-        <source>Recalculating BPR supply...</source>
-        <translation>Preračunavanje BPR-a u optjecaju...</translation>
+        <source>Recalculating SBE supply...</source>
+        <translation>Preračunavanje SBE-a u optjecaju...</translation>
     </message>
     <message>
-        <source>Reindex the BPR and zBPR money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku BPR i zBPR ponude novca</translation>
+        <source>Reindex the SBE and zSBE money supply statistics</source>
+        <translation>Ponovno indeksirati statistiku SBE i zSBE ponude novca</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -7131,8 +7131,8 @@ Sombe temeljni novčanik</translation>
         <translation>Sinkronizacija sporkova...</translation>
     </message>
     <message>
-        <source>Syncing zBPR wallet...</source>
-        <translation>Sinkronizacija zBPR novčanika...</translation>
+        <source>Syncing zSBE wallet...</source>
+        <translation>Sinkronizacija zSBE novčanika...</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -7247,8 +7247,8 @@ Sombe temeljni novčanik</translation>
         <translation>Korisničko ime za JSON-RPC veze</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBPR</source>
-        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zBPR-a</translation>
+        <source>Value is below the smallest available denomination (= 1) of zSBE</source>
+        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zSBE-a</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

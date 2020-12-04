@@ -32,10 +32,10 @@ void ECDSA_SIG_get0(const ECDSA_SIG *sig, const BIGNUM **pr, const BIGNUM **ps) 
 #include "contrib/lax_der_privatekey_parsing.c"
 
 #if !defined(VG_CHECK)
-# if defined(VBPRRIND)
+# if defined(VSBERIND)
 #  include <valgrind/memcheck.h>
-#  define VG_UNDEF(x,y) VBPRRIND_MAKE_MEM_UNDEFINED((x),(y))
-#  define VG_CHECK(x,y) VBPRRIND_CHECK_MEM_IS_DEFINED((x),(y))
+#  define VG_UNDEF(x,y) VSBERIND_MAKE_MEM_UNDEFINED((x),(y))
+#  define VG_CHECK(x,y) VSBERIND_CHECK_MEM_IS_DEFINED((x),(y))
 # else
 #  define VG_UNDEF(x,y)
 #  define VG_CHECK(x,y)

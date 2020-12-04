@@ -376,8 +376,8 @@ Stake için kaldırın</translation>
         <translation>İPTAL</translation>
     </message>
     <message>
-        <source>Sombe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BPRs from being stolen by malware infecting your computer.</source>
-        <translation>Sombe şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, BPR'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>Sombe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SBEs from being stolen by malware infecting your computer.</source>
+        <translation>Sombe şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, SBE'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -446,8 +446,8 @@ Stake için kaldırın</translation>
         <translation>Birikimler</translation>
     </message>
     <message>
-        <source>0,00 BPR</source>
-        <translation>0,00 BPR</translation>
+        <source>0,00 SBE</source>
+        <translation>0,00 SBE</translation>
     </message>
     <message>
         <source>address</source>
@@ -512,8 +512,8 @@ Stake için kaldırın</translation>
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>0.00 BPR</source>
-        <translation>0.00 BPR</translation>
+        <source>0.00 SBE</source>
+        <translation>0.00 SBE</translation>
     </message>
     <message>
         <source>0</source>
@@ -664,8 +664,8 @@ Stake için kaldırın</translation>
         <translation>Herhangi bir alıcı %1 'den küçük bir miktar alırsa, bu etiket kırmızıya döner.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubpr per input.</source>
-        <translation>Her giriş için +/- %1 ubpr farkedebilir.</translation>
+        <source>Can vary +/- %1 uSBE per input.</source>
+        <translation>Her giriş için +/- %1 uSBE farkedebilir.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -787,8 +787,8 @@ Devam etmek istiyor musunuz?</translation>
         <translation>Koinler delege edildi</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>Seçebileceğiniz BPR'iniz bulunmuyor</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>Seçebileceğiniz SBE'iniz bulunmuyor</translation>
     </message>
     <message>
         <source>URI copied to clipboard</source>
@@ -915,12 +915,12 @@ kopyala</translation>
         <translation>Stake İstatistikleri</translation>
     </message>
     <message>
-        <source>BPR</source>
-        <translation>BPR</translation>
+        <source>SBE</source>
+        <translation>SBE</translation>
     </message>
     <message>
-        <source>zBPR</source>
-        <translation>zBPR</translation>
+        <source>zSBE</source>
+        <translation>zSBE</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -951,8 +951,8 @@ kopyala</translation>
         <translation>Hesap geçmişinizde görebilirsiniz</translation>
     </message>
     <message>
-        <source>Amount of BPR and zBPR staked.</source>
-        <translation>Stake edilmiş BPR ve zBPR miktarı</translation>
+        <source>Amount of SBE and zSBE staked.</source>
+        <translation>Stake edilmiş SBE ve zSBE miktarı</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -963,8 +963,8 @@ kopyala</translation>
         <translation>İşlem bulunmuyor</translation>
     </message>
     <message>
-        <source>How to get BPR or zBPR</source>
-        <translation>BPR veya zBPR nasıl alınır</translation>
+        <source>How to get SBE or zSBE</source>
+        <translation>SBE veya zSBE nasıl alınır</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1299,8 +1299,8 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>Bu miktarda koininizin olduğundan emin olunuz.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 BPR will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10.000 BPR'lik bir transfer &lt;/p&gt;&lt;p&gt;yeni ve boş bir adrese yapılacaktır.&lt;/p&gt;&lt;p&gt;Adres Masternode'unuz ismi ile etiketlenecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 SBE will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10.000 SBE'lik bir transfer &lt;/p&gt;&lt;p&gt;yeni ve boş bir adrese yapılacaktır.&lt;/p&gt;&lt;p&gt;Adres Masternode'unuz ismi ile etiketlenecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1453,8 +1453,8 @@ Emin misiniz?</translation>
         <translation> masternode.conf dosyası bulunamadı</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 BPR required.</source>
-        <translation>Masternode yaratmak için yetersiz bakiye, 10,000 BPR gerekmektedir.</translation>
+        <source>Not enough balance to create a masternode, 10,000 SBE required.</source>
+        <translation>Masternode yaratmak için yetersiz bakiye, 10,000 SBE gerekmektedir.</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
@@ -1693,36 +1693,36 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BPR units to zBPR</source>
-        <translation>BPR birimlerinin zBPR'e otomatik basımını ektinleştir</translation>
+        <source>Enable automatic minting of SBE units to zSBE</source>
+        <translation>SBE birimlerinin zSBE'e otomatik basımını ektinleştir</translation>
     </message>
     <message>
-        <source>Enable zBPR Automint</source>
-        <translation>zBPR Otomatik basımı etkinleştir</translation>
+        <source>Enable zSBE Automint</source>
+        <translation>zSBE Otomatik basımı etkinleştir</translation>
     </message>
     <message>
-        <source>Enable automatic zBPR minting from specific addresses</source>
-        <translation>Belirli bir adresten otomatik zBPR minting yapılmasını etkinleştir</translation>
+        <source>Enable automatic zSBE minting from specific addresses</source>
+        <translation>Belirli bir adresten otomatik zSBE minting yapılmasını etkinleştir</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint adreslerini etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming BPR which get automatically converted to zBPR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zBPR'ye dönüştürülen gelen BPR yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming SBE which get automatically converted to zSBE via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zSBE'ye dönüştürülen gelen SBE yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBPR</source>
-        <translation>Otomatikleştirilmiş zBPR yüzdesi</translation>
+        <source>Percentage of autominted zSBE</source>
+        <translation>Otomatikleştirilmiş zSBE yüzdesi</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BPR for this denomination is available</source>
-        <translation>Bu bölen için yeterli BPR bulunana kadar Zerocoin'e otomatik dönüştürmede kalın</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough SBE for this denomination is available</source>
+        <translation>Bu bölen için yeterli SBE bulunana kadar Zerocoin'e otomatik dönüştürmede kalın</translation>
     </message>
     <message>
-        <source>Preferred Automint zBPR Denomination</source>
-        <translation>Tercih edilen Automint zBPR Nominal değeri</translation>
+        <source>Preferred Automint zSBE Denomination</source>
+        <translation>Tercih edilen Automint zSBE Nominal değeri</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2093,45 +2093,45 @@ Adres: %4
         <translation>Mint</translation>
     </message>
     <message>
-        <source>Minting zBPR anonymizes your BPR by removing any
+        <source>Minting zSBE anonymizes your SBE by removing any
 transaction history, making transactions untraceable </source>
-        <translation>zBPR mintleme işlemi BPR'lerinizin işlem geçmişini siler, işlemleri takip edilemez yapar</translation>
+        <translation>zSBE mintleme işlemi SBE'lerinizin işlem geçmişini siler, işlemleri takip edilemez yapar</translation>
     </message>
     <message>
-        <source>Mint new zBPR or convert back to BPR</source>
-        <translation>Yeni zBPR mintle veya BPR'e geri dönüştür</translation>
+        <source>Mint new zSBE or convert back to SBE</source>
+        <translation>Yeni zSBE mintle veya SBE'e geri dönüştür</translation>
     </message>
     <message>
         <source>No transactions yet</source>
         <translation>İşlem bulunmuyor</translation>
     </message>
     <message>
-        <source>Mint zBPR</source>
-        <translation>Mint ZBPR</translation>
+        <source>Mint zSBE</source>
+        <translation>Mint ZSBE</translation>
     </message>
     <message>
-        <source>Enter amount of BPR to mint into zBPR</source>
-        <translation>zBPR'e mintlenmek için dönüştürülecek BPR miktarını gir</translation>
+        <source>Enter amount of SBE to mint into zSBE</source>
+        <translation>zSBE'e mintlenmek için dönüştürülecek SBE miktarını gir</translation>
     </message>
     <message>
-        <source>Convert back to BPR</source>
-        <translation>BPR'e geri dönüştür</translation>
+        <source>Convert back to SBE</source>
+        <translation>SBE'e geri dönüştür</translation>
     </message>
     <message>
-        <source>Enter amount of zBPR to convert back into BPR</source>
-        <translation>BPR'e geri dönüştürülecek zBPR miktarını gir</translation>
+        <source>Enter amount of zSBE to convert back into SBE</source>
+        <translation>SBE'e geri dönüştürülecek zSBE miktarını gir</translation>
     </message>
     <message>
         <source>Zerocoin</source>
         <translation>Zerocoin</translation>
     </message>
     <message>
-        <source>zBPR is currently undergoing maintenance</source>
-        <translation>zBPR şu anda bakımdadır</translation>
+        <source>zSBE is currently undergoing maintenance</source>
+        <translation>zSBE şu anda bakımdadır</translation>
     </message>
     <message>
-        <source>You need to unlock the wallet to be able to %1 zBPR</source>
-        <translation>%1 zBPR yapabilmek için cüzdanınızın kilidini kaldırmalısınız</translation>
+        <source>You need to unlock the wallet to be able to %1 zSBE</source>
+        <translation>%1 zSBE yapabilmek için cüzdanınızın kilidini kaldırmalısınız</translation>
     </message>
     <message>
         <source>convert</source>
@@ -2146,16 +2146,16 @@ transaction history, making transactions untraceable </source>
         <translation>Geçersiz değer</translation>
     </message>
     <message>
-        <source>zBPR minted successfully</source>
-        <translation>zBPR minting başarılı</translation>
+        <source>zSBE minted successfully</source>
+        <translation>zSBE minting başarılı</translation>
     </message>
     <message>
-        <source>zBPR converted back to BPR</source>
-        <translation>zBPR BPR'e dönüştürüldü</translation>
+        <source>zSBE converted back to SBE</source>
+        <translation>zSBE SBE'e dönüştürüldü</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>Seçebileceğiniz BPR'iniz bulunmuyor</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>Seçebileceğiniz SBE'iniz bulunmuyor</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
@@ -2516,8 +2516,8 @@ transaction history, making transactions untraceable </source>
         <translation>Özel Yedekleme Yolu:</translation>
     </message>
     <message>
-        <source>Custom zBPR Backup Path:</source>
-        <translation>Özel zBPR Yedekleme Yolu:</translation>
+        <source>Custom zSBE Backup Path:</source>
+        <translation>Özel zSBE Yedekleme Yolu:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -2762,7 +2762,7 @@ transaction history, making transactions untraceable </source>
         <translation>Al</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive BPR.</source>
+        <source>Scan the QR code or copy the address to receive SBE.</source>
         <translation>Sombe almak için QR kodunu okutun veya adresi kopyalayın</translation>
     </message>
     <message>
@@ -2864,8 +2864,8 @@ transaction history, making transactions untraceable </source>
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>BPR</source>
-        <translation>BPR</translation>
+        <source>SBE</source>
+        <translation>SBE</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -2944,7 +2944,7 @@ transaction history, making transactions untraceable </source>
     </message>
     <message>
         <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" Sombe address</source>
-        <translation>Giriş ve çıkış değerleri arasındaki kalan tutar "fark" BPR adresine gider</translation>
+        <translation>Giriş ve çıkış değerleri arasındaki kalan tutar "fark" SBE adresine gider</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3032,8 +3032,8 @@ transaction history, making transactions untraceable </source>
         <translation>Gönder</translation>
     </message>
     <message>
-        <source>You can transfer public coins (BPR) or private coins (zBPR)</source>
-        <translation>Açık koin BPR veya gizli koin zBPR transfer edebilirsiniz</translation>
+        <source>You can transfer public coins (SBE) or private coins (zSBE)</source>
+        <translation>Açık koin SBE veya gizli koin zSBE transfer edebilirsiniz</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3064,12 +3064,12 @@ transaction history, making transactions untraceable </source>
         <translation>Gönderilecek toplam</translation>
     </message>
     <message>
-        <source>Send BPR</source>
-        <translation>BPR Gönder</translation>
+        <source>Send SBE</source>
+        <translation>SBE Gönder</translation>
     </message>
     <message>
-        <source>Send zBPR</source>
-        <translation>zBPR gönder</translation>
+        <source>Send zSBE</source>
+        <translation>zSBE gönder</translation>
     </message>
     <message>
         <source>Total remaining from the selected UTXO</source>
@@ -3124,8 +3124,8 @@ Bu koinler artık soğuk stakelenmeyecektir.</translation>
         <translation>Zerocoin Harca</translation>
     </message>
     <message>
-        <source>zBPR is currently undergoing maintenance.</source>
-        <translation>zBPR halen bakımda.</translation>
+        <source>zSBE is currently undergoing maintenance.</source>
+        <translation>zSBE halen bakımda.</translation>
     </message>
     <message>
         <source>Coin control mint not found</source>
@@ -3144,12 +3144,12 @@ Bu koinler artık soğuk stakelenmeyecektir.</translation>
 %2 adreslerine gönderiliyor</translation>
     </message>
     <message>
-        <source>zBPR transaction sent!</source>
-        <translation>zBPR ödemesi gönderildi</translation>
+        <source>zSBE transaction sent!</source>
+        <translation>zSBE ödemesi gönderildi</translation>
     </message>
     <message>
-        <source>Version 1 zBPR require a security level of 100 to successfully spend.</source>
-        <translation>Versiyon 1 olan zBPR'lerin başarıyla harcanabilmesi için güvenlik seviyesinin 100 olması gerekiyor.</translation>
+        <source>Version 1 zSBE require a security level of 100 to successfully spend.</source>
+        <translation>Versiyon 1 olan zSBE'lerin başarıyla harcanabilmesi için güvenlik seviyesinin 100 olması gerekiyor.</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
@@ -3184,12 +3184,12 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Belirlenmiş masraf %1</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>Seçebileceğiniz BPR'iniz bulunmuyor</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>Seçebileceğiniz SBE'iniz bulunmuyor</translation>
     </message>
     <message>
-        <source>You don't have any zBPR in your balance to select.</source>
-        <translation>Bakiyenizde seçebileceğiniz zBPR'iniz bulunmuyor</translation>
+        <source>You don't have any zSBE in your balance to select.</source>
+        <translation>Bakiyenizde seçebileceğiniz zSBE'iniz bulunmuyor</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
@@ -3606,30 +3606,30 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>1)Sombe nedir?</translation>
     </message>
     <message>
-        <source>2) Why are my BPR unspendable?</source>
-        <translation>2) BPR'lerim neden harcanabilir değil?</translation>
+        <source>2) Why are my SBE unspendable?</source>
+        <translation>2) SBE'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
-        <source>3) Sombe privacy? What is Zerocoin (zBPR)?</source>
-        <translation>3)Sombe gizliliği? Zerocoin (zBPR) nedir?</translation>
+        <source>3) Sombe privacy? What is Zerocoin (zSBE)?</source>
+        <translation>3)Sombe gizliliği? Zerocoin (zSBE) nedir?</translation>
     </message>
     <message>
-        <source>4) Why are my zBPR unspendable?</source>
-        <translation>4)  zBPR'lerim neden harcanabilir değil?</translation>
+        <source>4) Why are my zSBE unspendable?</source>
+        <translation>4)  zSBE'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>5) Why did my wallet convert the balance
-    into zBPR automatically?</source>
+    into zSBE automatically?</source>
         <translation>5)Neden cüzdanım bakiyemi otomatik olarak
-zBPR'e dönüştürdü?</translation>
+zSBE'e dönüştürdü?</translation>
     </message>
     <message>
-        <source>6) How do I receive BPR/zBPR?</source>
-        <translation>6) Nasıl BPR/zBPR alabilirim?</translation>
+        <source>6) How do I receive SBE/zSBE?</source>
+        <translation>6) Nasıl SBE/zSBE alabilirim?</translation>
     </message>
     <message>
-        <source>7) How do I stake BPR/zBPR?</source>
-        <translation>7) Nasıl BPR/zBPR staking yapabilirim?</translation>
+        <source>7) How do I stake SBE/zSBE?</source>
+        <translation>7) Nasıl SBE/zSBE staking yapabilirim?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -3650,7 +3650,7 @@ zBPR'e dönüştürdü?</translation>
                            that can be easily transferred globally, instantly, and with near
                            zero fees.  Sombe incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
-                           to implement ZeroCoin(zBPR) and Zerocoin staking.
+                           to implement ZeroCoin(zSBE) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Sombe utilizes a Proof of Stake (PoS) consensus system algorithm,
                            allowing all owners of Sombe to participate in earning block rewards
@@ -3663,7 +3663,7 @@ zBPR'e dönüştürdü?</translation>
                            Sombe blockchain teknolojisini kullanan bir dijital online para birimidir
                            global olarak anında ve sıfıra yakın ücretlerle transfer edilebilir
                            Sombe sektördeki en ileri güvenlik ve gizliliğe sahip olmakla birlikte
-                          Zerocoin (zBPR) ve Zerocoin staking özelliklerini
+                          Zerocoin (zSBE) ve Zerocoin staking özelliklerini
                           uygulayan ilk PoS (Proof of Stake) Kriptoparadır.
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Sombe bir  Proof of Stake (PoS) konsensüs algoritma sistemi kullanmaktadır,
@@ -3678,8 +3678,8 @@ bu sayede Sombe sahipleri blok ödülü kazanımına katılabilmektedir
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my BPR unspendable?</source>
-        <translation>BPR'lerim neden harcanabilir değil?</translation>
+        <source>Why are my SBE unspendable?</source>
+        <translation>SBE'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>
@@ -3706,27 +3706,27 @@ bu sayede Sombe sahipleri blok ödülü kazanımına katılabilmektedir
         <translation>3</translation>
     </message>
     <message>
-        <source>Sombe privacy? What is Zerocoin (zBPR)?</source>
-        <translation>Sombe gizliliği? Zerocoin (zBPR) nedir?</translation>
+        <source>Sombe privacy? What is Zerocoin (zSBE)?</source>
+        <translation>Sombe gizliliği? Zerocoin (zSBE) nedir?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zBPR is an optional privacy-centric method of coin mixing on the
+                           zSBE is an optional privacy-centric method of coin mixing on the
                            Sombe blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt;
-                           "Sombe Zerocoin (zBPR) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt;
+                           "Sombe Zerocoin (zSBE) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zBPR Sombe blockchaini üzerinde koinleri karıştırmak için kullanılan
+                           zSBE Sombe blockchaini üzerinde koinleri karıştırmak için kullanılan
 gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
  hiçbir tarayıcı tarafından takip edilemez. Teknik detayları
  hakkında daha çok bilgi almak için
-                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt;
-                           "Sombe Zerocoin (zBPR) Teknik Makalesi"&lt;/a&gt;.
+                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt;
+                           "Sombe Zerocoin (zSBE) Teknik Makalesi"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
     </message>
@@ -3735,20 +3735,20 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
         <translation>4</translation>
     </message>
     <message>
-        <source>Why are my zBPR unspendable?</source>
-        <translation>zBPR'lerim neden harcanabilir değil?</translation>
+        <source>Why are my zSBE unspendable?</source>
+        <translation>zSBE'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           After minting, zBPR will require 20 confirmations as well as 1
+                           After minting, zSBE will require 20 confirmations as well as 1
                            additional mint of the same denomination on the network to
                            become eligible for spending.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Mint işlemi sonrasında, zBPR'lerin harcanabilir duruma gelmesi
+                           Mint işlemi sonrasında, zSBE'lerin harcanabilir duruma gelmesi
  için 20 onay alması ve kendisiyle aynı
  bölüme sahip fazladan 1 mint'e ihtiyaç vardır.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -3759,34 +3759,34 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
         <translation>5</translation>
     </message>
     <message>
-        <source>Why did my wallet convert the balance into zBPR automatically?</source>
-        <translation>Neden cüzdanım bakiyemi otomatik olarak zBPR'e dönüştürdü?</translation>
+        <source>Why did my wallet convert the balance into zSBE automatically?</source>
+        <translation>Neden cüzdanım bakiyemi otomatik olarak zSBE'e dönüştürdü?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           By default the Sombe wallet will convert 10% of your entire BPR
-                           balance to zBPR to assist the network. If you do not wish to
-                           stake zBPR or take advantage of the privacy benefit it brings,
+                           By default the Sombe wallet will convert 10% of your entire SBE
+                           balance to zSBE to assist the network. If you do not wish to
+                           stake zSBE or take advantage of the privacy benefit it brings,
                            you can disable the automatic minting in your Sombe wallet by
-                           going to Settings-&gt;Options and deselecting “Enable zBPR Automint”.
+                           going to Settings-&gt;Options and deselecting “Enable zSBE Automint”.
                            If you are not making use of the Sombe-QT or GUI you can simply open
                            your Sombe.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           You can read more about zBPR in the
-                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt; "Sombe Zerocoin (zBPR) Technical Paper"&lt;/a&gt;.
-                           If you would like to keep and stake your zBPR, please read the "How do I stake"
+                           You can read more about zSBE in the
+                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt; "Sombe Zerocoin (zSBE) Technical Paper"&lt;/a&gt;.
+                           If you would like to keep and stake your zSBE, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Sombe cüzdanınız ağa destek olmak için varsayılan olarak tüm BPR bakiyenizin 10% 'unu zBPR'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zBPR stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zBPR Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. SombeQT veya GUI kullanmıyorsanız, Sombe.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
+                           Sombe cüzdanınız ağa destek olmak için varsayılan olarak tüm SBE bakiyenizin 10% 'unu zSBE'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zSBE stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zSBE Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. SombeQT veya GUI kullanmıyorsanız, Sombe.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Teknik detayları hakkında daha çok bilgi almak için
-                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt; "Sombe Zerocoin (zBPR) Teknik Makalesi"&lt;/a&gt;.
-                           zBPR'lerinizi tutmak ve stakelemek istiyorsanız, lütfen SSS kısmındaki "Nasıl Stake yaparım"
+                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt; "Sombe Zerocoin (zSBE) Teknik Makalesi"&lt;/a&gt;.
+                           zSBE'lerinizi tutmak ve stakelemek istiyorsanız, lütfen SSS kısmındaki "Nasıl Stake yaparım"
 kısmını okuyunuz.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -3796,25 +3796,25 @@ kısmını okuyunuz.
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive BPR/zBPR?</source>
-        <translation>Nasıl BPR/zBPR alabilirim?</translation>
+        <source>How do I receive SBE/zSBE?</source>
+        <translation>Nasıl SBE/zSBE alabilirim?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zBPR can be spent and sent to any Sombe address. The receiver will
-                           receive standard Sombe but the origin of the Sombe is anonymized by the zBPR Protocol.
+                           zSBE can be spent and sent to any Sombe address. The receiver will
+                           receive standard Sombe but the origin of the Sombe is anonymized by the zSBE Protocol.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           If you want more zBPR you will need to mint your balance in the “Privacy” tab.
+                           If you want more zSBE you will need to mint your balance in the “Privacy” tab.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zBPR herhangi bir Sombe adresine gönderilerek harcanabilir.
+                           zSBE herhangi bir Sombe adresine gönderilerek harcanabilir.
                            Alıcı standart Sombe alacaktır fakat Sombe kaynağı
-zBPR Protokolü ile anonimleştirilmiş olacaktır.
+zSBE Protokolü ile anonimleştirilmiş olacaktır.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Daha fazla zBPR istiyorsanız, "Gizlilik" tabından bakiyenizi mintlemeniz gerekecektir.
+                           Daha fazla zSBE istiyorsanız, "Gizlilik" tabından bakiyenizi mintlemeniz gerekecektir.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
     </message>
@@ -3823,8 +3823,8 @@ zBPR Protokolü ile anonimleştirilmiş olacaktır.
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake BPR/zBPR?</source>
-        <translation>Nasıl BPR/zBPR staking yapabilirim?</translation>
+        <source>How do I stake SBE/zSBE?</source>
+        <translation>Nasıl SBE/zSBE staking yapabilirim?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -3842,7 +3842,7 @@ zBPR Protokolü ile anonimleştirilmiş olacaktır.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            A masternode is a computer running a full node Sombe core wallet with a
-                           requirement of 10,000 BPR secured collateral to provide extra services
+                           requirement of 10,000 SBE secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -3874,7 +3874,7 @@ zBPR Protokolü ile anonimleştirilmiş olacaktır.
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 BPR per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 SBE per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -3883,7 +3883,7 @@ zBPR Protokolü ile anonimleştirilmiş olacaktır.
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Tam düğüm Sombe core cüzdanını çalıştıran, gereken 10,000 BPR
+                           Tam düğüm Sombe core cüzdanını çalıştıran, gereken 10,000 SBE
                            teminat bakiyesini barındırarak ağa ekstra hizmetler sunan ve
                            karşılığında da her blok ödülünden düzenli olarak pay alan bir
                            bilgisayardır.Bu hizmetler aşağıdaki gibidir:
@@ -3916,7 +3916,7 @@ işletim maliyetleri sonrası pasif bir gelir sunar.
                            Gereksinimler:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Her Masternod için ayrı 10,000 BPR
+                           &lt;li&gt;Her Masternod için ayrı 10,000 SBE
                            &lt;li&gt;Core cüzdan içinde saklanmalıdır.&lt;/li&gt;
                            &lt;li&gt;Atanmış IP adresi gerekmektedir. &lt;/li&gt;
                            &lt;li&gt;Masternode cüzdanının online olması&lt;/li&gt;
@@ -5034,40 +5034,40 @@ Emin misiniz?
         <translation>Tarafından alındı</translation>
     </message>
     <message>
-        <source>BPR Stake</source>
-        <translation>BPR Stake</translation>
+        <source>SBE Stake</source>
+        <translation>SBE Stake</translation>
     </message>
     <message>
-        <source>zBPR Stake</source>
-        <translation>zBPR Stake</translation>
+        <source>zSBE Stake</source>
+        <translation>zSBE Stake</translation>
     </message>
     <message>
-        <source>BPR Cold Stake</source>
-        <translation>BPR Soğuk Stake</translation>
+        <source>SBE Cold Stake</source>
+        <translation>SBE Soğuk Stake</translation>
     </message>
     <message>
         <source>Stake delegation</source>
         <translation>Stake delegasyonu</translation>
     </message>
     <message>
-        <source>Converted BPR to zBPR</source>
-        <translation>BPR'den zBPR'e dönüştürülen</translation>
+        <source>Converted SBE to zSBE</source>
+        <translation>SBE'den zSBE'e dönüştürülen</translation>
     </message>
     <message>
-        <source>Spent zBPR</source>
-        <translation>zBPR Harca</translation>
+        <source>Spent zSBE</source>
+        <translation>zSBE Harca</translation>
     </message>
     <message>
-        <source>Received BPR from zBPR</source>
-        <translation>zBPR'den BPR olarak alınan</translation>
+        <source>Received SBE from zSBE</source>
+        <translation>zSBE'den SBE olarak alınan</translation>
     </message>
     <message>
-        <source>Minted Change as zBPR from zBPR Spend</source>
-        <translation>zBPR harcamasından kaynaklanan zBPR mint farkı</translation>
+        <source>Minted Change as zSBE from zSBE Spend</source>
+        <translation>zSBE harcamasından kaynaklanan zSBE mint farkı</translation>
     </message>
     <message>
-        <source>Converted zBPR to BPR</source>
-        <translation>zBPR'den BPR' dönüştürülen</translation>
+        <source>Converted zSBE to SBE</source>
+        <translation>zSBE'den SBE' dönüştürülen</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5220,8 +5220,8 @@ Emin misiniz?
         <translation>18/05/18</translation>
     </message>
     <message>
-        <source>+0.000585 BPR</source>
-        <translation>+0.000585 BPR</translation>
+        <source>+0.000585 SBE</source>
+        <translation>+0.000585 SBE</translation>
     </message>
 </context>
 <context>
@@ -5231,8 +5231,8 @@ Emin misiniz?
         <translation>Koinleri göder</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BPR.</source>
-        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 BPR ile sınırlıdır.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 SBE.</source>
+        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 SBE ile sınırlıdır.</translation>
     </message>
 </context>
 <context>
@@ -5305,10 +5305,10 @@ Hoşgeldiniz</translation>
     </message>
 </context>
 <context>
-    <name>ZBprControlDialog</name>
+    <name>ZSBEControlDialog</name>
     <message>
-        <source>Select zBPR to Spend</source>
-        <translation>Harcanacak zBPR'leri seçin</translation>
+        <source>Select zSBE to Spend</source>
+        <translation>Harcanacak zSBE'leri seçin</translation>
     </message>
     <message>
         <source>Coin Control</source>
@@ -5319,8 +5319,8 @@ Hoşgeldiniz</translation>
         <translation>Butona Basın</translation>
     </message>
     <message>
-        <source>zBpr</source>
-        <translation>zBpr</translation>
+        <source>zSBE</source>
+        <translation>zSBE</translation>
     </message>
     <message>
         <source>0.00 </source>
@@ -5343,8 +5343,8 @@ Hoşgeldiniz</translation>
         <translation>Seç/Çıkar Hepsini</translation>
     </message>
     <message>
-        <source>Select zBPR Denominations to Spend</source>
-        <translation>Harcanacak zBPR Bölümlerini Seçin</translation>
+        <source>Select zSBE Denominations to Spend</source>
+        <translation>Harcanacak zSBE Bölümlerini Seçin</translation>
     </message>
 </context>
 <context>
@@ -5402,12 +5402,12 @@ Hoşgeldiniz</translation>
         <translation>Soğuk stakeleme fonksiyonunu etkinleştirin (0-1, varsayılan: %u). Staking=0 ise etkin değildir</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BPR inputs (0-1, default: %u)</source>
-        <translation>BPR girişleri için stake fonksiyonunu aç veya kapat (0-1, varsayılan: %u)</translation>
+        <source>Enable or disable staking functionality for SBE inputs (0-1, default: %u)</source>
+        <translation>SBE girişleri için stake fonksiyonunu aç veya kapat (0-1, varsayılan: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBPR inputs (0-1, default: %u)</source>
-        <translation>zBPR girişleri için stake fonksiyonunu aç veya kapat (0-1, varsayılan: %u)</translation>
+        <source>Enable or disable staking functionality for zSBE inputs (0-1, default: %u)</source>
+        <translation>zSBE girişleri için stake fonksiyonunu aç veya kapat (0-1, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5442,12 +5442,12 @@ Hoşgeldiniz</translation>
         <translation>En iyi blok değiştirildiğinde komutu yürütün (cmd'deki %s yerine blok karması verilir)</translation>
     </message>
     <message>
-        <source>Fees (in BPR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (BPR / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in SBE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (SBE / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BPR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (BPR / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in SBE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (SBE / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5810,8 +5810,8 @@ Hoşgeldiniz</translation>
         <translation>Blok okuma hatası</translation>
     </message>
     <message>
-        <source>Fee (in BPR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gönderdiğiniz transfere (BPR/kb cinsinden) bir masraf ekleyin (varsayılan: %s) </translation>
+        <source>Fee (in SBE/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gönderdiğiniz transfere (SBE/kb cinsinden) bir masraf ekleyin (varsayılan: %s) </translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5886,12 +5886,12 @@ Hoşgeldiniz</translation>
         <translation>masternode.conf dosyasında geçersiz port tespit edildi</translation>
     </message>
     <message>
-        <source>Recalculating BPR supply...</source>
-        <translation>BPR tedariği tekrar hesaplanıyor...</translation>
+        <source>Recalculating SBE supply...</source>
+        <translation>SBE tedariği tekrar hesaplanıyor...</translation>
     </message>
     <message>
-        <source>Reindex the BPR and zBPR money supply statistics</source>
-        <translation>BPR ve zBPR para tedarik istatistiklerini tekrar endeksle</translation>
+        <source>Reindex the SBE and zSBE money supply statistics</source>
+        <translation>SBE ve zSBE para tedarik istatistiklerini tekrar endeksle</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -6346,8 +6346,8 @@ Hoşgeldiniz</translation>
         <translation>Sporklar eşzamanlanıyor..</translation>
     </message>
     <message>
-        <source>Syncing zBPR wallet...</source>
-        <translation>zBPR cüzdanı eşzamanlanıyor..</translation>
+        <source>Syncing zSBE wallet...</source>
+        <translation>zSBE cüzdanı eşzamanlanıyor..</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -6454,8 +6454,8 @@ Hoşgeldiniz</translation>
         <translation>JSON-RPC bağlantısı için kullanıcı adı</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBPR</source>
-        <translation>Aşağıdaki değer zBPR'in mümkün olan en küçük bölüm değeridir (=1)</translation>
+        <source>Value is below the smallest available denomination (= 1) of zSBE</source>
+        <translation>Aşağıdaki değer zSBE'in mümkün olan en küçük bölüm değeridir (=1)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

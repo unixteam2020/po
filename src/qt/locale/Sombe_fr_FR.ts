@@ -380,8 +380,8 @@ pour le staking</translation>
         <translation>Si vous chiffrez votre portefeuille et perdez votre phrase secrète, vous allez</translation>
     </message>
     <message>
-        <source>LOSE ALL OF YOUR BPR</source>
-        <translation>PERDRE TOUS VOS BPR</translation>
+        <source>LOSE ALL OF YOUR SBE</source>
+        <translation>PERDRE TOUS VOS SBE</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
@@ -396,8 +396,8 @@ pour le staking</translation>
         <translation>ATTENTION : la touche de verrouillage des majuscules est activée!</translation>
     </message>
     <message>
-        <source>Sombe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BPRs from being stolen by malware infecting your computer.</source>
-        <translation>Sombe va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos BPRs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>Sombe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SBEs from being stolen by malware infecting your computer.</source>
+        <translation>Sombe va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos SBEs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -466,8 +466,8 @@ pour le staking</translation>
         <translation>Épargne</translation>
     </message>
     <message>
-        <source>0,00 BPR</source>
-        <translation>0,00 BPR</translation>
+        <source>0,00 SBE</source>
+        <translation>0,00 SBE</translation>
     </message>
     <message>
         <source>address</source>
@@ -508,8 +508,8 @@ pour le staking</translation>
         <translation>Sélection des pièces</translation>
     </message>
     <message>
-        <source>Select BPR Outputs to Spend</source>
-        <translation>Choisir les sorties BPR à dépenser</translation>
+        <source>Select SBE Outputs to Spend</source>
+        <translation>Choisir les sorties SBE à dépenser</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -536,8 +536,8 @@ pour le staking</translation>
         <translation>Montant</translation>
     </message>
     <message>
-        <source>0.00 BPR</source>
-        <translation>0.00 BPR</translation>
+        <source>0.00 SBE</source>
+        <translation>0.00 SBE</translation>
     </message>
     <message>
         <source>0</source>
@@ -720,8 +720,8 @@ pour le staking</translation>
         <translation>Ce libellé devient rouge si l'un des destinataires reçoit un montant inférieur à %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubpr per input.</source>
-        <translation>Peut varier de +/- %1 ubpr par entrée.</translation>
+        <source>Can vary +/- %1 uSBE per input.</source>
+        <translation>Peut varier de +/- %1 uSBE par entrée.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -803,17 +803,17 @@ pour le staking</translation>
         <translation>Erreur lors du chargement des délégations: %1</translation>
     </message>
     <message>
-        <source>You can delegate your BPRs, letting a hot node (24/7 online node)
+        <source>You can delegate your SBEs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>Vous pouvez déléguer vos BPRs et laissez un noeud à chaud (en ligne 24/7) faire du staking en votre nom, tout en conservant les clés privées hors ligne.</translation>
+        <translation>Vous pouvez déléguer vos SBEs et laissez un noeud à chaud (en ligne 24/7) faire du staking en votre nom, tout en conservant les clés privées hors ligne.</translation>
     </message>
     <message>
         <source>Enter owner address</source>
         <translation>Entrer l'adresse propriétaire</translation>
     </message>
     <message>
-        <source>Accept BPR delegation / Delegate BPR</source>
-        <translation>Accepter la délégation de BPR / Déléguer des BPR</translation>
+        <source>Accept SBE delegation / Delegate SBE</source>
+        <translation>Accepter la délégation de SBE / Déléguer des SBE</translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -880,8 +880,8 @@ Souhaitez-vous continuer ?</translation>
         <translation>Pièces déléguées</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>Vous n'avez aucun BPR à sélectionner</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>Vous n'avez aucun SBE à sélectionner</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
@@ -1012,12 +1012,12 @@ propriétaire</translation>
         <translation>Statistiques de staking</translation>
     </message>
     <message>
-        <source>BPR</source>
-        <translation>BPR</translation>
+        <source>SBE</source>
+        <translation>SBE</translation>
     </message>
     <message>
-        <source>zBPR</source>
-        <translation>zBPR</translation>
+        <source>zSBE</source>
+        <translation>zSBE</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -1048,8 +1048,8 @@ propriétaire</translation>
         <translation>Vous pouvez voir l'historique de votre compte</translation>
     </message>
     <message>
-        <source>Amount of BPR and zBPR staked.</source>
-        <translation>Le montant de BPR et de zBPR en staking</translation>
+        <source>Amount of SBE and zSBE staked.</source>
+        <translation>Le montant de SBE et de zSBE en staking</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1060,8 +1060,8 @@ propriétaire</translation>
         <translation>Pas encore de transaction</translation>
     </message>
     <message>
-        <source>How to get BPR or zBPR</source>
-        <translation>Comment obtenir des BPR ou zBPR</translation>
+        <source>How to get SBE or zSBE</source>
+        <translation>Comment obtenir des SBE ou zSBE</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1400,8 +1400,8 @@ Il commencera automatiquement dès que le portefeuille aura assez de confirmatio
         <translation>Créer un nouveau contrôleur de Masternode</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Sombe Masternode you must dedicate 10,000 BPR (the unit of Sombe) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pour créer un Masternode Sombe vous devez dédier 10.000 BPR (l'unité de Sombe) au réseau (notez que ces monnaies restent les votres et ne quitteront jamais votre portefeuille)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Vous pouvez désactiver votre noeud et libérer vos monnaies en tous temps. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Sombe Masternode you must dedicate 10,000 SBE (the unit of Sombe) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Pour créer un Masternode Sombe vous devez dédier 10.000 SBE (l'unité de Sombe) au réseau (notez que ces monnaies restent les votres et ne quitteront jamais votre portefeuille)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Vous pouvez désactiver votre noeud et libérer vos monnaies en tous temps. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1420,8 +1420,8 @@ Il commencera automatiquement dès que le portefeuille aura assez de confirmatio
         <translation>Assurez-vous d'avoir ce montant de pièces.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 BPR will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Une transaction de 10 000 BPR sera effectuée &lt;/p&gt;&lt;p&gt; vers une nouvelle adresse de votre partefeuille.&lt;/p&gt;&lt;p&gt; L'adresse est étiquettée avec le nom de masternode. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 SBE will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Une transaction de 10 000 SBE sera effectuée &lt;/p&gt;&lt;p&gt; vers une nouvelle adresse de votre partefeuille.&lt;/p&gt;&lt;p&gt; L'adresse est étiquettée avec le nom de masternode. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1654,8 +1654,8 @@ Confirmez-vous?</translation>
         <translation>Impossible de créer le contrôleur masternode, portefeuille vérouillé</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 BPR required.</source>
-        <translation>Fonds insuffisant pour créer un masternode, 10 000 BPR sont requis.</translation>
+        <source>Not enough balance to create a masternode, 10,000 SBE required.</source>
+        <translation>Fonds insuffisant pour créer un masternode, 10 000 SBE sont requis.</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
@@ -1902,36 +1902,36 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
         <translation>Répertorier les port utilisant UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BPR units to zBPR</source>
-        <translation>Activé l'auto-monnayage de BPR unités en zBPR</translation>
+        <source>Enable automatic minting of SBE units to zSBE</source>
+        <translation>Activé l'auto-monnayage de SBE unités en zSBE</translation>
     </message>
     <message>
-        <source>Enable zBPR Automint</source>
-        <translation>Activer l'Auto-monnayage zBPR </translation>
+        <source>Enable zSBE Automint</source>
+        <translation>Activer l'Auto-monnayage zSBE </translation>
     </message>
     <message>
-        <source>Enable automatic zBPR minting from specific addresses</source>
-        <translation>Activer la frappe zBPR automatique à partir d'adresses spécifiques</translation>
+        <source>Enable automatic zSBE minting from specific addresses</source>
+        <translation>Activer la frappe zSBE automatique à partir d'adresses spécifiques</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Activer les Adresses Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming BPR which get automatically converted to zBPR via Zerocoin Protocol (min: 10%)</source>
-        <translation>Pourcentage des BPR entrants qui seront automatiquement convertis en zBPR via le protocole Zerocoin (min. 10%)</translation>
+        <source>Percentage of incoming SBE which get automatically converted to zSBE via Zerocoin Protocol (min: 10%)</source>
+        <translation>Pourcentage des SBE entrants qui seront automatiquement convertis en zSBE via le protocole Zerocoin (min. 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBPR</source>
-        <translation>Pourcentage de zBPR auto-monnayé</translation>
+        <source>Percentage of autominted zSBE</source>
+        <translation>Pourcentage de zSBE auto-monnayé</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BPR for this denomination is available</source>
-        <translation>Met en attente la conversion automatique Zerocoin jusqu'à ce qu'il y ai suffisament de BPR disponibles pour la dénomination demandée</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough SBE for this denomination is available</source>
+        <translation>Met en attente la conversion automatique Zerocoin jusqu'à ce qu'il y ai suffisament de SBE disponibles pour la dénomination demandée</translation>
     </message>
     <message>
-        <source>Preferred Automint zBPR Denomination</source>
-        <translation>Dénomination préférée pour l'auto-monnayage zBPR</translation>
+        <source>Preferred Automint zSBE Denomination</source>
+        <translation>Dénomination préférée pour l'auto-monnayage zSBE</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2302,50 +2302,50 @@ Adresse : %4
         <translation>Monnayage</translation>
     </message>
     <message>
-        <source>Minting zBPR anonymizes your BPR by removing any
+        <source>Minting zSBE anonymizes your SBE by removing any
 transaction history, making transactions untraceable </source>
-        <translation>Frapper des zBPR anonymise vos BPR en supprimant tout
+        <translation>Frapper des zSBE anonymise vos SBE en supprimant tout
 l'historique de transaction, rendant les transactions intraçables</translation>
     </message>
     <message>
-        <source>Mint new zBPR or convert back to BPR</source>
-        <translation>Frapper de nouveaux zBPR ou reconvertir en BPR</translation>
+        <source>Mint new zSBE or convert back to SBE</source>
+        <translation>Frapper de nouveaux zSBE ou reconvertir en SBE</translation>
     </message>
     <message>
-        <source>Last zBPR Movements</source>
-        <translation>Derniers mouvements zBPR</translation>
+        <source>Last zSBE Movements</source>
+        <translation>Derniers mouvements zSBE</translation>
     </message>
     <message>
         <source>No transactions yet</source>
         <translation>Pas encore de transaction</translation>
     </message>
     <message>
-        <source>Mint zBPR</source>
-        <translation>Frapper des zBPR</translation>
+        <source>Mint zSBE</source>
+        <translation>Frapper des zSBE</translation>
     </message>
     <message>
-        <source>Enter amount of BPR to mint into zBPR</source>
-        <translation>Entrer le montant de BPR à monnayer en zBPR</translation>
+        <source>Enter amount of SBE to mint into zSBE</source>
+        <translation>Entrer le montant de SBE à monnayer en zSBE</translation>
     </message>
     <message>
-        <source>Convert back to BPR</source>
-        <translation>Reconvertir en BPR</translation>
+        <source>Convert back to SBE</source>
+        <translation>Reconvertir en SBE</translation>
     </message>
     <message>
-        <source>Enter amount of zBPR to convert back into BPR</source>
-        <translation>Entrer le montant de zBPR à reconvertir en BPR</translation>
+        <source>Enter amount of zSBE to convert back into SBE</source>
+        <translation>Entrer le montant de zSBE à reconvertir en SBE</translation>
     </message>
     <message>
         <source>Zerocoin</source>
         <translation>Zerocoin</translation>
     </message>
     <message>
-        <source>zBPR is currently undergoing maintenance</source>
-        <translation>zBPR est actuellement en maintenance</translation>
+        <source>zSBE is currently undergoing maintenance</source>
+        <translation>zSBE est actuellement en maintenance</translation>
     </message>
     <message>
-        <source>You need to unlock the wallet to be able to %1 zBPR</source>
-        <translation>Vous devez dévérouiller le portefeuille pour pouvoir %1 zBPR</translation>
+        <source>You need to unlock the wallet to be able to %1 zSBE</source>
+        <translation>Vous devez dévérouiller le portefeuille pour pouvoir %1 zSBE</translation>
     </message>
     <message>
         <source>convert</source>
@@ -2360,16 +2360,16 @@ l'historique de transaction, rendant les transactions intraçables</translation>
         <translation>Valeur incorrecte</translation>
     </message>
     <message>
-        <source>zBPR minted successfully</source>
-        <translation>zBPR frappées avec succès</translation>
+        <source>zSBE minted successfully</source>
+        <translation>zSBE frappées avec succès</translation>
     </message>
     <message>
-        <source>zBPR converted back to BPR</source>
-        <translation>zBPR reconverti en BPR</translation>
+        <source>zSBE converted back to SBE</source>
+        <translation>zSBE reconverti en SBE</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>Vous n'avez aucun BPR à sélectionner</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>Vous n'avez aucun SBE à sélectionner</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
@@ -2380,8 +2380,8 @@ l'historique de transaction, rendant les transactions intraçables</translation>
         <translation>Votre monnayage Zerocoin va être retracer à partir de la blockchain</translation>
     </message>
     <message>
-        <source>Reset Spent zBPR</source>
-        <translation>Réinitialiser les zBPR dépensés</translation>
+        <source>Reset Spent zSBE</source>
+        <translation>Réinitialiser les zSBE dépensés</translation>
     </message>
     <message>
         <source>Your zerocoin spends are going to be scanned from the blockchain from scratch</source>
@@ -2794,8 +2794,8 @@ l'historique de transaction, rendant les transactions intraçables</translation>
         <translation>Chemin du répertoire de sauvegarde personnalisé:</translation>
     </message>
     <message>
-        <source>Custom zBPR Backup Path:</source>
-        <translation>Chemin du répertoire de sauvegarde zBPR personnalisé:</translation>
+        <source>Custom zSBE Backup Path:</source>
+        <translation>Chemin du répertoire de sauvegarde zSBE personnalisé:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3040,8 +3040,8 @@ l'historique de transaction, rendant les transactions intraçables</translation>
         <translation>Recevoir</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive BPR.</source>
-        <translation>Balayez le QR code ou copiez l'adresse pour recevoir les BPR.</translation>
+        <source>Scan the QR code or copy the address to receive SBE.</source>
+        <translation>Balayez le QR code ou copiez l'adresse pour recevoir les SBE.</translation>
     </message>
     <message>
         <source>No address </source>
@@ -3150,8 +3150,8 @@ l'historique de transaction, rendant les transactions intraçables</translation>
         <translation>Montant</translation>
     </message>
     <message>
-        <source>BPR</source>
-        <translation>BPR</translation>
+        <source>SBE</source>
+        <translation>SBE</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -3284,8 +3284,8 @@ l'historique de transaction, rendant les transactions intraçables</translation>
         <translation>Recommandé </translation>
     </message>
     <message>
-        <source>BPR/kilobyte</source>
-        <translation>BPR/kilo-octet</translation>
+        <source>SBE/kilobyte</source>
+        <translation>SBE/kilo-octet</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3354,8 +3354,8 @@ l'historique de transaction, rendant les transactions intraçables</translation>
         <translation>Envoyer</translation>
     </message>
     <message>
-        <source>You can transfer public coins (BPR) or private coins (zBPR)</source>
-        <translation>Vous pouvez transférer des pièces publiques (BPR) ou des pièces privées (zBPR)</translation>
+        <source>You can transfer public coins (SBE) or private coins (zSBE)</source>
+        <translation>Vous pouvez transférer des pièces publiques (SBE) ou des pièces privées (zSBE)</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3386,12 +3386,12 @@ l'historique de transaction, rendant les transactions intraçables</translation>
         <translation>Total à envoyer</translation>
     </message>
     <message>
-        <source>Send BPR</source>
-        <translation>Envoyer BPR</translation>
+        <source>Send SBE</source>
+        <translation>Envoyer SBE</translation>
     </message>
     <message>
-        <source>Send zBPR</source>
-        <translation>Envoyer zBPR</translation>
+        <source>Send zSBE</source>
+        <translation>Envoyer zSBE</translation>
     </message>
     <message>
         <source>Total remaining from the selected UTXO</source>
@@ -3466,8 +3466,8 @@ Ces pièces ne pourront plus être utilisées pour le staking à froid.</transla
         <translation>Dépenser les Zerocoin</translation>
     </message>
     <message>
-        <source>zBPR is currently undergoing maintenance.</source>
-        <translation>zBPR est actuellement en cours de maintenance.</translation>
+        <source>zSBE is currently undergoing maintenance.</source>
+        <translation>zSBE est actuellement en cours de maintenance.</translation>
     </message>
     <message>
         <source>Coin control mint not found</source>
@@ -3486,12 +3486,12 @@ Ces pièces ne pourront plus être utilisées pour le staking à froid.</transla
  %2</translation>
     </message>
     <message>
-        <source>zBPR transaction sent!</source>
-        <translation>Transaction zBPR envoyée!</translation>
+        <source>zSBE transaction sent!</source>
+        <translation>Transaction zSBE envoyée!</translation>
     </message>
     <message>
-        <source>Version 1 zBPR require a security level of 100 to successfully spend.</source>
-        <translation>La version 1 de zBPR requiert un niveau de sécurité de 100 pour les dépenser.
+        <source>Version 1 zSBE require a security level of 100 to successfully spend.</source>
+        <translation>La version 1 de zSBE requiert un niveau de sécurité de 100 pour les dépenser.
 </translation>
     </message>
     <message>
@@ -3527,12 +3527,12 @@ Monnayez des dénominations plus élevées (moins d'intrants sont nécessaires),
         <translation>Frais personnalisé %1</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>Vous n'avez aucun BPR à sélectionner</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>Vous n'avez aucun SBE à sélectionner</translation>
     </message>
     <message>
-        <source>You don't have any zBPR in your balance to select.</source>
-        <translation>Vous n'avez aucun zBPR à sélectionner.</translation>
+        <source>You don't have any zSBE in your balance to select.</source>
+        <translation>Vous n'avez aucun zSBE à sélectionner.</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
@@ -4035,30 +4035,30 @@ Il y a eu une erreur de sauvegarde de la liste d'adresses vers %1. SVP rééssay
         <translation>1) Qu'est ce que Sombe?</translation>
     </message>
     <message>
-        <source>2) Why are my BPR unspendable?</source>
-        <translation>2) Pourquoi mes BPR ne peuvent pas être dépensés?</translation>
+        <source>2) Why are my SBE unspendable?</source>
+        <translation>2) Pourquoi mes SBE ne peuvent pas être dépensés?</translation>
     </message>
     <message>
-        <source>3) Sombe privacy? What is Zerocoin (zBPR)?</source>
-        <translation>3) Confidentialité et Sombe? Qu'est ce que Zerocoin (zBPR)?</translation>
+        <source>3) Sombe privacy? What is Zerocoin (zSBE)?</source>
+        <translation>3) Confidentialité et Sombe? Qu'est ce que Zerocoin (zSBE)?</translation>
     </message>
     <message>
-        <source>4) Why are my zBPR unspendable?</source>
-        <translation>4) Pourquoi mes zBPR ne peuvent pas être dépensés?</translation>
+        <source>4) Why are my zSBE unspendable?</source>
+        <translation>4) Pourquoi mes zSBE ne peuvent pas être dépensés?</translation>
     </message>
     <message>
         <source>5) Why did my wallet convert the balance
-    into zBPR automatically?</source>
+    into zSBE automatically?</source>
         <translation>5) Pourquoi mon portefeuille convertit-il automatiquement
-mon solde en zBPR?</translation>
+mon solde en zSBE?</translation>
     </message>
     <message>
-        <source>6) How do I receive BPR/zBPR?</source>
-        <translation>6) Comment recevoir des BPR/zBPR?</translation>
+        <source>6) How do I receive SBE/zSBE?</source>
+        <translation>6) Comment recevoir des SBE/zSBE?</translation>
     </message>
     <message>
-        <source>7) How do I stake BPR/zBPR?</source>
-        <translation>7) Comment staker des BPR/zBPR?</translation>
+        <source>7) How do I stake SBE/zSBE?</source>
+        <translation>7) Comment staker des SBE/zSBE?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -4087,7 +4087,7 @@ mon solde en zBPR?</translation>
                            that can be easily transferred globally, instantly, and with near
                            zero fees.  Sombe incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
-                           to implement ZeroCoin(zBPR) and Zerocoin staking.
+                           to implement ZeroCoin(zSBE) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Sombe utilizes a Proof of Stake (PoS) consensus system algorithm,
                            allowing all owners of Sombe to participate in earning block rewards
@@ -4100,7 +4100,7 @@ mon solde en zBPR?</translation>
 Sombe est une forme de monnaie digitale en ligne qui utilise la technologie de la blockchain
 et qui peut être facilement transférée globalement, instantanément, avec des frais
 quasi nuls. Sombe intègre les meilleures solutions de sécurité et de confidentialité
-du marché et elle est également la première cryptomonnaie avec un consensus PoS (Proof of Stake ou Preuve d'Enjeu) à implémenter Zerocoin(zBPR) ainsi que le staking de Zerocoin.
+du marché et elle est également la première cryptomonnaie avec un consensus PoS (Proof of Stake ou Preuve d'Enjeu) à implémenter Zerocoin(zSBE) ainsi que le staking de Zerocoin.
 &lt;/p&gt;&lt;p align="justify"&gt;
 Sombe utilise un système de consensus de type Proof of Stake (PoS),
 permettant à tous les détenteurs de Sombe de participer au réseau et de gagner des récompenses
@@ -4113,8 +4113,8 @@ lorsqu'ils sécurisent le réseau au moyen de leur portefeuille full node, ainsi
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my BPR unspendable?</source>
-        <translation>Pourquoi mes BPR ne peuvent pas être dépensés?</translation>
+        <source>Why are my SBE unspendable?</source>
+        <translation>Pourquoi mes SBE ne peuvent pas être dépensés?</translation>
     </message>
     <message>
         <source>
@@ -4141,24 +4141,24 @@ pour voir votre solde de monnaie dépensable sur le réseau.
         <translation>3</translation>
     </message>
     <message>
-        <source>Sombe privacy? What is Zerocoin (zBPR)?</source>
-        <translation>Confidentialité et Sombe? Qu'est ce que Zerocoin (zBPR)?</translation>
+        <source>Sombe privacy? What is Zerocoin (zSBE)?</source>
+        <translation>Confidentialité et Sombe? Qu'est ce que Zerocoin (zSBE)?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zBPR is an optional privacy-centric method of coin mixing on the
+                           zSBE is an optional privacy-centric method of coin mixing on the
                            Sombe blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt;
-                           "Sombe Zerocoin (zBPR) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt;
+                           "Sombe Zerocoin (zSBE) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-zBPR est une méthode optionnelle de fongibilité des pièces sur la blockchain Sombe, axée sur la confidentialité. Basiquement, cela permet rendre vos transactions intraçables par les explorateurs de blocs. Vous pouvez en savoir plus sur les aspects techniques en consultant le document
-&lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt;
- "Sombe Zerocoin (zBPR) Technical Paper".&lt;/a&gt;
+zSBE est une méthode optionnelle de fongibilité des pièces sur la blockchain Sombe, axée sur la confidentialité. Basiquement, cela permet rendre vos transactions intraçables par les explorateurs de blocs. Vous pouvez en savoir plus sur les aspects techniques en consultant le document
+&lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt;
+ "Sombe Zerocoin (zSBE) Technical Paper".&lt;/a&gt;
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
     </message>
@@ -4167,19 +4167,19 @@ zBPR est une méthode optionnelle de fongibilité des pièces sur la blockchain 
         <translation>4</translation>
     </message>
     <message>
-        <source>Why are my zBPR unspendable?</source>
-        <translation>Pourquoi mes zBPR ne peuvent pas être dépensés?</translation>
+        <source>Why are my zSBE unspendable?</source>
+        <translation>Pourquoi mes zSBE ne peuvent pas être dépensés?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           After minting, zBPR will require 20 confirmations as well as 1
+                           After minting, zSBE will require 20 confirmations as well as 1
                            additional mint of the same denomination on the network to
                            become eligible for spending.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Après le monnayage, zBPR va nécessiter 20 confirmations ainsi que 1
+Après le monnayage, zSBE va nécessiter 20 confirmations ainsi que 1
 monnayage supplémentaire sur le réseau de la même dénomination
 afin d'être dépensable.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4190,41 +4190,41 @@ afin d'être dépensable.
         <translation>5</translation>
     </message>
     <message>
-        <source>Why did my wallet convert the balance into zBPR automatically?</source>
+        <source>Why did my wallet convert the balance into zSBE automatically?</source>
         <translation>Pourquoi mon portefeuille convertit-il automatiquement
-mon solde en zBPR?</translation>
+mon solde en zSBE?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           By default the Sombe wallet will convert 10% of your entire BPR
-                           balance to zBPR to assist the network. If you do not wish to
-                           stake zBPR or take advantage of the privacy benefit it brings,
+                           By default the Sombe wallet will convert 10% of your entire SBE
+                           balance to zSBE to assist the network. If you do not wish to
+                           stake zSBE or take advantage of the privacy benefit it brings,
                            you can disable the automatic minting in your Sombe wallet by
-                           going to Settings-&gt;Options and deselecting “Enable zBPR Automint”.
+                           going to Settings-&gt;Options and deselecting “Enable zSBE Automint”.
                            If you are not making use of the Sombe-QT or GUI you can simply open
                            your Sombe.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           You can read more about zBPR in the
-                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt; "Sombe Zerocoin (zBPR) Technical Paper"&lt;/a&gt;.
-                           If you would like to keep and stake your zBPR, please read the "How do I stake"
+                           You can read more about zSBE in the
+                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt; "Sombe Zerocoin (zSBE) Technical Paper"&lt;/a&gt;.
+                           If you would like to keep and stake your zSBE, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Par défaut le portefeuille Sombe convertit % de voter total de BPR
-en zBPR afin de soutenir le réseau. Si vous ne souhaitez pas
-conserver des zBPR ou profiter de ses propriétés en matière de confidentialité,
+Par défaut le portefeuille Sombe convertit % de voter total de SBE
+en zSBE afin de soutenir le réseau. Si vous ne souhaitez pas
+conserver des zSBE ou profiter de ses propriétés en matière de confidentialité,
 vous pouvez désactiver cette fonctionnalité dans votre portefeuille Sombe en
-allant dans Paramètres-&gt;Options et décocher “Activer l'atuto-monnayage zBPR”.
+allant dans Paramètres-&gt;Options et décocher “Activer l'atuto-monnayage zSBE”.
 Si vous n'utilisez pas Sombe-QT ou le GUI vous pouvez simplement ouvrir
 votre fichier Sombe.conf et ajouter &lt;i&gt; enablezeromint=0&lt;/i&gt; sans guillements
 et redémarrer votre portefeuille.&lt;/p&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
-Vous pouvez en savoir plus sur zBPR dans
-&lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt; le document "Sombe Zerocoin (zBPR) Technical Paper"&lt;/a&gt;.
-Si vous voulez conserver et mettre en jeu vos zBPR, veuillez lire la section "Comment staker"
+Vous pouvez en savoir plus sur zSBE dans
+&lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt; le document "Sombe Zerocoin (zSBE) Technical Paper"&lt;/a&gt;.
+Si vous voulez conserver et mettre en jeu vos zSBE, veuillez lire la section "Comment staker"
 de la FAQ ci-dessous.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -4234,23 +4234,23 @@ de la FAQ ci-dessous.
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive BPR/zBPR?</source>
-        <translation>Comment recevoir des BPR/zBPR?</translation>
+        <source>How do I receive SBE/zSBE?</source>
+        <translation>Comment recevoir des SBE/zSBE?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zBPR can be spent and sent to any Sombe address. The receiver will
-                           receive standard Sombe but the origin of the Sombe is anonymized by the zBPR Protocol.
+                           zSBE can be spent and sent to any Sombe address. The receiver will
+                           receive standard Sombe but the origin of the Sombe is anonymized by the zSBE Protocol.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           If you want more zBPR you will need to mint your balance in the “Privacy” tab.
+                           If you want more zSBE you will need to mint your balance in the “Privacy” tab.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-zBPR peut être dépensé et envoyé à n'importe quelle adresse Sombe. Le destinataire va recevoir des Sombe standards mais l'origine de ceux-ci sera anonymisé par le protocol zBPR.
+zSBE peut être dépensé et envoyé à n'importe quelle adresse Sombe. Le destinataire va recevoir des Sombe standards mais l'origine de ceux-ci sera anonymisé par le protocol zSBE.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Si vous désirez obtenir plus de zBPR vous devez créer cette monnaie à partir de l'onglet "Confidentialité".
+Si vous désirez obtenir plus de zSBE vous devez créer cette monnaie à partir de l'onglet "Confidentialité".
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
     </message>
@@ -4259,8 +4259,8 @@ Si vous désirez obtenir plus de zBPR vous devez créer cette monnaie à partir 
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake BPR/zBPR?</source>
-        <translation>Comment staker des BPR/zBPR?</translation>
+        <source>How do I stake SBE/zSBE?</source>
+        <translation>Comment staker des SBE/zSBE?</translation>
     </message>
     <message>
         <source>
@@ -4279,12 +4279,12 @@ Si vous désirez obtenir plus de zBPR vous devez créer cette monnaie à partir 
                            You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state "Staking Enabled" to indicate it is staking.  Using the command line interface (Sombe-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
                            &lt;/li&gt;&lt;/ol&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           To Stake zBPR:
+                           To Stake zSBE:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ol&gt;&lt;li&gt;
                            Make sure your wallet is completely synchronized and you are using the latest release.
                            &lt;li&gt;
-                           Your newly minted or existing zBPR balance must have a minimum of 200 confirmations.
+                           Your newly minted or existing zSBE balance must have a minimum of 200 confirmations.
                            &lt;li&gt;
                            Your wallet must stay online and be unlocked for anonymization and staking purposes.
                            Staking should now be enabled.
@@ -4293,7 +4293,7 @@ Si vous désirez obtenir plus de zBPR vous devez créer cette monnaie à partir 
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Pour faire du Stake avec vos BPR:
+Pour faire du Stake avec vos SBE:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ol&gt;&lt;li&gt;
 Assurez-vous que votre portefeuillle est complètement synchronisé et que vous utilisez la dernière version du portefeuille.
@@ -4307,12 +4307,12 @@ Une fois ces étapes accomplies le staking devrait être activé.
  Vous pouvez voir le statut du staking dans le portefeuille en survolant l'icône du package dans la rangée en haut à gauche de l'interface du portefeuille. Le package sera allumé et indiquera "Staking Enabled" pour confirmer qu'il est effectivement activé. Dans le cas de l'utilisation de l'interface en ligne de commande (Sombe-cli); La commande &lt;i&gt;getstakingstatus&lt;/i&gt; confirmera que le staking est actif.
 &lt;/li&gt;&lt;/ol&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
-Pour faire du Stake avec vos zBPR:
+Pour faire du Stake avec vos zSBE:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ol&gt;&lt;li&gt;
 Assurez-vous que votre portefeuillle est complètement synchronisé et que vous utilisez la dernière version du portefeuille.
 &lt;li&gt;
-Votre solde de zBPR doit avoir reçu un minimum de 200 confirmations.
+Votre solde de zSBE doit avoir reçu un minimum de 200 confirmations.
 &lt;li&gt;
 Votre portefeuille doit rester en ligne et dévérouillé pour l'anonymisation et le staking.
 Le staking devrait maintenant être actif.
@@ -4333,8 +4333,8 @@ Le staking devrait maintenant être actif.
         <translation>10) Qu'est ce qu'un contrôleur de Masternode?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 BPR collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt; Un contrôleur de masternode est un portefeuille dans lequel le dépôt de garantie de 10 000 BPR réside pendant la configuration d'un masternode contrôleur-distant. C'est un portefeuille qui peut activer le portefeuille masternode distant et vous permet de conserver le dépôt de garantie hors ligne tandis que le masternode restera en ligne.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 SBE collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt; Un contrôleur de masternode est un portefeuille dans lequel le dépôt de garantie de 10 000 SBE réside pendant la configuration d'un masternode contrôleur-distant. C'est un portefeuille qui peut activer le portefeuille masternode distant et vous permet de conserver le dépôt de garantie hors ligne tandis que le masternode restera en ligne.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>8</source>
@@ -4370,7 +4370,7 @@ notre site support Freshdesk&lt;/a&gt;.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            A masternode is a computer running a full node Sombe core wallet with a
-                           requirement of 10,000 BPR secured collateral to provide extra services
+                           requirement of 10,000 SBE secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -4402,7 +4402,7 @@ notre site support Freshdesk&lt;/a&gt;.
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 BPR per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 SBE per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -4412,7 +4412,7 @@ notre site support Freshdesk&lt;/a&gt;.
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 Un masternode est un ordinateur qui exécute un noeud complet du portefeuille Sombe core avec une
-exigence de 10 000 BPR déposé en garantie pour fournir au réseau des services aditionnels et recevoir, en retour et régulièrement, une partie des récompense de blocs.
+exigence de 10 000 SBE déposé en garantie pour fournir au réseau des services aditionnels et recevoir, en retour et régulièrement, une partie des récompense de blocs.
 Ces services comprennent:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
@@ -4438,7 +4438,7 @@ Avantages du Masternode:
 Exigences:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;10 000 BPR pour chaque instance de masternode&lt;/li&gt;
+&lt;li&gt;10 000 SBE pour chaque instance de masternode&lt;/li&gt;
 &lt;li&gt;Montant conservé dans un portefeuille core&lt;/li&gt;
 &lt;li&gt;Nécessite une IP fixe dédiée&lt;/li&gt;
 &lt;li&gt;Le portefeuille masternode doit rester en ligne&lt;/li&gt;
@@ -5732,15 +5732,15 @@ sauvegarde sera créée.
         <translation>Reçu depuis</translation>
     </message>
     <message>
-        <source>BPR Stake</source>
-        <translation>BPR Stake</translation>
+        <source>SBE Stake</source>
+        <translation>SBE Stake</translation>
     </message>
     <message>
-        <source>zBPR Stake</source>
-        <translation>zBPR Stake</translation>
+        <source>zSBE Stake</source>
+        <translation>zSBE Stake</translation>
     </message>
     <message>
-        <source>BPR Cold Stake</source>
+        <source>SBE Cold Stake</source>
         <translation>Stake à froid Sombe</translation>
     </message>
     <message>
@@ -5748,24 +5748,24 @@ sauvegarde sera créée.
         <translation>Délégation staking</translation>
     </message>
     <message>
-        <source>Converted BPR to zBPR</source>
-        <translation>BPR converti en zBPR</translation>
+        <source>Converted SBE to zSBE</source>
+        <translation>SBE converti en zSBE</translation>
     </message>
     <message>
-        <source>Spent zBPR</source>
-        <translation>zBPR dépensés</translation>
+        <source>Spent zSBE</source>
+        <translation>zSBE dépensés</translation>
     </message>
     <message>
-        <source>Received BPR from zBPR</source>
-        <translation>BPR reçu depuis zBPR</translation>
+        <source>Received SBE from zSBE</source>
+        <translation>SBE reçu depuis zSBE</translation>
     </message>
     <message>
-        <source>Minted Change as zBPR from zBPR Spend</source>
-        <translation>Monnaie rendue à partir d'une dépense zBPR frappée comme zBPR </translation>
+        <source>Minted Change as zSBE from zSBE Spend</source>
+        <translation>Monnaie rendue à partir d'une dépense zSBE frappée comme zSBE </translation>
     </message>
     <message>
-        <source>Converted zBPR to BPR</source>
-        <translation>zBPR converti en BPR</translation>
+        <source>Converted zSBE to SBE</source>
+        <translation>zSBE converti en SBE</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5780,8 +5780,8 @@ sauvegarde sera créée.
         <translation>Paiement à vous-même</translation>
     </message>
     <message>
-        <source>BPR Stake on behalf of</source>
-        <translation>Stake de BPR pour le compte de </translation>
+        <source>SBE Stake on behalf of</source>
+        <translation>Stake de SBE pour le compte de </translation>
     </message>
     <message>
         <source>Stake delegation spent by</source>
@@ -5946,8 +5946,8 @@ sauvegarde sera créée.
         <translation>18/05/2018</translation>
     </message>
     <message>
-        <source>+0.000585 BPR</source>
-        <translation>+0.000585 BPR</translation>
+        <source>+0.000585 SBE</source>
+        <translation>+0.000585 SBE</translation>
     </message>
 </context>
 <context>
@@ -5957,8 +5957,8 @@ sauvegarde sera créée.
         <translation>Envoyer des pièces</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BPR.</source>
-        <translation>SwiftX ne supporte pas l'envoi de montants aussi élevés. Les transactions sont actuellement lmitées à %1 BPR.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 SBE.</source>
+        <translation>SwiftX ne supporte pas l'envoi de montants aussi élevés. Les transactions sont actuellement lmitées à %1 SBE.</translation>
     </message>
 </context>
 <context>
@@ -6031,10 +6031,10 @@ Portefeuille Sombe Coin</translation>
     </message>
 </context>
 <context>
-    <name>ZBprControlDialog</name>
+    <name>ZSBEControlDialog</name>
     <message>
-        <source>Select zBPR to Spend</source>
-        <translation>Choisir les zBPR à dépenser</translation>
+        <source>Select zSBE to Spend</source>
+        <translation>Choisir les zSBE à dépenser</translation>
     </message>
     <message>
         <source>Coin Control</source>
@@ -6045,8 +6045,8 @@ Portefeuille Sombe Coin</translation>
         <translation>Bouton poussoir</translation>
     </message>
     <message>
-        <source>zBpr</source>
-        <translation>zBPR</translation>
+        <source>zSBE</source>
+        <translation>zSBE</translation>
     </message>
     <message>
         <source>0.00 </source>
@@ -6069,8 +6069,8 @@ Portefeuille Sombe Coin</translation>
         <translation>Tout Sélectionner/Désélectionner</translation>
     </message>
     <message>
-        <source>Select zBPR Denominations to Spend</source>
-        <translation>Sélectionnez les dénominations zBPR à dépenser</translation>
+        <source>Select zSBE Denominations to Spend</source>
+        <translation>Sélectionnez les dénominations zSBE à dépenser</translation>
     </message>
 </context>
 <context>
@@ -6128,12 +6128,12 @@ Portefeuille Sombe Coin</translation>
         <translation>Active la fonctionnalité de cold staking (0-1, par défaut: %u). Désactivé si staking=0</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BPR inputs (0-1, default: %u)</source>
-        <translation>Active ou désactive la fonctionnalité de staking pour les entrées BPR (0-1, par défaut: %u)</translation>
+        <source>Enable or disable staking functionality for SBE inputs (0-1, default: %u)</source>
+        <translation>Active ou désactive la fonctionnalité de staking pour les entrées SBE (0-1, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBPR inputs (0-1, default: %u)</source>
-        <translation>Active ou désactive la fonctionnalité de staking pour les entrées zBPR (0-1, par défaut: %u)</translation>
+        <source>Enable or disable staking functionality for zSBE inputs (0-1, default: %u)</source>
+        <translation>Active ou désactive la fonctionnalité de staking pour les entrées zSBE (0-1, par défaut: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -6172,12 +6172,12 @@ Portefeuille Sombe Coin</translation>
         <translation>Exécuter la commande lorsque le meilleur bloc change  (%s dans cmd est remplacé par le hash du bloc)</translation>
     </message>
     <message>
-        <source>Fees (in BPR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Les frais (en BPR / Kb) inférieurs à ceux-ci sont considérés comme des frais nuls pour le relais (par défaut: %s)</translation>
+        <source>Fees (in SBE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Les frais (en SBE / Kb) inférieurs à ceux-ci sont considérés comme des frais nuls pour le relais (par défaut: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BPR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Les frais (en BPR / Kb) inférieurs à cette valeur sont considérés comme des frais nuls pour la création de transaction (par défaut: %s)</translation>
+        <source>Fees (in SBE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Les frais (en SBE / Kb) inférieurs à cette valeur sont considérés comme des frais nuls pour la création de transaction (par défaut: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -6544,8 +6544,8 @@ Portefeuille Sombe Coin</translation>
         <translation>Impossible de lire le bloc</translation>
     </message>
     <message>
-        <source>Fee (in BPR/kB) to add to transactions you send (default: %s)</source>
-        <translation>Frais (en BPR/kB) à ajouter aux transactions envoyées (défaut: %s)</translation>
+        <source>Fee (in SBE/kB) to add to transactions you send (default: %s)</source>
+        <translation>Frais (en SBE/kB) à ajouter aux transactions envoyées (défaut: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -6620,12 +6620,12 @@ Portefeuille Sombe Coin</translation>
         <translation>Port invalide détecté dans masternode.conf</translation>
     </message>
     <message>
-        <source>Recalculating BPR supply...</source>
-        <translation>Recalcule de BPR émis...</translation>
+        <source>Recalculating SBE supply...</source>
+        <translation>Recalcule de SBE émis...</translation>
     </message>
     <message>
-        <source>Reindex the BPR and zBPR money supply statistics</source>
-        <translation>Recalculer les statistiques sur l'approvisionnement en BPR et zBPR</translation>
+        <source>Reindex the SBE and zSBE money supply statistics</source>
+        <translation>Recalculer les statistiques sur l'approvisionnement en SBE et zSBE</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -6694,7 +6694,7 @@ Portefeuille Sombe Coin</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
-        <translation>Spécifier un chemin de sauvegarde personnalisé pour y ajouter les sauvegardes automatiques zBPR. S'il est paramétré comme un dossier, chaque sauvegarde génère un fichier horodaté. S'il est paramétré comme fichier, chaque sauvegarde écrasera la précédente.</translation>
+        <translation>Spécifier un chemin de sauvegarde personnalisé pour y ajouter les sauvegardes automatiques zSBE. S'il est paramétré comme un dossier, chaque sauvegarde génère un fichier horodaté. S'il est paramétré comme fichier, chaque sauvegarde écrasera la précédente.</translation>
     </message>
     <message>
         <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
@@ -7117,8 +7117,8 @@ Portefeuille Sombe Coin</translation>
         <translation>Synchronisation des sporks ...</translation>
     </message>
     <message>
-        <source>Syncing zBPR wallet...</source>
-        <translation>Synchronisation du portefeuille zBPR ...</translation>
+        <source>Syncing zSBE wallet...</source>
+        <translation>Synchronisation du portefeuille zSBE ...</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -7233,8 +7233,8 @@ Portefeuille Sombe Coin</translation>
         <translation>Nom d'utilisateur pour les connections JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBPR</source>
-        <translation>La valeur est inférieure à la plus petite dénomination disponible (= 1) de zBPR</translation>
+        <source>Value is below the smallest available denomination (= 1) of zSBE</source>
+        <translation>La valeur est inférieure à la plus petite dénomination disponible (= 1) de zSBE</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

@@ -53,9 +53,9 @@ TopBar::TopBar(SombeGUI* _mainWindow, QWidget *parent) :
 
     // Amount information top
     ui->widgetTopAmount->setVisible(false);
-    setCssProperty({ui->labelAmountTopBpr}, "amount-small-topbar");
-    setCssProperty({ui->labelAmountBpr}, "amount-topbar");
-    setCssProperty({ui->labelPendingBpr, ui->labelImmatureBpr}, "amount-small-topbar");
+    setCssProperty({ui->labelAmountTopSBE}, "amount-small-topbar");
+    setCssProperty({ui->labelAmountSBE}, "amount-topbar");
+    setCssProperty({ui->labelPendingSBE, ui->labelImmatureSBE}, "amount-small-topbar");
 
     // Progress Sync
     progressBar = new QProgressBar(ui->layoutSync);
@@ -633,16 +633,16 @@ void TopBar::updateBalances(const CAmount& balance, const CAmount& unconfirmedBa
     }
     ui->labelTitle1->setText(nLockedBalance > 0 ? tr("Available (Locked included)") : tr("Available"));
 
-    // BPR Total
-    QString totalBpr = GUIUtil::formatBalance(balance, nDisplayUnit);
+    // SBE Total
+    QString totalSBE = GUIUtil::formatBalance(balance, nDisplayUnit);
 
-    // BPR
+    // SBE
     // Top
-    ui->labelAmountTopBpr->setText(totalBpr);
+    ui->labelAmountTopSBE->setText(totalSBE);
     // Expanded
-    ui->labelAmountBpr->setText(totalBpr);
-    ui->labelPendingBpr->setText(GUIUtil::formatBalance(unconfirmedBalance, nDisplayUnit));
-    ui->labelImmatureBpr->setText(GUIUtil::formatBalance(immatureBalance, nDisplayUnit));
+    ui->labelAmountSBE->setText(totalSBE);
+    ui->labelPendingSBE->setText(GUIUtil::formatBalance(unconfirmedBalance, nDisplayUnit));
+    ui->labelImmatureSBE->setText(GUIUtil::formatBalance(immatureBalance, nDisplayUnit));
 }
 
 void TopBar::resizeEvent(QResizeEvent *event)

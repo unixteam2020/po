@@ -454,7 +454,7 @@
             <enum>Qt::NoFocus</enum>
            </property>
            <property name="text">
-            <string>How to get BPR</string>
+            <string>How to get SBE</string>
            </property>
           </widget>
          </item>
@@ -519,7 +519,7 @@
             <item>
              <widget class="QLabel" name="labelMessage">
               <property name="text">
-               <string>Amount of BPR staked.</string>
+               <string>Amount of SBE staked.</string>
               </property>
              </widget>
             </item>
@@ -565,9 +565,9 @@
            <number>0</number>
           </property>
           <item>
-           <widget class="QLabel" name="labelAmountBpr">
+           <widget class="QLabel" name="labelAmountSBE">
             <property name="text">
-             <string notr="true">0 BPR</string>
+             <string notr="true">0 SBE</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
@@ -663,7 +663,7 @@
                  </spacer>
                 </item>
                 <item>
-                 <widget class="QLabel" name="labelSquareBpr">
+                 <widget class="QLabel" name="labelSquareSBE">
                   <property name="minimumSize">
                    <size>
                     <width>14</width>
@@ -682,9 +682,9 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QLabel" name="labelBpr">
+                 <widget class="QLabel" name="labelSBE">
                   <property name="text">
-                   <string notr="true">BPR</string>
+                   <string notr="true">SBE</string>
                   </property>
                  </widget>
                 </item>

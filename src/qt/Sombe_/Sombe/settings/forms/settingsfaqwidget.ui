@@ -177,7 +177,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="QPushButton" name="pushButton_UnspendableBPR">
+                    <widget class="QPushButton" name="pushButton_UnspendableSBE">
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -194,7 +194,7 @@
                       <enum>Qt::NoFocus</enum>
                      </property>
                      <property name="text">
-                      <string>2) Why are my BPR unspendable?</string>
+                      <string>2) Why are my SBE unspendable?</string>
                      </property>
                      <property name="checkable">
                       <bool>true</bool>
@@ -216,7 +216,7 @@
                       <enum>Qt::NoFocus</enum>
                      </property>
                      <property name="text">
-                      <string>3) How do I stake BPR?</string>
+                      <string>3) How do I stake SBE?</string>
                      </property>
                      <property name="checkable">
                       <bool>true</bool>
@@ -562,10 +562,10 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QWidget" name="widget_UnspendableBPR" native="true">
-                   <layout class="QHBoxLayout" name="horizontalPage_UnspendableBPR" stretch="0,1">
+                  <widget class="QWidget" name="widget_UnspendableSBE" native="true">
+                   <layout class="QHBoxLayout" name="horizontalPage_UnspendableSBE" stretch="0,1">
                     <item alignment="Qt::AlignTop">
-                     <widget class="QLabel" name="labelNumber_UnspendableBPR">
+                     <widget class="QLabel" name="labelNumber_UnspendableSBE">
                       <property name="minimumSize">
                        <size>
                         <width>24</width>
@@ -587,7 +587,7 @@
                      </widget>
                     </item>
                     <item>
-                     <layout class="QVBoxLayout" name="verticalLayout_UnspendableBPR">
+                     <layout class="QVBoxLayout" name="verticalLayout_UnspendableSBE">
                       <property name="spacing">
                        <number>0</number>
                       </property>
@@ -598,9 +598,9 @@
                        <number>20</number>
                       </property>
                       <item>
-                       <widget class="QLabel" name="labelSubtitle_UnspendableBPR">
+                       <widget class="QLabel" name="labelSubtitle_UnspendableSBE">
                         <property name="text">
-                         <string>Why are my BPR unspendable?</string>
+                         <string>Why are my SBE unspendable?</string>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -608,7 +608,7 @@
                        </widget>
                       </item>
                       <item>
-                       <spacer name="verticalSpacer1_UnspendableBPR">
+                       <spacer name="verticalSpacer1_UnspendableSBE">
                         <property name="orientation">
                          <enum>Qt::Vertical</enum>
                         </property>
@@ -624,7 +624,7 @@
                        </spacer>
                       </item>
                       <item>
-                       <widget class="QLabel" name="labelContent_UnspendableBPR">
+                       <widget class="QLabel" name="labelContent_UnspendableSBE">
                         <property name="text">
                          <string>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;
@@ -645,7 +645,7 @@
                        </widget>
                       </item>
                       <item>
-                       <spacer name="verticalSpacer2_UnspendableBPR">
+                       <spacer name="verticalSpacer2_UnspendableSBE">
                         <property name="orientation">
                          <enum>Qt::Vertical</enum>
                         </property>
@@ -698,7 +698,7 @@
                       <item>
                        <widget class="QLabel" name="labelSubtitle_Stake">
                         <property name="text">
-                         <string>How do I stake BPR?</string>
+                         <string>How do I stake SBE?</string>
                         </property>
                         <property name="wordWrap">
                          <bool>true</bool>
@@ -916,7 +916,7 @@
                          <string>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;
                            A masternode is a computer running a full node Sombe Coin core wallet with a
-                           requirement of 10000 BPR secured collateral to provide extra services
+                           requirement of 10000 SBE secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
@@ -946,7 +946,7 @@
                            Requirements:
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10000 BPR per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10000 SBE per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -1042,7 +1042,7 @@
                       <item>
                        <widget class="QLabel" name="labelContent_MNController">
                         <property name="text">
-                         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;A Masternode Controller wallet is where the 10000 BPR collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;A Masternode Controller wallet is where the 10000 SBE collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                         </property>
                         <property name="alignment">
                          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>

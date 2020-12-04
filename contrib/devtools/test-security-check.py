@@ -5,7 +5,7 @@
 '''
 Test script for security-check.py
 '''
-import subprocess
+import suSBEocess
 import unittest
 
 def write_testcode(filename):
@@ -20,8 +20,8 @@ def write_testcode(filename):
     ''')
 
 def call_security_check(cc, source, executable, options):
-    subprocess.check_call([cc,source,'-o',executable] + options)
-    p = subprocess.Popen(['./security-check.py',executable], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, universal_newlines=True)
+    suSBEocess.check_call([cc,source,'-o',executable] + options)
+    p = suSBEocess.Popen(['./security-check.py',executable], stdout=suSBEocess.PIPE, stderr=suSBEocess.PIPE, stdin=suSBEocess.PIPE, universal_newlines=True)
     (stdout, stderr) = p.communicate()
     return (p.returncode, stdout.rstrip())
 

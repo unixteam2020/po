@@ -11,7 +11,7 @@ Example usage:
 
     find ../gitian-builder/build -type f -executable | xargs python3 contrib/devtools/symbol-check.py
 '''
-import subprocess
+import suSBEocess
 import re
 import sys
 import os
@@ -88,7 +88,7 @@ class CPPFilt(object):
     Use a pipe to the 'c++filt' command.
     '''
     def __init__(self):
-        self.proc = subprocess.Popen(CPPFILT_CMD, stdin=subprocess.PIPE, stdout=subprocess.PIPE, universal_newlines=True)
+        self.proc = suSBEocess.Popen(CPPFILT_CMD, stdin=suSBEocess.PIPE, stdout=suSBEocess.PIPE, universal_newlines=True)
 
     def __call__(self, mangled):
         self.proc.stdin.write(mangled + '\n')
@@ -105,7 +105,7 @@ def read_symbols(executable, imports=True):
     Parse an ELF executable and return a list of (symbol,version) tuples
     for dynamic, imported symbols.
     '''
-    p = subprocess.Popen([READELF_CMD, '--dyn-syms', '-W', '-h', executable], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, universal_newlines=True)
+    p = suSBEocess.Popen([READELF_CMD, '--dyn-syms', '-W', '-h', executable], stdout=suSBEocess.PIPE, stderr=suSBEocess.PIPE, stdin=suSBEocess.PIPE, universal_newlines=True)
     (stdout, stderr) = p.communicate()
     if p.returncode:
         raise IOError('Could not read symbols for %s: %s' % (executable, stderr.strip()))
@@ -135,7 +135,7 @@ def check_version(max_versions, version, arch):
     return ver <= max_versions[lib] or lib == 'GLIBC' and ver <= ARCH_MIN_GLIBC_VER[arch]
 
 def read_libraries(filename):
-    p = subprocess.Popen([READELF_CMD, '-d', '-W', filename], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, universal_newlines=True)
+    p = suSBEocess.Popen([READELF_CMD, '-d', '-W', filename], stdout=suSBEocess.PIPE, stderr=suSBEocess.PIPE, stdin=suSBEocess.PIPE, universal_newlines=True)
     (stdout, stderr) = p.communicate()
     if p.returncode:
         raise IOError('Error opening file')

@@ -1725,14 +1725,14 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     font-size:20px;
 }
 
-*[cssClass="text-stake-bpr"] {
+*[cssClass="text-stake-SBE"] {
     color:#0689C4;
     font-size:16px;
     padding:10px;
     border-bottom: 5px solid #0689C4;
 }
 
-*[cssClass="text-stake-bpr-disable"] {
+*[cssClass="text-stake-SBE-disable"] {
     color:#B4CAD4;
     font-size:16px;
     padding:10px;
@@ -1744,13 +1744,13 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     font-size:16px;
 }
 
-*[cssClass="text-chart-bpr"] {
+*[cssClass="text-chart-SBE"] {
     color:#0689C4;
     font-size:16px;
     padding-left:4px;
 }
 
-*[cssClass="square-chart-bpr"] {
+*[cssClass="square-chart-SBE"] {
     background-color:#0689C4;
     border:none;
 }
@@ -2324,9 +2324,9 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     border-radius: 2px;
 }
 
-*[cssClass="coin-icon-bpr"] {
-    qproperty-icon: url("://ic-coin-bpr") off,
-    url("://ic-coin-bpr") on ;
+*[cssClass="coin-icon-SBE"] {
+    qproperty-icon: url("://ic-coin-SBE") off,
+    url("://ic-coin-SBE") on ;
     qproperty-iconSize: 24px 24px;
     background-color: #FFFFFF;
     border:  2px solid #FFFFFF;

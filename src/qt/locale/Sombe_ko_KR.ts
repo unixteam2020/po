@@ -377,8 +377,8 @@ for staking</source>
         <translation>지갑 암호화 후 암호를 분실하게 되면</translation>
     </message>
     <message>
-        <source>LOSE ALL OF YOUR BPR</source>
-        <translation>모든 BPR를 잃게 됩니다</translation>
+        <source>LOSE ALL OF YOUR SBE</source>
+        <translation>모든 SBE를 잃게 됩니다</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
@@ -393,8 +393,8 @@ for staking</source>
         <translation>경고: Caps Lock 키가 활성화 되있습니다!</translation>
     </message>
     <message>
-        <source>Sombe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BPRs from being stolen by malware infecting your computer.</source>
-        <translation>Sombe는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 BPRs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>Sombe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SBEs from being stolen by malware infecting your computer.</source>
+        <translation>Sombe는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 SBEs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -463,8 +463,8 @@ for staking</source>
         <translation>계좌</translation>
     </message>
     <message>
-        <source>0,00 BPR</source>
-        <translation>0,00 BPR</translation>
+        <source>0,00 SBE</source>
+        <translation>0,00 SBE</translation>
     </message>
     <message>
         <source>address</source>
@@ -505,8 +505,8 @@ for staking</source>
         <translation>코인 선택</translation>
     </message>
     <message>
-        <source>Select BPR Outputs to Spend</source>
-        <translation>사용할 BPR 아웃풋 선택</translation>
+        <source>Select SBE Outputs to Spend</source>
+        <translation>사용할 SBE 아웃풋 선택</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -533,8 +533,8 @@ for staking</source>
         <translation>금액</translation>
     </message>
     <message>
-        <source>0.00 BPR</source>
-        <translation>0.00 BPR</translation>
+        <source>0.00 SBE</source>
+        <translation>0.00 SBE</translation>
     </message>
     <message>
         <source>0</source>
@@ -717,8 +717,8 @@ for staking</source>
         <translation>받는 사람이 %1 보다 작은 금액을 받으면 라벨이 빨간색으로 변경됩니다.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubpr per input.</source>
-        <translation>Can vary +/- %1 ubpr per input.</translation>
+        <source>Can vary +/- %1 uSBE per input.</source>
+        <translation>Can vary +/- %1 uSBE per input.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -800,17 +800,17 @@ for staking</source>
         <translation>위임 데이터 로딩 에러: %1</translation>
     </message>
     <message>
-        <source>You can delegate your BPRs, letting a hot node (24/7 online node)
+        <source>You can delegate your SBEs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>안전히 개인 프라이빗 키를 오프라인으로 보관한 상태로, 가지고 계신 BPR 를 매일 24시간 온라인으로 돌아가는 핫 노드로 위임하여, 대신 스테이킹을 하게 할수 있습니다. </translation>
+        <translation>안전히 개인 프라이빗 키를 오프라인으로 보관한 상태로, 가지고 계신 SBE 를 매일 24시간 온라인으로 돌아가는 핫 노드로 위임하여, 대신 스테이킹을 하게 할수 있습니다. </translation>
     </message>
     <message>
         <source>Enter owner address</source>
         <translation>Owner 주소 입력</translation>
     </message>
     <message>
-        <source>Accept BPR delegation / Delegate BPR</source>
-        <translation>BPR 위임권 수락하기 / BPR 위임 하기</translation>
+        <source>Accept SBE delegation / Delegate SBE</source>
+        <translation>SBE 위임권 수락하기 / SBE 위임 하기</translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -876,8 +876,8 @@ Do you wish to proceed?</source>
         <translation>위임된 코인</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>선택할 BPR를 가지고 있지 않습니다.</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>선택할 SBE를 가지고 있지 않습니다.</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
@@ -1008,12 +1008,12 @@ address</source>
         <translation>스테이킹 통계</translation>
     </message>
     <message>
-        <source>BPR</source>
-        <translation>BPR</translation>
+        <source>SBE</source>
+        <translation>SBE</translation>
     </message>
     <message>
-        <source>zBPR</source>
-        <translation>zBPR</translation>
+        <source>zSBE</source>
+        <translation>zSBE</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -1044,8 +1044,8 @@ address</source>
         <translation>당신의 입출금 이력을 확인할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Amount of BPR and zBPR staked.</source>
-        <translation>스테이킹 된 BPR와 zBPR 양</translation>
+        <source>Amount of SBE and zSBE staked.</source>
+        <translation>스테이킹 된 SBE와 zSBE 양</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1056,8 +1056,8 @@ address</source>
         <translation>아직 전송기록 없음</translation>
     </message>
     <message>
-        <source>How to get BPR or zBPR</source>
-        <translation>BPR 혹은 zBPR를 얻는 법</translation>
+        <source>How to get SBE or zSBE</source>
+        <translation>SBE 혹은 zSBE를 얻는 법</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1395,8 +1395,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>새로운 마스터노드 컨트롤러 만들기</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Sombe Masternode you must dedicate 10,000 BPR (the unit of Sombe) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sombe 마스터노드를 생성하기 위해서는 10,000 BPR (Sombe 단위)를 네트워크에 예치해야 합니다. (예치한 코인은 계속 본인의 소유입니다.) &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;언제든지 노드를 비활성화 시키고 코인을 잠금해제할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Sombe Masternode you must dedicate 10,000 SBE (the unit of Sombe) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sombe 마스터노드를 생성하기 위해서는 10,000 SBE (Sombe 단위)를 네트워크에 예치해야 합니다. (예치한 코인은 계속 본인의 소유입니다.) &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;언제든지 노드를 비활성화 시키고 코인을 잠금해제할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1415,8 +1415,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>이만큼의 코인을 보유하고 있는지 확인하십시오.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 BPR will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10,000 BPR의 트랜잭션은&lt;/p&gt;&lt;p&gt;지갑의 새로운 빈 주소로 만들어질 것입니다.&lt;/p&gt;&lt;p&gt;그 주소는 마스터노드 이름에 따라 레이블링됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 SBE will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10,000 SBE의 트랜잭션은&lt;/p&gt;&lt;p&gt;지갑의 새로운 빈 주소로 만들어질 것입니다.&lt;/p&gt;&lt;p&gt;그 주소는 마스터노드 이름에 따라 레이블링됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1656,8 +1656,8 @@ Are you sure?</source>
         <translation>마스터노드 컨트롤러를 생성할 수 없습니다. 지갑이 잠겨 있습니다.</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 BPR required.</source>
-        <translation>마스터노드 생성에 필요한 잔고가 부족합니다. 마스터노드 생성에는 10,000 BPR가 필요합니다.</translation>
+        <source>Not enough balance to create a masternode, 10,000 SBE required.</source>
+        <translation>마스터노드 생성에 필요한 잔고가 부족합니다. 마스터노드 생성에는 10,000 SBE가 필요합니다.</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
@@ -1904,36 +1904,36 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BPR units to zBPR</source>
-        <translation>보상받은 BPR를 zBPR로 자동변환 활성화</translation>
+        <source>Enable automatic minting of SBE units to zSBE</source>
+        <translation>보상받은 SBE를 zSBE로 자동변환 활성화</translation>
     </message>
     <message>
-        <source>Enable zBPR Automint</source>
-        <translation>zBPR 자동생성 활성화</translation>
+        <source>Enable zSBE Automint</source>
+        <translation>zSBE 자동생성 활성화</translation>
     </message>
     <message>
-        <source>Enable automatic zBPR minting from specific addresses</source>
-        <translation>특정 주소들로부터 자동으로 zBPR 민트되는 것을 허용</translation>
+        <source>Enable automatic zSBE minting from specific addresses</source>
+        <translation>특정 주소들로부터 자동으로 zSBE 민트되는 것을 허용</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint 주소 사용</translation>
     </message>
     <message>
-        <source>Percentage of incoming BPR which get automatically converted to zBPR via Zerocoin Protocol (min: 10%)</source>
-        <translation>BPR수신시 자동변환 zBPR 비율 (최소값:10%)</translation>
+        <source>Percentage of incoming SBE which get automatically converted to zSBE via Zerocoin Protocol (min: 10%)</source>
+        <translation>SBE수신시 자동변환 zSBE 비율 (최소값:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBPR</source>
-        <translation>자동 변환되는 zBPR 비율</translation>
+        <source>Percentage of autominted zSBE</source>
+        <translation>자동 변환되는 zSBE 비율</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BPR for this denomination is available</source>
-        <translation>이 디노미네이션의 BPR가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough SBE for this denomination is available</source>
+        <translation>이 디노미네이션의 SBE가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
-        <source>Preferred Automint zBPR Denomination</source>
-        <translation>선호하는 자동생성 zBPR 디노미네이션 </translation>
+        <source>Preferred Automint zSBE Denomination</source>
+        <translation>선호하는 자동생성 zSBE 디노미네이션 </translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2308,28 +2308,28 @@ Address: %4
         <translation>아직 전송기록 없음</translation>
     </message>
     <message>
-        <source>Mint zBPR</source>
-        <translation>zBPR 생성</translation>
+        <source>Mint zSBE</source>
+        <translation>zSBE 생성</translation>
     </message>
     <message>
-        <source>Enter amount of BPR to mint into zBPR</source>
-        <translation>zBPR 로 바꿀 BPR의 양을 넣으세요.</translation>
+        <source>Enter amount of SBE to mint into zSBE</source>
+        <translation>zSBE 로 바꿀 SBE의 양을 넣으세요.</translation>
     </message>
     <message>
-        <source>Convert back to BPR</source>
-        <translation>BPR 로 재변환</translation>
+        <source>Convert back to SBE</source>
+        <translation>SBE 로 재변환</translation>
     </message>
     <message>
-        <source>Enter amount of zBPR to convert back into BPR</source>
-        <translation>BPR로 바꿀 zBPR의 양을 넣으세요.</translation>
+        <source>Enter amount of zSBE to convert back into SBE</source>
+        <translation>SBE로 바꿀 zSBE의 양을 넣으세요.</translation>
     </message>
     <message>
         <source>Zerocoin</source>
         <translation>제로코인</translation>
     </message>
     <message>
-        <source>zBPR is currently undergoing maintenance</source>
-        <translation>zBPR는 현재 점검중입니다</translation>
+        <source>zSBE is currently undergoing maintenance</source>
+        <translation>zSBE는 현재 점검중입니다</translation>
     </message>
     <message>
         <source>convert</source>
@@ -2344,24 +2344,24 @@ Address: %4
         <translation>유효하지 않은 값</translation>
     </message>
     <message>
-        <source>zBPR minted successfully</source>
-        <translation>zBPR 생성 성공</translation>
+        <source>zSBE minted successfully</source>
+        <translation>zSBE 생성 성공</translation>
     </message>
     <message>
-        <source>zBPR converted back to BPR</source>
-        <translation>BPR 로 zBPR 변환됨</translation>
+        <source>zSBE converted back to SBE</source>
+        <translation>SBE 로 zSBE 변환됨</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>선택할 BPR를 가지고 있지 않습니다.</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>선택할 SBE를 가지고 있지 않습니다.</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
         <translation>민트를 재탐색</translation>
     </message>
     <message>
-        <source>Reset Spent zBPR</source>
-        <translation>전송된 zBPR 초기화</translation>
+        <source>Reset Spent zSBE</source>
+        <translation>전송된 zSBE 초기화</translation>
     </message>
     <message>
         <source>Total %1</source>
@@ -2730,8 +2730,8 @@ Address: %4
         <translation>맞춤 백업 경로 :</translation>
     </message>
     <message>
-        <source>Custom zBPR Backup Path:</source>
-        <translation>맞춤 zBPR 백업 경로 :</translation>
+        <source>Custom zSBE Backup Path:</source>
+        <translation>맞춤 zSBE 백업 경로 :</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -2977,8 +2977,8 @@ Address: %4
         <translation>받기</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive BPR.</source>
-        <translation>BPR 를 받기 위해 QR 코드를 스캔하거나 주소를 복사 하십시요.</translation>
+        <source>Scan the QR code or copy the address to receive SBE.</source>
+        <translation>SBE 를 받기 위해 QR 코드를 스캔하거나 주소를 복사 하십시요.</translation>
     </message>
     <message>
         <source>No address </source>
@@ -3087,8 +3087,8 @@ Address: %4
         <translation>금액</translation>
     </message>
     <message>
-        <source>BPR</source>
-        <translation>BPR</translation>
+        <source>SBE</source>
+        <translation>SBE</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -3197,8 +3197,8 @@ Address: %4
         <translation>권장</translation>
     </message>
     <message>
-        <source>BPR/kilobyte</source>
-        <translation>BPR/Kilobyte</translation>
+        <source>SBE/kilobyte</source>
+        <translation>SBE/Kilobyte</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3291,12 +3291,12 @@ Address: %4
         <translation>전송할 총 액수</translation>
     </message>
     <message>
-        <source>Send BPR</source>
-        <translation>BPR 보내기</translation>
+        <source>Send SBE</source>
+        <translation>SBE 보내기</translation>
     </message>
     <message>
-        <source>Send zBPR</source>
-        <translation>zBPR 전송하기</translation>
+        <source>Send zSBE</source>
+        <translation>zSBE 전송하기</translation>
     </message>
     <message>
         <source>Total remaining from the selected UTXO</source>
@@ -3351,8 +3351,8 @@ Cold-staking 중인 코인을 사용하여 전송하며, 무효화됩니다.
         <translation>제로코인 보내기</translation>
     </message>
     <message>
-        <source>zBPR is currently undergoing maintenance.</source>
-        <translation>zBPR는 현재 점검중입니다.</translation>
+        <source>zSBE is currently undergoing maintenance.</source>
+        <translation>zSBE는 현재 점검중입니다.</translation>
     </message>
     <message>
         <source>Sending %1 to address %2
@@ -3367,12 +3367,12 @@ Cold-staking 중인 코인을 사용하여 전송하며, 무효화됩니다.
 %2</translation>
     </message>
     <message>
-        <source>zBPR transaction sent!</source>
+        <source>zSBE transaction sent!</source>
         <translation>zSombe 전송 완료!</translation>
     </message>
     <message>
-        <source>Version 1 zBPR require a security level of 100 to successfully spend.</source>
-        <translation>zBPR 버전 1은 성공적으로 보내기 위해서 100 시큐리티 레벨이 필요합니다.</translation>
+        <source>Version 1 zSBE require a security level of 100 to successfully spend.</source>
+        <translation>zSBE 버전 1은 성공적으로 보내기 위해서 100 시큐리티 레벨이 필요합니다.</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
@@ -3406,8 +3406,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>커스텀 수수료 %1</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>선택할 수 있는 BPR를 가지고 있지 않습니다.</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>선택할 수 있는 SBE를 가지고 있지 않습니다.</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
@@ -5100,40 +5100,40 @@ NOTE: 업그레이드 이후에는
         <translation>수신됨</translation>
     </message>
     <message>
-        <source>BPR Stake</source>
-        <translation>BPR stake</translation>
+        <source>SBE Stake</source>
+        <translation>SBE stake</translation>
     </message>
     <message>
-        <source>zBPR Stake</source>
-        <translation>zBPR stake</translation>
+        <source>zSBE Stake</source>
+        <translation>zSBE stake</translation>
     </message>
     <message>
-        <source>BPR Cold Stake</source>
-        <translation>BPR Cold Stake</translation>
+        <source>SBE Cold Stake</source>
+        <translation>SBE Cold Stake</translation>
     </message>
     <message>
         <source>Stake delegation</source>
         <translation>Stake delegation</translation>
     </message>
     <message>
-        <source>Converted BPR to zBPR</source>
-        <translation>BPR를 zBPR로 변환</translation>
+        <source>Converted SBE to zSBE</source>
+        <translation>SBE를 zSBE로 변환</translation>
     </message>
     <message>
-        <source>Spent zBPR</source>
-        <translation>zBPR 사용</translation>
+        <source>Spent zSBE</source>
+        <translation>zSBE 사용</translation>
     </message>
     <message>
-        <source>Received BPR from zBPR</source>
-        <translation>zBPR를 BPR로 받음</translation>
+        <source>Received SBE from zSBE</source>
+        <translation>zSBE를 SBE로 받음</translation>
     </message>
     <message>
-        <source>Minted Change as zBPR from zBPR Spend</source>
-        <translation>zBPR 전송후 남은 zBPR로 잔돈 생성</translation>
+        <source>Minted Change as zSBE from zSBE Spend</source>
+        <translation>zSBE 전송후 남은 zSBE로 잔돈 생성</translation>
     </message>
     <message>
-        <source>Converted zBPR to BPR</source>
-        <translation>zBPR를 BPR로 변환</translation>
+        <source>Converted zSBE to SBE</source>
+        <translation>zSBE를 SBE로 변환</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5294,8 +5294,8 @@ NOTE: 업그레이드 이후에는
         <translation>18/05/18</translation>
     </message>
     <message>
-        <source>+0.000585 BPR</source>
-        <translation>+0.000585 BPR</translation>
+        <source>+0.000585 SBE</source>
+        <translation>+0.000585 SBE</translation>
     </message>
 </context>
 <context>
@@ -5305,8 +5305,8 @@ NOTE: 업그레이드 이후에는
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BPR.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 BPR로 제한됩니다.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 SBE.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 SBE로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -5375,10 +5375,10 @@ Sombe Coin Wallet</translation>
     </message>
 </context>
 <context>
-    <name>ZBprControlDialog</name>
+    <name>ZSBEControlDialog</name>
     <message>
-        <source>Select zBPR to Spend</source>
-        <translation>사용할 zBPR 선택</translation>
+        <source>Select zSBE to Spend</source>
+        <translation>사용할 zSBE 선택</translation>
     </message>
     <message>
         <source>Coin Control</source>
@@ -5389,8 +5389,8 @@ Sombe Coin Wallet</translation>
         <translation>누르기</translation>
     </message>
     <message>
-        <source>zBpr</source>
-        <translation>zBpr</translation>
+        <source>zSBE</source>
+        <translation>zSBE</translation>
     </message>
     <message>
         <source>0.00 </source>
@@ -5464,12 +5464,12 @@ Sombe Coin Wallet</translation>
         <translation>MIT 소프트웨어 라이센스에 따라 배포, 첨부 파일 COPYING 또는 &lt;http://www.opensource.org/licenses/mit-license.php&gt; 를 참조하십시오.</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BPR inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for BPR inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for SBE inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for SBE inputs (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBPR inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for zBPR inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zSBE inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for zSBE inputs (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5504,12 +5504,12 @@ Sombe Coin Wallet</translation>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in BPR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (BPR/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in SBE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (SBE/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in BPR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (BPR/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in SBE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (SBE/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5856,8 +5856,8 @@ Sombe Coin Wallet</translation>
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in BPR/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (BPR/kB) (기본값: %s)</translation>
+        <source>Fee (in SBE/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (SBE/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5932,12 +5932,12 @@ Sombe Coin Wallet</translation>
         <translation>masternode.conf 에서 유효하지 않은 포트가 감지되었습니다</translation>
     </message>
     <message>
-        <source>Recalculating BPR supply...</source>
-        <translation>BPR 공급 재계산중...</translation>
+        <source>Recalculating SBE supply...</source>
+        <translation>SBE 공급 재계산중...</translation>
     </message>
     <message>
-        <source>Reindex the BPR and zBPR money supply statistics</source>
-        <translation>BPR 및 zBPR 공급량 다시 색인</translation>
+        <source>Reindex the SBE and zSBE money supply statistics</source>
+        <translation>SBE 및 zSBE 공급량 다시 색인</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -6396,8 +6396,8 @@ Sombe Coin Wallet</translation>
         <translation>sporks와 동기화 중입니다...</translation>
     </message>
     <message>
-        <source>Syncing zBPR wallet...</source>
-        <translation>zBPR 지갑 동기화중...</translation>
+        <source>Syncing zSBE wallet...</source>
+        <translation>zSBE 지갑 동기화중...</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -6504,8 +6504,8 @@ Sombe Coin Wallet</translation>
         <translation>JSON-RPC 연결 사용자 이름</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBPR</source>
-        <translation>Value is below the smallest available denomination (= 1) of zBPR</translation>
+        <source>Value is below the smallest available denomination (= 1) of zSBE</source>
+        <translation>Value is below the smallest available denomination (= 1) of zSBE</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -6549,7 +6549,7 @@ Sombe Coin Wallet</translation>
     </message>
     <message>
         <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>지갑에 zBPR 가 부족합니다.</translation>
+        <translation>지갑에 zSBE 가 부족합니다.</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>

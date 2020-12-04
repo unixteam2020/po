@@ -788,7 +788,7 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bantablemodel.cpp \
 	qt/Sombe/res/img/ic-radio-liliac-on.png \
 	qt/Sombe/res/img/img-empty-staking-off.png \
 	qt/Sombe/res/img/ic-arrow-drop-down.png \
-	qt/Sombe/res/img/ic-coin-bpr.png \
+	qt/Sombe/res/img/ic-coin-SBE.png \
 	qt/Sombe/res/img/ic-receive-off.png \
 	qt/Sombe/res/img/img-empty-staking-on.png \
 	qt/Sombe/res/img/ic-arrow-drop-up-white.png \
@@ -3187,7 +3187,7 @@ EXTRA_DIST = $(CTAES_DIST)
 @ENABLE_QT_TRUE@  qt/Sombe/res/img/ic-radio-liliac-on.png \
 @ENABLE_QT_TRUE@  qt/Sombe/res/img/img-empty-staking-off.png \
 @ENABLE_QT_TRUE@  qt/Sombe/res/img/ic-arrow-drop-down.png \
-@ENABLE_QT_TRUE@  qt/Sombe/res/img/ic-coin-bpr.png \
+@ENABLE_QT_TRUE@  qt/Sombe/res/img/ic-coin-SBE.png \
 @ENABLE_QT_TRUE@  qt/Sombe/res/img/ic-receive-off.png \
 @ENABLE_QT_TRUE@  qt/Sombe/res/img/img-empty-staking-on.png \
 @ENABLE_QT_TRUE@  qt/Sombe/res/img/ic-arrow-drop-up-white.png \

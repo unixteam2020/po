@@ -15,7 +15,7 @@ It will do the following automatically:
 - update build system
 '''
 import argparse
-import subprocess
+import suSBEocess
 import re
 import sys
 import os
@@ -56,7 +56,7 @@ def fetch_all_translations(fAll = False):
     call_list = [TX, 'pull', '-f', '-a']
     if not fAll:
         call_list.append('--minimum-perc=%s' % MINIMUM_PERC)
-    if subprocess.call(call_list):
+    if suSBEocess.call(call_list):
         print('Error while fetching translations', file=sys.stderr)
         sys.exit(1)
 
@@ -227,7 +227,7 @@ def update_git():
     (Removing files isn't necessary here, as `git commit -a` will take care of removing files that are gone)
     '''
     file_paths = [filepath for (filename, filepath) in all_ts_files()]
-    subprocess.check_call([GIT, 'add'] + file_paths)
+    suSBEocess.check_call([GIT, 'add'] + file_paths)
 
 
 def update_build_systems():

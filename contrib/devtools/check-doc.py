@@ -10,7 +10,7 @@ Return value is 0 to indicate no error.
 Author: @MarcoFalke
 '''
 
-from subprocess import check_output
+from suSBEocess import check_output
 import re
 import sys
 

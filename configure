@@ -22779,7 +22779,7 @@ ac_compiler_gnu=$ac_cv_cxx_compiler_gnu
 
 
 # The following macro will add the necessary defines to Sombe-config.h, but
-# they also need to be passed down to any subprojects. Pull the results out of
+# they also need to be passed down to any suSBEojects. Pull the results out of
 # the cache and add them to CPPFLAGS.
 # Check whether --enable-largefile was given.
 if test "${enable_largefile+set}" = set; then :
@@ -31879,13 +31879,13 @@ fi
 
   if test "x$bitcoin_qt_want_version" = xauto && test "x$bitcoin_qt_force" != xyes; then
     if test "x$bitcoin_enable_qt" != xno; then
-      { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: libprotobuf not found; Sombe-qt frontend will not be built" >&5
-$as_echo "$as_me: WARNING: libprotobuf not found; Sombe-qt frontend will not be built" >&2;}
+      { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: liSBEotobuf not found; Sombe-qt frontend will not be built" >&5
+$as_echo "$as_me: WARNING: liSBEotobuf not found; Sombe-qt frontend will not be built" >&2;}
     fi
     bitcoin_enable_qt=no
     bitcoin_enable_qt_test=no
   else
-    as_fn_error $? "libprotobuf not found" "$LINENO" 5
+    as_fn_error $? "liSBEotobuf not found" "$LINENO" 5
   fi
 
 elif test $pkg_failed = untried; then
@@ -31894,13 +31894,13 @@ $as_echo "no" >&6; }
 
   if test "x$bitcoin_qt_want_version" = xauto && test "x$bitcoin_qt_force" != xyes; then
     if test "x$bitcoin_enable_qt" != xno; then
-      { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: libprotobuf not found; Sombe-qt frontend will not be built" >&5
-$as_echo "$as_me: WARNING: libprotobuf not found; Sombe-qt frontend will not be built" >&2;}
+      { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: liSBEotobuf not found; Sombe-qt frontend will not be built" >&5
+$as_echo "$as_me: WARNING: liSBEotobuf not found; Sombe-qt frontend will not be built" >&2;}
     fi
     bitcoin_enable_qt=no
     bitcoin_enable_qt_test=no
   else
-    as_fn_error $? "libprotobuf not found" "$LINENO" 5
+    as_fn_error $? "liSBEotobuf not found" "$LINENO" 5
   fi
 
 else
@@ -32634,13 +32634,13 @@ else
 
   if test "x$bitcoin_qt_want_version" = xauto && test "x$bitcoin_qt_force" != xyes; then
     if test "x$bitcoin_enable_qt" != xno; then
-      { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: libprotobuf not found; Sombe-qt frontend will not be built" >&5
-$as_echo "$as_me: WARNING: libprotobuf not found; Sombe-qt frontend will not be built" >&2;}
+      { $as_echo "$as_me:${as_lineno-$LINENO}: WARNING: liSBEotobuf not found; Sombe-qt frontend will not be built" >&5
+$as_echo "$as_me: WARNING: liSBEotobuf not found; Sombe-qt frontend will not be built" >&2;}
     fi
     bitcoin_enable_qt=no
     bitcoin_enable_qt_test=no
   else
-    as_fn_error $? "libprotobuf not found" "$LINENO" 5
+    as_fn_error $? "liSBEotobuf not found" "$LINENO" 5
   fi
 
 fi

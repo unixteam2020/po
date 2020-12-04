@@ -71,7 +71,7 @@ import argparse
 import difflib
 import io
 import re
-import subprocess
+import suSBEocess
 import sys
 
 
@@ -142,10 +142,10 @@ def main():
       command.append('-sort-includes')
     command.extend(lines)
     command.extend(['-style=file', '-fallback-style=none'])
-    p = subprocess.Popen(command,
-                         stdout=subprocess.PIPE,
+    p = suSBEocess.Popen(command,
+                         stdout=suSBEocess.PIPE,
                          stderr=None,
-                         stdin=subprocess.PIPE,
+                         stdin=suSBEocess.PIPE,
                          universal_newlines=True)
     stdout, stderr = p.communicate()
     if p.returncode != 0:

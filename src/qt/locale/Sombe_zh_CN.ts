@@ -380,8 +380,8 @@ for staking</source>
         <translation>如果你对钱包进行加密但丢失密码的话，你会</translation>
     </message>
     <message>
-        <source>LOSE ALL OF YOUR BPR</source>
-        <translation>丢失你所有的BPR</translation>
+        <source>LOSE ALL OF YOUR SBE</source>
+        <translation>丢失你所有的SBE</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
@@ -396,8 +396,8 @@ for staking</source>
         <translation>注意：键盘目前为大写锁定状态。</translation>
     </message>
     <message>
-        <source>Sombe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BPRs from being stolen by malware infecting your computer.</source>
-        <translation>Sombe将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取BPRs。</translation>
+        <source>Sombe will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SBEs from being stolen by malware infecting your computer.</source>
+        <translation>Sombe将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取SBEs。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -466,8 +466,8 @@ for staking</source>
         <translation>存款</translation>
     </message>
     <message>
-        <source>0,00 BPR</source>
-        <translation>0,00 BPR</translation>
+        <source>0,00 SBE</source>
+        <translation>0,00 SBE</translation>
     </message>
     <message>
         <source>address</source>
@@ -508,8 +508,8 @@ for staking</source>
         <translation>币选择</translation>
     </message>
     <message>
-        <source>Select BPR Outputs to Spend</source>
-        <translation>选择BPR支出花费</translation>
+        <source>Select SBE Outputs to Spend</source>
+        <translation>选择SBE支出花费</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -536,8 +536,8 @@ for staking</source>
         <translation>金额</translation>
     </message>
     <message>
-        <source>0.00 BPR</source>
-        <translation>0.00 BPR</translation>
+        <source>0.00 SBE</source>
+        <translation>0.00 SBE</translation>
     </message>
     <message>
         <source>0</source>
@@ -720,8 +720,8 @@ for staking</source>
         <translation>如果任何收件人收到的金额小于%1，此标签将变为红色。</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 ubpr per input.</source>
-        <translation>每个输入可以浮动+/- %1 ubpr。</translation>
+        <source>Can vary +/- %1 uSBE per input.</source>
+        <translation>每个输入可以浮动+/- %1 uSBE。</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -803,9 +803,9 @@ for staking</source>
         <translation>加载委托时出错：%1</translation>
     </message>
     <message>
-        <source>You can delegate your BPRs, letting a hot node (24/7 online node)
+        <source>You can delegate your SBEs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>您可以委托您的BPR并让一个热节点(24/7在线节点)
+        <translation>您可以委托您的SBE并让一个热节点(24/7在线节点)
 代表你加注，而且保持密钥离线安全。</translation>
     </message>
     <message>
@@ -813,8 +813,8 @@ stake on your behalf, while you keep the keys securely offline.</source>
         <translation>输入所有者地址</translation>
     </message>
     <message>
-        <source>Accept BPR delegation / Delegate BPR</source>
-        <translation>接受BPR委托／委托BPR </translation>
+        <source>Accept SBE delegation / Delegate SBE</source>
+        <translation>接受SBE委托／委托SBE </translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -881,8 +881,8 @@ Do you wish to proceed?</source>
         <translation>委托硬币</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>您没有任何BPR可选择。</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>您没有任何SBE可选择。</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
@@ -1013,12 +1013,12 @@ address</source>
         <translation>加注数据</translation>
     </message>
     <message>
-        <source>BPR</source>
-        <translation>BPR</translation>
+        <source>SBE</source>
+        <translation>SBE</translation>
     </message>
     <message>
-        <source>zBPR</source>
-        <translation>zBPR</translation>
+        <source>zSBE</source>
+        <translation>zSBE</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -1049,8 +1049,8 @@ address</source>
         <translation>您可以查看您的帐户的历史</translation>
     </message>
     <message>
-        <source>Amount of BPR and zBPR staked.</source>
-        <translation>已加注的BPR 和 zBPR 金额</translation>
+        <source>Amount of SBE and zSBE staked.</source>
+        <translation>已加注的SBE 和 zSBE 金额</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1061,8 +1061,8 @@ address</source>
         <translation>暂无交易</translation>
     </message>
     <message>
-        <source>How to get BPR or zBPR</source>
-        <translation>如何获取BPR 或 zBPR</translation>
+        <source>How to get SBE or zSBE</source>
+        <translation>如何获取SBE 或 zSBE</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1401,8 +1401,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>创建新的主节点控制器</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Sombe Masternode you must dedicate 10,000 BPR (the unit of Sombe) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;要去创建一个Sombe主节点，你必须奉献10,000 BPR（Sombe的单位）到网络（但是这些币还是属于你的，一直为你所有）。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;你可以在任何时候关闭该节点并解锁币。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a Sombe Masternode you must dedicate 10,000 SBE (the unit of Sombe) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;要去创建一个Sombe主节点，你必须奉献10,000 SBE（Sombe的单位）到网络（但是这些币还是属于你的，一直为你所有）。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;你可以在任何时候关闭该节点并解锁币。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1421,8 +1421,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>确保你有这么多币</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 BPR will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;将进行10,000 BPR的交易&lt;/p&gt;&lt;p&gt;到您的钱包空地址&lt;/p&gt;&lt;p&gt;地址被标记在主节点的名称之下&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 SBE will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;将进行10,000 SBE的交易&lt;/p&gt;&lt;p&gt;到您的钱包空地址&lt;/p&gt;&lt;p&gt;地址被标记在主节点的名称之下&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1664,8 +1664,8 @@ Are you sure?</source>
         <translation>无法创建主节点控制器，钱包被锁了</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 BPR required.</source>
-        <translation>没有足够的余额创建主节点，需要10,000 BPR。</translation>
+        <source>Not enough balance to create a masternode, 10,000 SBE required.</source>
+        <translation>没有足够的余额创建主节点，需要10,000 SBE。</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
@@ -1912,36 +1912,36 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
         <translation>端口使用&amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of BPR units to zBPR</source>
-        <translation>启动自动铸造BPR到zBPR</translation>
+        <source>Enable automatic minting of SBE units to zSBE</source>
+        <translation>启动自动铸造SBE到zSBE</translation>
     </message>
     <message>
-        <source>Enable zBPR Automint</source>
-        <translation>启动自动铸造zBPR</translation>
+        <source>Enable zSBE Automint</source>
+        <translation>启动自动铸造zSBE</translation>
     </message>
     <message>
-        <source>Enable automatic zBPR minting from specific addresses</source>
-        <translation>启用从特定地址自动生成zBPR</translation>
+        <source>Enable automatic zSBE minting from specific addresses</source>
+        <translation>启用从特定地址自动生成zSBE</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>启动自动铸造地址</translation>
     </message>
     <message>
-        <source>Percentage of incoming BPR which get automatically converted to zBPR via Zerocoin Protocol (min: 10%)</source>
-        <translation>通过零币协议自动转换为zBPR的传入BPR的百分比(最小:10%)</translation>
+        <source>Percentage of incoming SBE which get automatically converted to zSBE via Zerocoin Protocol (min: 10%)</source>
+        <translation>通过零币协议自动转换为zSBE的传入SBE的百分比(最小:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zBPR</source>
-        <translation>自动铸造的zBPR百分比</translation>
+        <source>Percentage of autominted zSBE</source>
+        <translation>自动铸造的zSBE百分比</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough BPR for this denomination is available</source>
-        <translation>等待自动转换为零币，直到足够的BPR为这种面额可用</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough SBE for this denomination is available</source>
+        <translation>等待自动转换为零币，直到足够的SBE为这种面额可用</translation>
     </message>
     <message>
-        <source>Preferred Automint zBPR Denomination</source>
-        <translation>首选自动铸造zBPR面额</translation>
+        <source>Preferred Automint zSBE Denomination</source>
+        <translation>首选自动铸造zSBE面额</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2312,50 +2312,50 @@ Address: %4
         <translation>铸造</translation>
     </message>
     <message>
-        <source>Minting zBPR anonymizes your BPR by removing any
+        <source>Minting zSBE anonymizes your SBE by removing any
 transaction history, making transactions untraceable </source>
-        <translation>铸造zBPR会通过删除任何
-交易历史匿名化您的BPR，使交易无法被跟踪</translation>
+        <translation>铸造zSBE会通过删除任何
+交易历史匿名化您的SBE，使交易无法被跟踪</translation>
     </message>
     <message>
-        <source>Mint new zBPR or convert back to BPR</source>
-        <translation>铸造新的zBPR或转换回BPR</translation>
+        <source>Mint new zSBE or convert back to SBE</source>
+        <translation>铸造新的zSBE或转换回SBE</translation>
     </message>
     <message>
-        <source>Last zBPR Movements</source>
-        <translation>最后zBPR轨迹</translation>
+        <source>Last zSBE Movements</source>
+        <translation>最后zSBE轨迹</translation>
     </message>
     <message>
         <source>No transactions yet</source>
         <translation>暂无交易</translation>
     </message>
     <message>
-        <source>Mint zBPR</source>
-        <translation>铸造zBPR</translation>
+        <source>Mint zSBE</source>
+        <translation>铸造zSBE</translation>
     </message>
     <message>
-        <source>Enter amount of BPR to mint into zBPR</source>
-        <translation>输入一定量的BPR铸造成zBPR</translation>
+        <source>Enter amount of SBE to mint into zSBE</source>
+        <translation>输入一定量的SBE铸造成zSBE</translation>
     </message>
     <message>
-        <source>Convert back to BPR</source>
-        <translation>转换回BPR</translation>
+        <source>Convert back to SBE</source>
+        <translation>转换回SBE</translation>
     </message>
     <message>
-        <source>Enter amount of zBPR to convert back into BPR</source>
-        <translation>输入一定量的zBPR转换回BPR</translation>
+        <source>Enter amount of zSBE to convert back into SBE</source>
+        <translation>输入一定量的zSBE转换回SBE</translation>
     </message>
     <message>
         <source>Zerocoin</source>
         <translation>零币</translation>
     </message>
     <message>
-        <source>zBPR is currently undergoing maintenance</source>
-        <translation>zBPR目前正在维护中</translation>
+        <source>zSBE is currently undergoing maintenance</source>
+        <translation>zSBE目前正在维护中</translation>
     </message>
     <message>
-        <source>You need to unlock the wallet to be able to %1 zBPR</source>
-        <translation>你需要解锁钱包才能%1 zBPR</translation>
+        <source>You need to unlock the wallet to be able to %1 zSBE</source>
+        <translation>你需要解锁钱包才能%1 zSBE</translation>
     </message>
     <message>
         <source>convert</source>
@@ -2370,16 +2370,16 @@ transaction history, making transactions untraceable </source>
         <translation>无效值</translation>
     </message>
     <message>
-        <source>zBPR minted successfully</source>
-        <translation>zBPR铸造成功</translation>
+        <source>zSBE minted successfully</source>
+        <translation>zSBE铸造成功</translation>
     </message>
     <message>
-        <source>zBPR converted back to BPR</source>
-        <translation>zBPR 转换回BPR</translation>
+        <source>zSBE converted back to SBE</source>
+        <translation>zSBE 转换回SBE</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>您没有任何BPR可选择。</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>您没有任何SBE可选择。</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
@@ -2390,8 +2390,8 @@ transaction history, making transactions untraceable </source>
         <translation>你的零币铸造将从零区块链被扫描</translation>
     </message>
     <message>
-        <source>Reset Spent zBPR</source>
-        <translation>重置花费zBPR</translation>
+        <source>Reset Spent zSBE</source>
+        <translation>重置花费zSBE</translation>
     </message>
     <message>
         <source>Your zerocoin spends are going to be scanned from the blockchain from scratch</source>
@@ -2804,8 +2804,8 @@ transaction history, making transactions untraceable </source>
         <translation>自定义备份路径:</translation>
     </message>
     <message>
-        <source>Custom zBPR Backup Path:</source>
-        <translation>自定义zBPR备份路径:</translation>
+        <source>Custom zSBE Backup Path:</source>
+        <translation>自定义zSBE备份路径:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3050,8 +3050,8 @@ transaction history, making transactions untraceable </source>
         <translation>接收</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive BPR.</source>
-        <translation>扫描二维码或复制地址接收BPR</translation>
+        <source>Scan the QR code or copy the address to receive SBE.</source>
+        <translation>扫描二维码或复制地址接收SBE</translation>
     </message>
     <message>
         <source>No address </source>
@@ -3160,8 +3160,8 @@ transaction history, making transactions untraceable </source>
         <translation>金额</translation>
     </message>
     <message>
-        <source>BPR</source>
-        <translation>BPR</translation>
+        <source>SBE</source>
+        <translation>SBE</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -3295,8 +3295,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <translation>已推荐</translation>
     </message>
     <message>
-        <source>BPR/kilobyte</source>
-        <translation>BPR/k字节</translation>
+        <source>SBE/kilobyte</source>
+        <translation>SBE/k字节</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3365,8 +3365,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <translation>发送</translation>
     </message>
     <message>
-        <source>You can transfer public coins (BPR) or private coins (zBPR)</source>
-        <translation>您可以转换公共币(BPR)或私人币(zBPR)</translation>
+        <source>You can transfer public coins (SBE) or private coins (zSBE)</source>
+        <translation>您可以转换公共币(SBE)或私人币(zSBE)</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3397,12 +3397,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
         <translation>花费总金额</translation>
     </message>
     <message>
-        <source>Send BPR</source>
-        <translation>花费BPR</translation>
+        <source>Send SBE</source>
+        <translation>花费SBE</translation>
     </message>
     <message>
-        <source>Send zBPR</source>
-        <translation>花费zBPR</translation>
+        <source>Send zSBE</source>
+        <translation>花费zSBE</translation>
     </message>
     <message>
         <source>Total remaining from the selected UTXO</source>
@@ -3477,8 +3477,8 @@ These coins will no longer be cold-staked.</source>
         <translation>花费零币</translation>
     </message>
     <message>
-        <source>zBPR is currently undergoing maintenance.</source>
-        <translation>zBPR目前正在维护中</translation>
+        <source>zSBE is currently undergoing maintenance.</source>
+        <translation>zSBE目前正在维护中</translation>
     </message>
     <message>
         <source>Coin control mint not found</source>
@@ -3497,12 +3497,12 @@ These coins will no longer be cold-staked.</source>
 %2</translation>
     </message>
     <message>
-        <source>zBPR transaction sent!</source>
-        <translation>zBPR交易已发送！</translation>
+        <source>zSBE transaction sent!</source>
+        <translation>zSBE交易已发送！</translation>
     </message>
     <message>
-        <source>Version 1 zBPR require a security level of 100 to successfully spend.</source>
-        <translation>版本1 zBPR要求安全级别为100才能成功使用。</translation>
+        <source>Version 1 zSBE require a security level of 100 to successfully spend.</source>
+        <translation>版本1 zSBE要求安全级别为100才能成功使用。</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
@@ -3537,12 +3537,12 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>定制费用%1</translation>
     </message>
     <message>
-        <source>You don't have any BPR to select.</source>
-        <translation>您没有任何BPR可选择。</translation>
+        <source>You don't have any SBE to select.</source>
+        <translation>您没有任何SBE可选择。</translation>
     </message>
     <message>
-        <source>You don't have any zBPR in your balance to select.</source>
-        <translation>你的余额中没有zBPR可供选择。</translation>
+        <source>You don't have any zSBE in your balance to select.</source>
+        <translation>你的余额中没有zSBE可供选择。</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
@@ -4045,30 +4045,30 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>1）什么是Sombe?</translation>
     </message>
     <message>
-        <source>2) Why are my BPR unspendable?</source>
-        <translation>2) 我的BPR为什么不能用？</translation>
+        <source>2) Why are my SBE unspendable?</source>
+        <translation>2) 我的SBE为什么不能用？</translation>
     </message>
     <message>
-        <source>3) Sombe privacy? What is Zerocoin (zBPR)?</source>
-        <translation>3）Sombe 隐私？什么是零币(zBPR)？</translation>
+        <source>3) Sombe privacy? What is Zerocoin (zSBE)?</source>
+        <translation>3）Sombe 隐私？什么是零币(zSBE)？</translation>
     </message>
     <message>
-        <source>4) Why are my zBPR unspendable?</source>
-        <translation>4) 我的zBPR为什么不能用？</translation>
+        <source>4) Why are my zSBE unspendable?</source>
+        <translation>4) 我的zSBE为什么不能用？</translation>
     </message>
     <message>
         <source>5) Why did my wallet convert the balance
-    into zBPR automatically?</source>
+    into zSBE automatically?</source>
         <translation>5）为什么我的钱包把余额自动转换成
-zBPR了?</translation>
+zSBE了?</translation>
     </message>
     <message>
-        <source>6) How do I receive BPR/zBPR?</source>
-        <translation>6）如何接收BPR/zBPR?</translation>
+        <source>6) How do I receive SBE/zSBE?</source>
+        <translation>6）如何接收SBE/zSBE?</translation>
     </message>
     <message>
-        <source>7) How do I stake BPR/zBPR?</source>
-        <translation>7）如何加注BPR/zBPR?</translation>
+        <source>7) How do I stake SBE/zSBE?</source>
+        <translation>7）如何加注SBE/zSBE?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -4097,7 +4097,7 @@ zBPR了?</translation>
                            that can be easily transferred globally, instantly, and with near
                            zero fees.  Sombe incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
-                           to implement ZeroCoin(zBPR) and Zerocoin staking.
+                           to implement ZeroCoin(zSBE) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Sombe utilizes a Proof of Stake (PoS) consensus system algorithm,
                            allowing all owners of Sombe to participate in earning block rewards
@@ -4111,7 +4111,7 @@ Sombe是一种使用区块链技术的数字在线货币
 全球范围内快捷交易，即时，基本为
 零的交易费用。Sombe是市场上领先的安全和
 隐私加密货币，也是第一个PoS(股权证明)加密货币
-实现零币(zBPR)和零币加注。
+实现零币(zSBE)和零币加注。
 &lt;/p&gt;&lt;p align="justify"&gt;
 Sombe使用了一个股权证明(PoS)一致系统算法，
 允许所有Sombe的所有者参与赚取区块奖励
@@ -4123,8 +4123,8 @@ Sombe使用了一个股权证明(PoS)一致系统算法，
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my BPR unspendable?</source>
-        <translation>我的BPR为什么不能用？</translation>
+        <source>Why are my SBE unspendable?</source>
+        <translation>我的SBE为什么不能用？</translation>
     </message>
     <message>
         <source>
@@ -4151,28 +4151,28 @@ Sombe使用了一个股权证明(PoS)一致系统算法，
         <translation>3</translation>
     </message>
     <message>
-        <source>Sombe privacy? What is Zerocoin (zBPR)?</source>
-        <translation>Sombe 隐私？什么是零币(zBPR)？</translation>
+        <source>Sombe privacy? What is Zerocoin (zSBE)?</source>
+        <translation>Sombe 隐私？什么是零币(zSBE)？</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zBPR is an optional privacy-centric method of coin mixing on the
+                           zSBE is an optional privacy-centric method of coin mixing on the
                            Sombe blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt;
-                           "Sombe Zerocoin (zBPR) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt;
+                           "Sombe Zerocoin (zSBE) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-zBPR是一种可选的以隐私为中心的隐私币
+zSBE是一种可选的以隐私为中心的隐私币
 它是Sombe区块链的一员，基本上在任何块资源管理器
-所有的交易都不能被跟踪&lt;a style='color: #87D8FC' href='https://Sombe.org/zbpr/'&gt;
+所有的交易都不能被跟踪&lt;a style='color: #87D8FC' href='https://Sombe.org/zSBE/'&gt;
 
 你可以阅读更多关于技术方面的文章&lt;/a&gt;
 
-Sombe零币(zBPR)技术文件
+Sombe零币(zSBE)技术文件
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
     </message>
@@ -4181,20 +4181,20 @@ Sombe零币(zBPR)技术文件
         <translation>4</translation>
     </message>
     <message>
-        <source>Why are my zBPR unspendable?</source>
-        <translation>我的BPR为什么不能用？</translation>
+        <source>Why are my zSBE unspendable?</source>
+        <translation>我的SBE为什么不能用？</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           After minting, zBPR will require 20 confirmations as well as 1
+                           After minting, zSBE will require 20 confirmations as well as 1
                            additional mint of the same denomination on the network to
                            become eligible for spending.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-铸币后，zBPR将需要20个确认和1个确认
+铸币后，zSBE将需要20个确认和1个确认
 在网络上增加相同面额的铸币
 才够资格消费。
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -4204,32 +4204,32 @@ Sombe零币(zBPR)技术文件
         <translation>5</translation>
     </message>
     <message>
-        <source>Why did my wallet convert the balance into zBPR automatically?</source>
-        <translation>为什么我的钱包会自动将余额转换成zBPR ?</translation>
+        <source>Why did my wallet convert the balance into zSBE automatically?</source>
+        <translation>为什么我的钱包会自动将余额转换成zSBE ?</translation>
     </message>
     <message>
         <source>6</source>
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive BPR/zBPR?</source>
-        <translation>我怎么接收BPR/zBPR?</translation>
+        <source>How do I receive SBE/zSBE?</source>
+        <translation>我怎么接收SBE/zSBE?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zBPR can be spent and sent to any Sombe address. The receiver will
-                           receive standard Sombe but the origin of the Sombe is anonymized by the zBPR Protocol.
+                           zSBE can be spent and sent to any Sombe address. The receiver will
+                           receive standard Sombe but the origin of the Sombe is anonymized by the zSBE Protocol.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           If you want more zBPR you will need to mint your balance in the “Privacy” tab.
+                           If you want more zSBE you will need to mint your balance in the “Privacy” tab.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-可以使用zBPR并将其发送到任何Sombe地址。接收机将
-接收标准的Sombe，但是根据zBPR协议，Sombe的来源是匿名的。
+可以使用zSBE并将其发送到任何Sombe地址。接收机将
+接收标准的Sombe，但是根据zSBE协议，Sombe的来源是匿名的。
 &lt;/p&gt;&lt;p align="justify"&gt;
-如果你想要更多的zBPR，你将需要在“隐私”标签上铸造你的余额。
+如果你想要更多的zSBE，你将需要在“隐私”标签上铸造你的余额。
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
@@ -4237,8 +4237,8 @@ Sombe零币(zBPR)技术文件
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake BPR/zBPR?</source>
-        <translation>我怎么加注BPR/zBPR?</translation>
+        <source>How do I stake SBE/zSBE?</source>
+        <translation>我怎么加注SBE/zSBE?</translation>
     </message>
     <message>
         <source>
@@ -4257,12 +4257,12 @@ Sombe零币(zBPR)技术文件
                            You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state "Staking Enabled" to indicate it is staking.  Using the command line interface (Sombe-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
                            &lt;/li&gt;&lt;/ol&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           To Stake zBPR:
+                           To Stake zSBE:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ol&gt;&lt;li&gt;
                            Make sure your wallet is completely synchronized and you are using the latest release.
                            &lt;li&gt;
-                           Your newly minted or existing zBPR balance must have a minimum of 200 confirmations.
+                           Your newly minted or existing zSBE balance must have a minimum of 200 confirmations.
                            &lt;li&gt;
                            Your wallet must stay online and be unlocked for anonymization and staking purposes.
                            Staking should now be enabled.
@@ -4285,12 +4285,12 @@ Sombe零币(zBPR)技术文件
 您可以将鼠标移到钱包界面左上角的行中的包图标上来查看在钱包加注的状态。加注状态的时候，包会被点亮且状态显示“加注启用”。使用命令行接口(Sombe-cli);命令&lt;i&gt;getstakingstatus&lt;/i&gt;将确认加注是激活状态。
 &lt;/li&gt;&lt;/ol&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
-加注zBPR:
+加注zSBE:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ol&gt;&lt;li&gt;
 确保你的钱包保持完全同步且当前使用的是最新版本。
 &lt;li&gt;
-你最新铸造或现有的zBPR余额必须至少有200个确认。
+你最新铸造或现有的zSBE余额必须至少有200个确认。
 &lt;li&gt;
 你必须保证钱包在线且用于加注和匿名目的处于未锁状态。
 现在加注应该已经可以启用了
@@ -4311,8 +4311,8 @@ Sombe零币(zBPR)技术文件
         <translation>什么是主节点控制器？</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 BPR collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;主节点控制器钱包是控制器-远程主节点建立期间10,000 BPR抵押可以驻留的地方。这是一个可以激活远程主节点钱包(s)的钱包，可以让你的抵押币离线但远程主节点保持在线。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 SBE collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;主节点控制器钱包是控制器-远程主节点建立期间10,000 SBE抵押可以驻留的地方。这是一个可以激活远程主节点钱包(s)的钱包，可以让你的抵押币离线但远程主节点保持在线。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>8</source>
@@ -4348,7 +4348,7 @@ Sombe零币(zBPR)技术文件
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            A masternode is a computer running a full node Sombe core wallet with a
-                           requirement of 10,000 BPR secured collateral to provide extra services
+                           requirement of 10,000 SBE secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -4380,7 +4380,7 @@ Sombe零币(zBPR)技术文件
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 BPR per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 SBE per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -4390,7 +4390,7 @@ Sombe零币(zBPR)技术文件
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 主节点是运行完整节点Sombe核心钱包的计算机
-需要10,000个BPR作抵押以提供额外服务
+需要10,000个SBE作抵押以提供额外服务
 到网络，会收到一部分的区块奖励作为定期
 回报
 这些服务包括:
@@ -4422,7 +4422,7 @@ Sombe零币(zBPR)技术文件
 要求：
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;每个主节点实例有10,000 BPR&lt;/li&gt;
+&lt;li&gt;每个主节点实例有10,000 SBE&lt;/li&gt;
 &lt;li&gt;必须存储在核心钱包&lt;/li&gt;
 &lt;li&gt;需要专用IP地址&lt;/li&gt;
 主节点钱包保持在线&lt;li&gt;
@@ -5713,40 +5713,40 @@ backup will be created.
         <translation>接收</translation>
     </message>
     <message>
-        <source>BPR Stake</source>
-        <translation>BPR加注</translation>
+        <source>SBE Stake</source>
+        <translation>SBE加注</translation>
     </message>
     <message>
-        <source>zBPR Stake</source>
-        <translation>zBPR 加注</translation>
+        <source>zSBE Stake</source>
+        <translation>zSBE 加注</translation>
     </message>
     <message>
-        <source>BPR Cold Stake</source>
-        <translation>BPR冷饮</translation>
+        <source>SBE Cold Stake</source>
+        <translation>SBE冷饮</translation>
     </message>
     <message>
         <source>Stake delegation</source>
         <translation>股权委托</translation>
     </message>
     <message>
-        <source>Converted BPR to zBPR</source>
-        <translation>转换BPR为zBPR</translation>
+        <source>Converted SBE to zSBE</source>
+        <translation>转换SBE为zSBE</translation>
     </message>
     <message>
-        <source>Spent zBPR</source>
-        <translation>已经花费zBPR</translation>
+        <source>Spent zSBE</source>
+        <translation>已经花费zSBE</translation>
     </message>
     <message>
-        <source>Received BPR from zBPR</source>
-        <translation>从zBPR接收BPR</translation>
+        <source>Received SBE from zSBE</source>
+        <translation>从zSBE接收SBE</translation>
     </message>
     <message>
-        <source>Minted Change as zBPR from zBPR Spend</source>
-        <translation>铸币的变化，从zBPR花费zBPR</translation>
+        <source>Minted Change as zSBE from zSBE Spend</source>
+        <translation>铸币的变化，从zSBE花费zSBE</translation>
     </message>
     <message>
-        <source>Converted zBPR to BPR</source>
-        <translation>转换BPR为zBPR</translation>
+        <source>Converted zSBE to SBE</source>
+        <translation>转换SBE为zSBE</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5761,8 +5761,8 @@ backup will be created.
         <translation>支付给您自己</translation>
     </message>
     <message>
-        <source>BPR Stake on behalf of</source>
-        <translation>代表BPR加注</translation>
+        <source>SBE Stake on behalf of</source>
+        <translation>代表SBE加注</translation>
     </message>
     <message>
         <source>Stake delegation spent by</source>
@@ -5927,8 +5927,8 @@ backup will be created.
         <translation>18/05/18</translation>
     </message>
     <message>
-        <source>+0.000585 BPR</source>
-        <translation>+0.000585 BPR</translation>
+        <source>+0.000585 SBE</source>
+        <translation>+0.000585 SBE</translation>
     </message>
 </context>
 <context>
@@ -5938,8 +5938,8 @@ backup will be created.
         <translation>发送币</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 BPR.</source>
-        <translation>SwiftX目前还不支持发送这么高的值。当前的交易限制为%1 BPR。</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 SBE.</source>
+        <translation>SwiftX目前还不支持发送这么高的值。当前的交易限制为%1 SBE。</translation>
     </message>
 </context>
 <context>
@@ -6012,10 +6012,10 @@ Sombe核心钱包</translation>
     </message>
 </context>
 <context>
-    <name>ZBprControlDialog</name>
+    <name>ZSBEControlDialog</name>
     <message>
-        <source>Select zBPR to Spend</source>
-        <translation>选择zBPR 花费</translation>
+        <source>Select zSBE to Spend</source>
+        <translation>选择zSBE 花费</translation>
     </message>
     <message>
         <source>Coin Control</source>
@@ -6026,8 +6026,8 @@ Sombe核心钱包</translation>
         <translation>按钮</translation>
     </message>
     <message>
-        <source>zBpr</source>
-        <translation>zBpr</translation>
+        <source>zSBE</source>
+        <translation>zSBE</translation>
     </message>
     <message>
         <source>0.00 </source>
@@ -6050,8 +6050,8 @@ Sombe核心钱包</translation>
         <translation>选择／删除所有</translation>
     </message>
     <message>
-        <source>Select zBPR Denominations to Spend</source>
-        <translation>选择zBPR 面额花费</translation>
+        <source>Select zSBE Denominations to Spend</source>
+        <translation>选择zSBE 面额花费</translation>
     </message>
 </context>
 <context>
@@ -6109,12 +6109,12 @@ Sombe核心钱包</translation>
         <translation>启用冷堆叠（0-1，默认值：%u）。 如果累计= 0，则禁用</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for BPR inputs (0-1, default: %u)</source>
-        <translation>启用或禁用BPR输入标记功能(0-1，默认值:%u)</translation>
+        <source>Enable or disable staking functionality for SBE inputs (0-1, default: %u)</source>
+        <translation>启用或禁用SBE输入标记功能(0-1，默认值:%u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zBPR inputs (0-1, default: %u)</source>
-        <translation>启用或禁用zBPR输入的标记功能(0-1，默认值:%u)</translation>
+        <source>Enable or disable staking functionality for zSBE inputs (0-1, default: %u)</source>
+        <translation>启用或禁用zSBE输入的标记功能(0-1，默认值:%u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -6153,12 +6153,12 @@ Sombe核心钱包</translation>
         <translation>当最佳区块更改时执行命令(cmd中的%s被块散列替换)</translation>
     </message>
     <message>
-        <source>Fees (in BPR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>小于此值的费用(以BPR/Kb为单位)视为零中继费用(默认值:%s)</translation>
+        <source>Fees (in SBE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>小于此值的费用(以SBE/Kb为单位)视为零中继费用(默认值:%s)</translation>
     </message>
     <message>
-        <source>Fees (in BPR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>小于此值的费用(以BPR/Kb为单位)被认为是交易创建的零费用(默认值:%s)</translation>
+        <source>Fees (in SBE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>小于此值的费用(以SBE/Kb为单位)被认为是交易创建的零费用(默认值:%s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -6525,8 +6525,8 @@ Sombe核心钱包</translation>
         <translation>读取区块失败</translation>
     </message>
     <message>
-        <source>Fee (in BPR/kB) to add to transactions you send (default: %s)</source>
-        <translation>将费用(以BPR/kB为单位)添加到您发送的交易中(默认:%s)</translation>
+        <source>Fee (in SBE/kB) to add to transactions you send (default: %s)</source>
+        <translation>将费用(以SBE/kB为单位)添加到您发送的交易中(默认:%s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -6601,12 +6601,12 @@ Sombe核心钱包</translation>
         <translation>在masternode.conf中检测到无效端口</translation>
     </message>
     <message>
-        <source>Recalculating BPR supply...</source>
-        <translation>重新计算BPR供应量……</translation>
+        <source>Recalculating SBE supply...</source>
+        <translation>重新计算SBE供应量……</translation>
     </message>
     <message>
-        <source>Reindex the BPR and zBPR money supply statistics</source>
-        <translation>重新索引BPR和zBPR货币供应统计数据</translation>
+        <source>Reindex the SBE and zSBE money supply statistics</source>
+        <translation>重新索引SBE和zSBE货币供应统计数据</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -7097,8 +7097,8 @@ Sombe核心钱包</translation>
         <translation>正在同步分叉...</translation>
     </message>
     <message>
-        <source>Syncing zBPR wallet...</source>
-        <translation>正在同步zBPR钱包……</translation>
+        <source>Syncing zSBE wallet...</source>
+        <translation>正在同步zSBE钱包……</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -7213,8 +7213,8 @@ Sombe核心钱包</translation>
         <translation>JSON-RPC连接的用户名</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zBPR</source>
-        <translation>值小于zBPR的最小可用面额(= 1)</translation>
+        <source>Value is below the smallest available denomination (= 1) of zSBE</source>
+        <translation>值小于zSBE的最小可用面额(= 1)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

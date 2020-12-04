@@ -81,7 +81,7 @@
             <item>
              <widget class="QLabel" name="labelSubtitle1">
               <property name="text">
-               <string>Send public coins (BPR)</string>
+               <string>Send public coins (SBE)</string>
               </property>
              </widget>
             </item>
@@ -464,7 +464,7 @@
                      <item>
                       <widget class="QLabel" name="labelAmountSend">
                        <property name="text">
-                        <string notr="true">0.00 BPR</string>
+                        <string notr="true">0.00 SBE</string>
                        </property>
                       </widget>
                      </item>

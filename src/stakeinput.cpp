@@ -10,7 +10,7 @@
 #include "txdb.h"
 #include "wallet/wallet.h"
 
-bool CBprStake::InitFromTxIn(const CTxIn& txin)
+bool CSBEStake::InitFromTxIn(const CTxIn& txin)
 {
 
     // Find the previous transaction in database
@@ -33,14 +33,14 @@ bool CBprStake::InitFromTxIn(const CTxIn& txin)
     return true;
 }
 
-bool CBprStake::SetPrevout(CTransaction txPrev, unsigned int n)
+bool CSBEStake::SetPrevout(CTransaction txPrev, unsigned int n)
 {
     this->txFrom = txPrev;
     this->nPosition = n;
     return true;
 }
 
-bool CBprStake::GetTxFrom(CTransaction& tx) const
+bool CSBEStake::GetTxFrom(CTransaction& tx) const
 {
     if (txFrom.IsNull())
         return false;
@@ -48,7 +48,7 @@ bool CBprStake::GetTxFrom(CTransaction& tx) const
     return true;
 }
 
-bool CBprStake::GetTxOutFrom(CTxOut& out) const
+bool CSBEStake::GetTxOutFrom(CTxOut& out) const
 {
     if (txFrom.IsNull() || nPosition >= txFrom.vout.size())
         return false;
@@ -56,18 +56,18 @@ bool CBprStake::GetTxOutFrom(CTxOut& out) const
     return true;
 }
 
-bool CBprStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
+bool CSBEStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
 {
     txIn = CTxIn(txFrom.GetHash(), nPosition);
     return true;
 }
 
-CAmount CBprStake::GetValue() const
+CAmount CSBEStake::GetValue() const
 {
     return txFrom.vout[nPosition].nValue;
 }
 
-bool CBprStake::CreateTxOuts(CWallet* pwallet, std::vector<CTxOut>& vout, CAmount nTotal)
+bool CSBEStake::CreateTxOuts(CWallet* pwallet, std::vector<CTxOut>& vout, CAmount nTotal)
 {
     std::vector<valtype> vSolutions;
     txnouttype whichType;
@@ -117,16 +117,16 @@ bool CBprStake::CreateTxOuts(CWallet* pwallet, std::vector<CTxOut>& vout, CAmoun
     return true;
 }
 
-CDataStream CBprStake::GetUniqueness() const
+CDataStream CSBEStake::GetUniqueness() const
 {
-    //The unique identifier for a BPR stake is the outpoint
+    //The unique identifier for a SBE stake is the outpoint
     CDataStream ss(SER_NETWORK, 0);
     ss << nPosition << txFrom.GetHash();
     return ss;
 }
 
 //The block that the UTXO was added to the chain
-CBlockIndex* CBprStake::GetIndexFrom()
+CBlockIndex* CSBEStake::GetIndexFrom()
 {
     if (pindexFrom)
         return pindexFrom;
@@ -147,7 +147,7 @@ CBlockIndex* CBprStake::GetIndexFrom()
 }
 
 // Verify stake contextual checks
-bool CBprStake::ContextCheck(int nHeight, uint32_t nTime)
+bool CSBEStake::ContextCheck(int nHeight, uint32_t nTime)
 {
     const Consensus::Params& consensus = Params().GetConsensus();
     // Get Stake input block time/height

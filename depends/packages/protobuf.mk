@@ -21,7 +21,7 @@ define $(package)_config_cmds
 endef
 
 define $(package)_build_cmds
-  $(MAKE) -C src libprotobuf.la
+  $(MAKE) -C src liSBEotobuf.la
 endef
 
 define $(package)_stage_cmds
@@ -30,5 +30,5 @@ define $(package)_stage_cmds
 endef
 
 define $(package)_postprocess_cmds
-  rm lib/libprotoc.a
+  rm lib/liSBEotoc.a
 endef

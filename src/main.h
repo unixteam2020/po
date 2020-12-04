@@ -269,7 +269,7 @@ CAmount GetMinRelayFee(const CTransaction& tx, const CTxMemPool& pool, unsigned 
  *   DUP CHECKSIG DROP ... repeated 100 times... OP_1
  */
 
-bool RecalculateBPRSupply(int nHeightStart);
+bool RecalculateSBESupply(int nHeightStart);
 
 /**
  * Check for standard transaction types

@@ -18,7 +18,7 @@ import os
 from sys import stdin,stdout,stderr
 import argparse
 import hashlib
-import subprocess
+import suSBEocess
 import sys
 import json
 import codecs
@@ -47,8 +47,8 @@ def git_config_get(option, default=None):
     Get named configuration option from git repository.
     '''
     try:
-        return subprocess.check_output([GIT,'config','--get',option]).rstrip().decode('utf-8')
-    except subprocess.CalledProcessError:
+        return suSBEocess.check_output([GIT,'config','--get',option]).rstrip().decode('utf-8')
+    except suSBEocess.CalledProcessError:
         return default
 
 def get_response(req_url, ghtoken):
@@ -111,7 +111,7 @@ def ask_prompt(text):
     return reply
 
 def get_symlink_files():
-    files = sorted(subprocess.check_output([GIT, 'ls-tree', '--full-tree', '-r', 'HEAD']).splitlines())
+    files = sorted(suSBEocess.check_output([GIT, 'ls-tree', '--full-tree', '-r', 'HEAD']).splitlines())
     ret = []
     for f in files:
         if (int(f.decode('utf-8').split(" ")[0], 8) & 0o170000) == 0o120000:
@@ -122,7 +122,7 @@ def tree_sha512sum(commit='HEAD'):
     # request metadata for entire tree, recursively
     files = []
     blob_by_name = {}
-    for line in subprocess.check_output([GIT, 'ls-tree', '--full-tree', '-r', commit]).splitlines():
+    for line in suSBEocess.check_output([GIT, 'ls-tree', '--full-tree', '-r', commit]).splitlines():
         name_sep = line.index(b'\t')
         metadata = line[:name_sep].split() # perms, 'blob', blobid
         assert(metadata[1] == b'blob')
@@ -133,7 +133,7 @@ def tree_sha512sum(commit='HEAD'):
     files.sort()
     # open connection to git-cat-file in batch mode to request data for all blobs
     # this is much faster than launching it per file
-    p = subprocess.Popen([GIT, 'cat-file', '--batch'], stdout=subprocess.PIPE, stdin=subprocess.PIPE)
+    p = suSBEocess.Popen([GIT, 'cat-file', '--batch'], stdout=suSBEocess.PIPE, stdin=suSBEocess.PIPE)
     overall = hashlib.sha512()
     for f in files:
         blob = blob_by_name[f]
@@ -190,7 +190,7 @@ def make_acks_message(head_commit, acks):
 
 def print_merge_details(pull, title, branch, base_branch, head_branch, acks):
     print('%s#%s%s %s %sinto %s%s' % (ATTR_RESET+ATTR_PR,pull,ATTR_RESET,title,ATTR_RESET+ATTR_PR,branch,ATTR_RESET))
-    subprocess.check_call([GIT,'log','--graph','--topo-order','--pretty=format:'+COMMIT_FORMAT,base_branch+'..'+head_branch])
+    suSBEocess.check_call([GIT,'log','--graph','--topo-order','--pretty=format:'+COMMIT_FORMAT,base_branch+'..'+head_branch])
     if acks is not None:
         if acks:
             print('{}ACKs:{}'.format(ATTR_PR, ATTR_RESET))
@@ -264,35 +264,35 @@ def main():
 
     devnull = open(os.devnull, 'w', encoding="utf8")
     try:
-        subprocess.check_call([GIT,'checkout','-q',branch])
-    except subprocess.CalledProcessError:
+        suSBEocess.check_call([GIT,'checkout','-q',branch])
+    except suSBEocess.CalledProcessError:
         print("ERROR: Cannot check out branch %s." % (branch), file=stderr)
         sys.exit(3)
     try:
-        subprocess.check_call([GIT,'fetch','-q',host_repo,'+refs/pull/'+pull+'/*:refs/heads/pull/'+pull+'/*',
+        suSBEocess.check_call([GIT,'fetch','-q',host_repo,'+refs/pull/'+pull+'/*:refs/heads/pull/'+pull+'/*',
                                                           '+refs/heads/'+branch+':refs/heads/'+base_branch])
-    except subprocess.CalledProcessError:
+    except suSBEocess.CalledProcessError:
         print("ERROR: Cannot find pull request #%s or branch %s on %s." % (pull,branch,host_repo), file=stderr)
         sys.exit(3)
     try:
-        subprocess.check_call([GIT,'log','-q','-1','refs/heads/'+head_branch], stdout=devnull, stderr=stdout)
-        head_commit = subprocess.check_output([GIT,'log','-1','--pretty=format:%H',head_branch]).decode('utf-8')
+        suSBEocess.check_call([GIT,'log','-q','-1','refs/heads/'+head_branch], stdout=devnull, stderr=stdout)
+        head_commit = suSBEocess.check_output([GIT,'log','-1','--pretty=format:%H',head_branch]).decode('utf-8')
         assert len(head_commit) == 40
-    except subprocess.CalledProcessError:
+    except suSBEocess.CalledProcessError:
         print("ERROR: Cannot find head of pull request #%s on %s." % (pull,host_repo), file=stderr)
         sys.exit(3)
     try:
-        subprocess.check_call([GIT,'log','-q','-1','refs/heads/'+merge_branch], stdout=devnull, stderr=stdout)
-    except subprocess.CalledProcessError:
+        suSBEocess.check_call([GIT,'log','-q','-1','refs/heads/'+merge_branch], stdout=devnull, stderr=stdout)
+    except suSBEocess.CalledProcessError:
         print("ERROR: Cannot find merge of pull request #%s on %s." % (pull,host_repo), file=stderr)
         sys.exit(3)
-    subprocess.check_call([GIT,'checkout','-q',base_branch])
-    subprocess.call([GIT,'branch','-q','-D',local_merge_branch], stderr=devnull)
-    subprocess.check_call([GIT,'checkout','-q','-b',local_merge_branch])
+    suSBEocess.check_call([GIT,'checkout','-q',base_branch])
+    suSBEocess.call([GIT,'branch','-q','-D',local_merge_branch], stderr=devnull)
+    suSBEocess.check_call([GIT,'checkout','-q','-b',local_merge_branch])
 
     try:
         # Go up to the repository's root.
-        toplevel = subprocess.check_output([GIT,'rev-parse','--show-toplevel']).strip()
+        toplevel = suSBEocess.check_output([GIT,'rev-parse','--show-toplevel']).strip()
         os.chdir(toplevel)
         # Create unsigned merge commit.
         if title:
@@ -300,15 +300,15 @@ def main():
         else:
             firstline = 'Merge #%s' % (pull,)
         message = firstline + '\n\n'
-        message += subprocess.check_output([GIT,'log','--no-merges','--topo-order','--pretty=format:%H %s (%an)',base_branch+'..'+head_branch]).decode('utf-8')
+        message += suSBEocess.check_output([GIT,'log','--no-merges','--topo-order','--pretty=format:%H %s (%an)',base_branch+'..'+head_branch]).decode('utf-8')
         message += '\n\nPull request description:\n\n  ' + body.replace('\n', '\n  ') + '\n'
         try:
-            subprocess.check_call([GIT,'merge','-q','--commit','--no-edit','--no-ff','--no-gpg-sign','-m',message.encode('utf-8'),head_branch])
-        except subprocess.CalledProcessError:
+            suSBEocess.check_call([GIT,'merge','-q','--commit','--no-edit','--no-ff','--no-gpg-sign','-m',message.encode('utf-8'),head_branch])
+        except suSBEocess.CalledProcessError:
             print("ERROR: Cannot be merged cleanly.",file=stderr)
-            subprocess.check_call([GIT,'merge','--abort'])
+            suSBEocess.check_call([GIT,'merge','--abort'])
             sys.exit(4)
-        logmsg = subprocess.check_output([GIT,'log','--pretty=format:%s','-n','1']).decode('utf-8')
+        logmsg = suSBEocess.check_output([GIT,'log','--pretty=format:%s','-n','1']).decode('utf-8')
         if logmsg.rstrip() != firstline.rstrip():
             print("ERROR: Creating merge failed (already merged?).",file=stderr)
             sys.exit(4)
@@ -322,7 +322,7 @@ def main():
         # Compute SHA512 of git tree (to be able to detect changes before sign-off)
         try:
             first_sha512 = tree_sha512sum()
-        except subprocess.CalledProcessError:
+        except suSBEocess.CalledProcessError:
             print("ERROR: Unable to compute tree hash")
             sys.exit(4)
 
@@ -331,13 +331,13 @@ def main():
 
         # Run test command if configured.
         if testcmd:
-            if subprocess.call(testcmd,shell=True):
+            if suSBEocess.call(testcmd,shell=True):
                 print("ERROR: Running %s failed." % testcmd,file=stderr)
                 sys.exit(5)
 
             # Show the created merge.
-            diff = subprocess.check_output([GIT,'diff',merge_branch+'..'+local_merge_branch])
-            subprocess.check_call([GIT,'diff',base_branch+'..'+local_merge_branch])
+            diff = suSBEocess.check_output([GIT,'diff',merge_branch+'..'+local_merge_branch])
+            suSBEocess.check_call([GIT,'diff',base_branch+'..'+local_merge_branch])
             if diff:
                 print("WARNING: merge differs from github!",file=stderr)
                 reply = ask_prompt("Type 'ignore' to continue.")
@@ -352,7 +352,7 @@ def main():
             print("Type 'exit' when done.",file=stderr)
             if os.path.isfile('/etc/debian_version'): # Show pull number on Debian default prompt
                 os.putenv('debian_chroot',pull)
-            subprocess.call([BASH,'-i'])
+            suSBEocess.call([BASH,'-i'])
 
         second_sha512 = tree_sha512sum()
         if first_sha512 != second_sha512:
@@ -370,8 +370,8 @@ def main():
         # end message with SHA512 tree hash, then update message
         message += '\n\nTree-SHA512: ' + first_sha512
         try:
-            subprocess.check_call([GIT,'commit','--amend','--no-gpg-sign','-m',message.encode('utf-8')])
-        except subprocess.CalledProcessError:
+            suSBEocess.check_call([GIT,'commit','--amend','--no-gpg-sign','-m',message.encode('utf-8')])
+        except suSBEocess.CalledProcessError:
             print("ERROR: Cannot update message.", file=stderr)
             sys.exit(4)
 
@@ -381,30 +381,30 @@ def main():
             reply = ask_prompt("Type 's' to sign off on the above merge, or 'x' to reject and exit.").lower()
             if reply == 's':
                 try:
-                    subprocess.check_call([GIT,'commit','-q','--gpg-sign','--amend','--no-edit'])
+                    suSBEocess.check_call([GIT,'commit','-q','--gpg-sign','--amend','--no-edit'])
                     break
-                except subprocess.CalledProcessError:
+                except suSBEocess.CalledProcessError:
                     print("Error while signing, asking again.",file=stderr)
             elif reply == 'x':
                 print("Not signing off on merge, exiting.",file=stderr)
                 sys.exit(1)
 
         # Put the result in branch.
-        subprocess.check_call([GIT,'checkout','-q',branch])
-        subprocess.check_call([GIT,'reset','-q','--hard',local_merge_branch])
+        suSBEocess.check_call([GIT,'checkout','-q',branch])
+        suSBEocess.check_call([GIT,'reset','-q','--hard',local_merge_branch])
     finally:
         # Clean up temporary branches.
-        subprocess.call([GIT,'checkout','-q',branch])
-        subprocess.call([GIT,'branch','-q','-D',head_branch],stderr=devnull)
-        subprocess.call([GIT,'branch','-q','-D',base_branch],stderr=devnull)
-        subprocess.call([GIT,'branch','-q','-D',merge_branch],stderr=devnull)
-        subprocess.call([GIT,'branch','-q','-D',local_merge_branch],stderr=devnull)
+        suSBEocess.call([GIT,'checkout','-q',branch])
+        suSBEocess.call([GIT,'branch','-q','-D',head_branch],stderr=devnull)
+        suSBEocess.call([GIT,'branch','-q','-D',base_branch],stderr=devnull)
+        suSBEocess.call([GIT,'branch','-q','-D',merge_branch],stderr=devnull)
+        suSBEocess.call([GIT,'branch','-q','-D',local_merge_branch],stderr=devnull)
 
     # Push the result.
     while True:
         reply = ask_prompt("Type 'push' to push the result to %s, branch %s, or 'x' to exit without pushing." % (host_repo,branch)).lower()
         if reply == 'push':
-            subprocess.check_call([GIT,'push',host_repo,'refs/heads/'+branch])
+            suSBEocess.check_call([GIT,'push',host_repo,'refs/heads/'+branch])
             break
         elif reply == 'x':
             sys.exit(1)

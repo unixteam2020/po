@@ -53,15 +53,15 @@ DashboardWidget::DashboardWidget(SombeGUI* parent) :
 
     // Staking Information
     setCssSubtitleScreen(ui->labelMessage);
-    setCssProperty(ui->labelSquareBpr, "square-chart-bpr");
-    setCssProperty(ui->labelBpr, "text-chart-bpr");
+    setCssProperty(ui->labelSquareSBE, "square-chart-SBE");
+    setCssProperty(ui->labelSBE, "text-chart-SBE");
 
     // Staking Amount
     QFont fontBold;
     fontBold.setWeight(QFont::Bold);
 
     setCssProperty(ui->labelChart, "legend-chart");
-    setCssProperty(ui->labelAmountBpr, "text-stake-bpr-disable");
+    setCssProperty(ui->labelAmountSBE, "text-stake-SBE-disable");
 
     setCssProperty({ui->pushButtonAll,  ui->pushButtonMonth, ui->pushButtonYear}, "btn-check-time");
     setCssProperty({ui->comboBoxMonths,  ui->comboBoxYears}, "btn-combo-chart-selected");
@@ -210,7 +210,7 @@ void DashboardWidget::loadWalletModel()
         connect(walletModel->getOptionsModel(), &OptionsModel::hideChartsChanged, this, &DashboardWidget::onHideChartsChanged);
 #endif
     }
-    // update the display unit, to not use the default ("BPR")
+    // update the display unit, to not use the default ("SBE")
     updateDisplayUnit();
 }
 
@@ -497,7 +497,7 @@ const QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
         QModelIndex modelIndex = stakesFilter->index(i, TransactionTableModel::ToAddress);
         qint64 amount = llabs(modelIndex.data(TransactionTableModel::AmountRole).toLongLong());
         QDate date = modelIndex.data(TransactionTableModel::DateRole).toDateTime().date();
-        bool isBpr = true;
+        bool isSBE = true;
 
         int time = 0;
         switch (chartShow) {
@@ -518,12 +518,12 @@ const QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
                 return amountBy;
         }
         if (amountBy.contains(time)) {
-            if (isBpr) {
+            if (isSBE) {
                 amountBy[time].first += amount;
             } else
                 amountBy[time].second += amount;
         } else {
-            if (isBpr) {
+            if (isSBE) {
                 amountBy[time] = std::make_pair(amount, 0);
             } else {
                 amountBy[time] = std::make_pair(0, amount);
@@ -554,18 +554,18 @@ bool DashboardWidget::loadChartData(bool withMonthNames)
 
     for (int j = range.first; j < range.second; j++) {
         int num = (isOrderedByMonth && j > daysInMonth) ? (j % daysInMonth) : j;
-        qreal bpr = 0;
+        qreal SBE = 0;
         if (chartData->amountsByCache.contains(num)) {
             std::pair <qint64, qint64> pair = chartData->amountsByCache[num];
-            bpr = (pair.first != 0) ? pair.first / 100000000 : 0;
-            chartData->totalBpr += pair.first;
+            SBE = (pair.first != 0) ? pair.first / 100000000 : 0;
+            chartData->totalSBE += pair.first;
         }
 
         chartData->xLabels << ((withMonthNames) ? monthsNames[num - 1] : QString::number(num));
 
-        chartData->valuesBpr.append(bpr);
+        chartData->valuesSBE.append(SBE);
 
-        int max = std::max(bpr, bpr);
+        int max = std::max(SBE, SBE);
         if (max > chartData->maxValue) {
             chartData->maxValue = max;
         }
@@ -632,17 +632,17 @@ void DashboardWidget::onChartRefreshed()
     series->attachAxis(axisX);
     series->attachAxis(axisY);
 
-    set0->append(chartData->valuesBpr);
+    set0->append(chartData->valuesSBE);
 
     // Total
     nDisplayUnit = walletModel->getOptionsModel()->getDisplayUnit();
-    if (chartData->totalBpr > 0) {
-        setCssProperty(ui->labelAmountBpr, "text-stake-bpr");
+    if (chartData->totalSBE > 0) {
+        setCssProperty(ui->labelAmountSBE, "text-stake-SBE");
     } else {
-        setCssProperty(ui->labelAmountBpr, "text-stake-bpr-disable");
+        setCssProperty(ui->labelAmountSBE, "text-stake-SBE-disable");
     }
-    forceUpdateStyle({ui->labelAmountBpr});
-    ui->labelAmountBpr->setText(GUIUtil::formatBalance(chartData->totalBpr, nDisplayUnit));
+    forceUpdateStyle({ui->labelAmountSBE});
+    ui->labelAmountSBE->setText(GUIUtil::formatBalance(chartData->totalSBE, nDisplayUnit));
 
     series->append(set0);
 
