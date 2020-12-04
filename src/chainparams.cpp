@@ -38,19 +38,10 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
     return genesis;
 }
 
-/**
- * Build the genesis block. Note that the output of the genesis coinbase cannot
- * be spent as it did not originally exist in the database.
- *
- * CBlock(hash=00000ffd590b14, ver=1, hashPrevBlock=00000000000000, hashMerkleRoot=e0028e, nTime=1390095618, nBits=1e0ffff0, nNonce=28917698, vtx=1)
- *   CTransaction(hash=e0028e, ver=1, vin.size=1, vout.size=1, nLockTime=0)
- *     CTxIn(COutPoint(000000, -1), coinbase 04ffff001d01044c5957697265642030392f4a616e2f3230313420546865204772616e64204578706572696d656e7420476f6573204c6976653a204f76657273746f636b2e636f6d204973204e6f7720416363657074696e6720426974636f696e73)
- *     CTxOut(nValue=50.00000000, scriptPubKey=0xA9037BAC7050C479B121CF)
- *   vMerkleTree: e0028e
- */
+ 
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "Most Music Listeners Would Pay for Music With Crypto to Help Artists";
+   const char* pszTimestamp = "SOMBE new Era";
     const CScript genesisOutputScript = CScript() << ParseHex("04c10e83b2702caf322f7dba42dc5151ac4c20bd012814cda21ca3660b2573b1b26a02c0582abd04b4dea9c2b71b26d91428c61256ed64774b3bea0cb73c2bd0e2") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -67,16 +58,11 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-	(0, uint256S("0x00000e1665df680f925a8eaf838476a092a33d622edcb2eaefbbea61981c660d"))
+	(0, uint256S("0x0000034847993f77a08a66de554cf3d5db1163fe522357850b3b4b8cf505b832"))
 	/*
     (412, uint256S("0x0000000e98f5a6a59fc6165a4769a5e6f92729cb246ec5385469a88694241fb8"))
 	(920, uint256S("0x646edc7f9e1641618e0e7526ac9b632ad21c5f014a23d57348cd50de53032967")) 
     */
-
-	//(1098, uint256S("0x6ec4495354a1d0a0e7b2d7110700f02c4a95d54451fc97083b0f4f150d640cc4"))
-	//(3245, uint256S("0xfe7b42824061383f044396f1dfccb61c9f1490abe04cdf5a7d6f069025c76b42"))
-	//(5447, uint256S("0x0701a1bcfb78afe5024d1b93f6166135ed7256d7cb41ed13e0b383c38509beba"))
-	//(9487, uint256S("0xa54af853628ccf50d7410873e0ac924bde2f2c8998983cb6d29f5e70550bf1fe"))
     ; 
 
 static const Checkpoints::CCheckpointData data = {
@@ -113,11 +99,13 @@ public:
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
 
-        genesis = CreateGenesisBlock(1595908800, 492161, 0x1e0ffff0, 1, 0 * COIN);
+        genesis = CreateGenesisBlock(1607123275, 606695, 0x1e0ffff0, 1, 0 * COIN);
 
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000e1665df680f925a8eaf838476a092a33d622edcb2eaefbbea61981c660d"));
-        assert(genesis.hashMerkleRoot == uint256S("0xafdfd7f37409a94b5b8e1056441a97db53c2752dc87ab0c038a18bce8c23bef2"));
+ 
+
+        assert(consensus.hashGenesisBlock == uint256S("0x0000034847993f77a08a66de554cf3d5db1163fe522357850b3b4b8cf505b832"));
+        assert(genesis.hashMerkleRoot == uint256S("0x2d1aae21f5f0f1590384ceca1e9bc884d30ca989cec35335865d11a283d39b2b"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // Sombe starting difficulty is 1 / 2^12
@@ -138,7 +126,9 @@ public:
         consensus.nTargetTimespanV2 = 30 * 60;
         consensus.nTargetSpacing = 1 * 90;
         consensus.nTimeSlotLength = 15;
-				
+
+
+
         // spork keys
         consensus.strSporkPubKey = "04430323a99ac4239170157166b4ec70da28c87bf6320b451e5c9e707fb00634eeb1a194c6b3abe5aab1aceb6e9ee20617a602b6b0b9c782c624c329d1801e4439";
         consensus.strSporkPubKeyOld = "04430323a99ac4239170157166b4ec70da28c87bf6320b451e5c9e707fb00634eeb1a194c6b3abe5aab1aceb6e9ee20617a602b6b0b9c782c624c329d1801e4439";
@@ -171,22 +161,7 @@ public:
         pchMessageStart[2] = 0x0b;
         pchMessageStart[3] = 0x1c;
         nDefaultPort = 2017;
-
-        // Note that of those with the service bits flag, most only support a subset of possible options
-       /* vSeeds.push_back(CDNSSeedData("139.59.133.102", "139.59.133.102", true));   		
-        vSeeds.push_back(CDNSSeedData("2a03:b0c0:3:d0::62e:4001", "2a03:b0c0:3:d0::62e:4001", true));   		
-        vSeeds.push_back(CDNSSeedData("138.197.157.57", "138.197.157.57", true));   		
-        vSeeds.push_back(CDNSSeedData("2604:a880:cad:d0::4c5:e001", "2604:a880:cad:d0::4c5:e001", true));   		
-        vSeeds.push_back(CDNSSeedData("134.122.24.208", "134.122.24.208", true));   		
-        vSeeds.push_back(CDNSSeedData("2604:a880:400:d0::19f3:1001", "2604:a880:400:d0::19f3:1001", true));   		
-        vSeeds.push_back(CDNSSeedData("134.209.83.212", "134.209.83.212", true));   		
-        vSeeds.push_back(CDNSSeedData("2a03:b0c0:2:f0::410:1", "2a03:b0c0:2:f0::410:1", true));   		
-        vSeeds.push_back(CDNSSeedData("161.35.238.92", "161.35.238.92", true));   		
-        vSeeds.push_back(CDNSSeedData("2604:a880:4:1d0::69:1000", "2604:a880:4:1d0::69:1000", true));   		
-        vSeeds.push_back(CDNSSeedData("128.199.66.251", "128.199.66.251", true));   		
-        vSeeds.push_back(CDNSSeedData("2400:6180:0:d0::482:e001", "2400:6180:0:d0::482:e001", true));   		
-        vSeeds.push_back(CDNSSeedData("161.35.165.219", "161.35.165.219", true));   		
-        vSeeds.push_back(CDNSSeedData("2a03:b0c0:1:e0::6c6:f001", "2a03:b0c0:1:e0::6c6:f001", true));   */	
+ 
 
            // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.push_back(CDNSSeedData("45.77.36.203", "45.77.36.203", true));     // Primary DNS Seeder from Fuzzbawls
@@ -195,9 +170,10 @@ public:
         vSeeds.push_back(CDNSSeedData("159.89.24.14", "159.89.24.14", true));
 
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 55);     // starting with 'P'   
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);     // starting with 'P'   
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[STAKING_ADDRESS] = std::vector<unsigned char>(1, 25);     // starting with 'B'
+
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
@@ -228,8 +204,7 @@ public:
 
         genesis = CreateGenesisBlock(1454124731, 2402015, 0x1e0ffff0, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        //assert(consensus.hashGenesisBlock == uint256S("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        //assert(genesis.hashMerkleRoot == uint256S("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        
 
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // Sombe starting difficulty is 1 / 2^12
