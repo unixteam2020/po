@@ -1607,7 +1607,7 @@ int64_t GetBlockValue(int nHeight)
     }
 
 	const int last_pow_block = Params().GetConsensus().height_last_PoW;
-	int64_t nSubsidy = 5;
+	int64_t nSubsidy = 5 ;
 
 	if (nHeight <= last_pow_block && nHeight >= 1) {
 		nSubsidy = 10 * COIN;
@@ -1616,6 +1616,14 @@ int64_t GetBlockValue(int nHeight)
     	if ( nHeight == 1) {
 		nSubsidy = 1000000000 * COIN;
          } 
+
+
+
+    	if ( nHeight > 900) {
+		nSubsidy = 5 * COIN;
+         } 
+
+
 
     return nSubsidy;
 }
