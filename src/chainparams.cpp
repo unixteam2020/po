@@ -187,6 +187,9 @@ public:
         vSeeds.push_back(CDNSSeedData("207.148.68.243", "207.148.68.243", true));    // Secondary DNS Seeder from Fuzzbawls
         vSeeds.push_back(CDNSSeedData("45.77.246.120", "45.77.246.120", true)); 
         vSeeds.push_back(CDNSSeedData("159.89.24.14", "159.89.24.14", true));
+        
+        vSeeds.push_back(CDNSSeedData("108.160.137.147", "108.160.137.147", true));
+        vSeeds.push_back(CDNSSeedData("198.13.52.160", "198.13.52.160", true));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);     // starting with 'P'   
