@@ -1637,8 +1637,8 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
     if (nHeight <= last_pow_block) {
         ret = 0;
     } 
-	else if (nHeight <= 4583834 && nHeight > last_pow_block) {
-		ret = blockValue * 0.45;  //90%;
+	else if (  nHeight > last_pow_block) {
+		ret = blockValue * 0.9;  //90%;
 	}
 	else {
         ret = 0 * COIN;
