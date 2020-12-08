@@ -1,5 +1,5 @@
 //Copyright (c) 2019 The PIVX developers
-//Copyright (c) 2020 The Sombe Coin developers
+//Copyright (c) 2020 The Sombe developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -55,7 +55,7 @@ SettingsMainOptionsWidget::SettingsMainOptionsWidget(SombeGUI* _window, QWidget 
     setCssProperty({ui->labelTitleSizeDb, ui->labelTitleThreads}, "text-main-settings");
 
     // Switch
-    ui->pushSwitchStart->setText(tr("Start Sombe Coin on system login"));
+    ui->pushSwitchStart->setText(tr("Start Sombe on system login"));
     ui->pushSwitchStart->setProperty("cssClass", "btn-switch");
 
     // Combobox

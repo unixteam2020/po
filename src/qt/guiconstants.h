@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 //Copyright (c) 2015-2018 The PIVX developers
-//Copyright (c) 2020 The Sombe Coin developers
+//Copyright (c) 2020 The Sombe developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -52,9 +52,9 @@ static const int MAX_URI_LENGTH = 255;
 #define EXPORT_IMAGE_SIZE 256
 
 
-#define QAPP_ORG_NAME "Sombe Coin"
+#define QAPP_ORG_NAME "Sombe"
 #define QAPP_ORG_DOMAIN "Sombe.org"
-#define QAPP_APP_NAME_DEFAULT "Sombe Coin-Qt"
-#define QAPP_APP_NAME_TESTNET "Sombe Coin-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Sombe-Qt"
+#define QAPP_APP_NAME_TESTNET "Sombe-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

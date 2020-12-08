@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 //Copyright (c) 2015-2020 The PIVX developers
-//Copyright (c) 2020 The Sombe Coin developers
+//Copyright (c) 2020 The Sombe developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -265,7 +265,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "Sombe coin";
+    const char* pszModule = "Sombe";
 #endif
     if (pex)
         return strprintf(
@@ -285,9 +285,9 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 
 fs::path GetDefaultDataDir()
 {
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\Sombe Coin
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\Sombe Coin
-// Mac: ~/Library/Application Support/Sombe Coin
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\Sombe
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\Sombe
+// Mac: ~/Library/Application Support/Sombe
 // Unix: ~/.Sombecoin
 #ifdef WIN32
     // Windows

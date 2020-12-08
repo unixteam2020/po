@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("Sombe-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("Sombe-core", ""
-"Cannot obtain a lock on data directory %s. Sombe Coin is probably already "
+"Cannot obtain a lock on data directory %s. Sombe is probably already "
 "running."),
 QT_TRANSLATE_NOOP("Sombe-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -252,7 +252,7 @@ QT_TRANSLATE_NOOP("Sombe-core", "Connection options:"),
 QT_TRANSLATE_NOOP("Sombe-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("Sombe-core", "Copyright (C) 2014-%i The Dash Core Developers"),
 QT_TRANSLATE_NOOP("Sombe-core", "Copyright (C) 2015-%i The PIVX Core Developers"),
-QT_TRANSLATE_NOOP("Sombe-core", "Copyright (C) %i The Sombe Coin Developers"),
+QT_TRANSLATE_NOOP("Sombe-core", "Copyright (C) %i The Sombe Developers"),
 QT_TRANSLATE_NOOP("Sombe-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("Sombe-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("Sombe-core", "Debugging/Testing options:"),

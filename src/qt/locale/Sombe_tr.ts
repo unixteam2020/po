@@ -1112,16 +1112,16 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Sombe Coin</source>
-        <translation>Sombe Coin Hakkında </translation>
+        <source>About Sombe</source>
+        <translation>Sombe Hakkında </translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1171,16 +1171,16 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Sombe Coin.</source>
-        <translation>Sombe Coin'a hoşgeldiniz.</translation>
+        <source>Welcome to Sombe.</source>
+        <translation>Sombe'a hoşgeldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sombe Coin will store its data.</source>
-        <translation>Program ilk başlatıldığında Sombe Coin'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
+        <source>As this is the first time the program is launched, you can choose where Sombe will store its data.</source>
+        <translation>Program ilk başlatıldığında Sombe'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>Sombe Coin will download and store a copy of the Sombe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sombe Coin, Sombe blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecektir. Ayrıca cüzdanınız da bu dizinde saklanır.</translation>
+        <source>Sombe will download and store a copy of the Sombe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sombe, Sombe blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecektir. Ayrıca cüzdanınız da bu dizinde saklanır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1199,8 +1199,8 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>TAMAM</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1876,8 +1876,8 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
 <context>
     <name>SombeGUI</name>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1904,8 +1904,8 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
         <translation>Uygulamayı sonlandır</translation>
     </message>
     <message>
-        <source>Sombe Coin client</source>
-        <translation>Sombe Coin istemci</translation>
+        <source>Sombe client</source>
+        <translation>Sombe istemci</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2221,8 +2221,8 @@ transaction history, making transactions untraceable </source>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2241,8 +2241,8 @@ transaction history, making transactions untraceable </source>
         <translation>Masternode konfigürasyon dosyası okuma hatası: %1</translation>
     </message>
     <message>
-        <source>Sombe Coin didn't yet exit safely...</source>
-        <translation>Sombe Coin henüz güvenle kapanmadı..</translation>
+        <source>Sombe didn't yet exit safely...</source>
+        <translation>Sombe henüz güvenle kapanmadı..</translation>
     </message>
     <message>
         <source>Cold Staking</source>
@@ -4654,8 +4654,8 @@ Emin misiniz?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sombe Coin is shutting down...</source>
-        <translation>Sombe Coin kapanıyor ...</translation>
+        <source>Sombe is shutting down...</source>
+        <translation>Sombe kapanıyor ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4684,15 +4684,15 @@ Emin misiniz?
         <translation>Yükleniyor...</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -4707,8 +4707,8 @@ Emin misiniz?
         <translation>The Dash Core developers</translation>
     </message>
     <message>
-        <source>The Sombe Coin developers</source>
-        <translation>The Sombe Coin developers</translation>
+        <source>The Sombe developers</source>
+        <translation>The Sombe developers</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -5275,8 +5275,8 @@ Emin misiniz?
     </message>
     <message>
         <source>Welcome to
-Sombe Coin Wallet</source>
-        <translation>Sombe Coin Cüzdanı'na
+Sombe Wallet</source>
+        <translation>Sombe Cüzdanı'na
 Hoşgeldiniz</translation>
     </message>
     <message>
@@ -5370,8 +5370,8 @@ Hoşgeldiniz</translation>
         <translation>JSON-RPC bağlantılarını dinlemek için verilen adrese bağlanın. IPv6 için [host]: port gösterimini kullanın. Bu seçenek birden çok kez belirtilebilir (varsayılan: tüm arabirimlere bağlanır)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sombe Coin is probably already running.</source>
-        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. Sombe Coin muhtemelen zaten çalışıyor.</translation>
+        <source>Cannot obtain a lock on data directory %s. Sombe is probably already running.</source>
+        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. Sombe muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5554,8 +5554,8 @@ Hoşgeldiniz</translation>
         <translation>Ağ versiyon dizisi toplam uzunluğu(%i) maksimum uzunluğu aşıyor(%i). Yorumların büyüklüğünü veya sayısını azaltın.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sombe Coin is probably already running.</source>
-        <translation>Bu bilgisayarda %s 'e bağlanılamıyor. Sombe Coin muhtemelen zaten çalışıyor.</translation>
+        <source>Unable to bind to %s on this computer. Sombe is probably already running.</source>
+        <translation>Bu bilgisayarda %s 'e bağlanılamıyor. Sombe muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5570,8 +5570,8 @@ Hoşgeldiniz</translation>
         <translation>Uyarı: paytxfee değeri çok yüksek ayarlanmış! Bu para gönderirken ödeyeceğiniz transfer ücretidir.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sombe Coin will not work properly.</source>
-        <translation>Uyarı: Bilgisayarınızın tarih ve saat ayarlarının doğruluğunu kontrol edin! Saatiniz yanlış ise Sombe Coin düzgün çalışmayacaktır. </translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sombe will not work properly.</source>
+        <translation>Uyarı: Bilgisayarınızın tarih ve saat ayarlarının doğruluğunu kontrol edin! Saatiniz yanlış ise Sombe düzgün çalışmayacaktır. </translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5686,8 +5686,8 @@ Hoşgeldiniz</translation>
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Sombe Coin Developers</source>
-        <translation>Copyright (C) 2015-%i The Sombe Coin Developers</translation>
+        <source>Copyright (C) 2015-%i The Sombe Developers</source>
+        <translation>Copyright (C) 2015-%i The Sombe Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -5762,8 +5762,8 @@ Hoşgeldiniz</translation>
         <translation>Wallet.dat yüklenirken hata oluştu: Cüzdan dosyası bozuk</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sombe Coin</source>
-        <translation>Wallet.dat yüklenirken hata oluştu: Cüzdan daha yeni bir Sombe Coin versiyonuna ihtiyaç duyuyor</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sombe</source>
+        <translation>Wallet.dat yüklenirken hata oluştu: Cüzdan daha yeni bir Sombe versiyonuna ihtiyaç duyuyor</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5850,8 +5850,8 @@ Hoşgeldiniz</translation>
         <translation>Bilgi</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sombe Coin is shutting down.</source>
-        <translation>Sağlama kontrolü başlatımı başarısız. Sombe Coin kapatılıyor.</translation>
+        <source>Initialization sanity check failed. Sombe is shutting down.</source>
+        <translation>Sağlama kontrolü başlatımı başarısız. Sombe kapatılıyor.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -6470,8 +6470,8 @@ Hoşgeldiniz</translation>
         <translation>Cüzdan %s bilgi dizini %s dışında bulunuyor</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sombe Coin to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekiyor: tamamlamak için Sombe Coin uygulamasını tekrar başlatın.</translation>
+        <source>Wallet needed to be rewritten: restart Sombe to complete</source>
+        <translation>Cüzdanın tekrar yazılması gerekiyor: tamamlamak için Sombe uygulamasını tekrar başlatın.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

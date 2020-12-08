@@ -1209,16 +1209,16 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>versie</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Sombe Coin</source>
-        <translation>Over Sombe Coin</translation>
+        <source>About Sombe</source>
+        <translation>Over Sombe</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1272,16 +1272,16 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Sombe Coin.</source>
-        <translation>Welkom bij Sombe Coin.</translation>
+        <source>Welcome to Sombe.</source>
+        <translation>Welkom bij Sombe.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sombe Coin will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar Sombe Coin zijn data opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where Sombe will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar Sombe zijn data opslaat.</translation>
     </message>
     <message>
-        <source>Sombe Coin will download and store a copy of the Sombe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sombe Coin zal een kopie van de Sombe blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
+        <source>Sombe will download and store a copy of the Sombe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sombe zal een kopie van de Sombe blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1300,8 +1300,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Akkoord</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2094,8 +2094,8 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
 <context>
     <name>SombeGUI</name>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2122,8 +2122,8 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
         <translation>Programma afsluiten</translation>
     </message>
     <message>
-        <source>Sombe Coin client</source>
-        <translation>Sombe Coin client</translation>
+        <source>Sombe client</source>
+        <translation>Sombe client</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2452,8 +2452,8 @@ transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</transla
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2472,8 +2472,8 @@ transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</transla
         <translation>Fout bij het lezen van het masternode configuratiebestand: %1</translation>
     </message>
     <message>
-        <source>Sombe Coin didn't yet exit safely...</source>
-        <translation>Sombe Coin is nog niet veilig afgesloten...</translation>
+        <source>Sombe didn't yet exit safely...</source>
+        <translation>Sombe is nog niet veilig afgesloten...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -5264,8 +5264,8 @@ Weet je zeker dat?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sombe Coin is shutting down...</source>
-        <translation>Sombe Coin is aan het afsluiten...</translation>
+        <source>Sombe is shutting down...</source>
+        <translation>Sombe is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -5294,15 +5294,15 @@ Weet je zeker dat?
         <translation>Laden...</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -5317,7 +5317,7 @@ Weet je zeker dat?
         <translation>De Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>The Sombe Coin developers</source>
+        <source>The Sombe developers</source>
         <translation>De Sombe Kernontwikkelaars</translation>
     </message>
     <message>
@@ -6021,9 +6021,9 @@ nieuwe back-up aangemaakt worden.
     </message>
     <message>
         <source>Welcome to
-Sombe Coin Wallet</source>
+Sombe Wallet</source>
         <translation>Welkom bij
-Sombe Coin Portemonnee</translation>
+Sombe Portemonnee</translation>
     </message>
     <message>
         <source>Sombe is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
@@ -6116,8 +6116,8 @@ Sombe Coin Portemonnee</translation>
         <translation>Bind naar het opgegeven adres om te luisteren naar JSON-RPC verbindingen. Gebruik [host]:poort notatie voor IPv6. Deze optie kan meerdere keren worden opgegeven (standaard: bind aan alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sombe Coin is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. Sombe Coin loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. Sombe is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. Sombe loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -6304,8 +6304,8 @@ Sombe Coin Portemonnee</translation>
         <translation>De totale lengte van de netwerkversie (%i) overschrijdt de maximale lengte (%i). Verminder het aantal of de grootte van uacommentaren.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sombe Coin is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. Sombe Coin loopt waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. Sombe is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. Sombe loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -6320,8 +6320,8 @@ Sombe Coin Portemonnee</translation>
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sombe Coin will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt Sombe Coin niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sombe will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt Sombe niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -6436,7 +6436,7 @@ Sombe Coin Portemonnee</translation>
         <translation>Copyright (C) 2014-%i The Dash Kernontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Sombe Coin Developers</source>
+        <source>Copyright (C) 2015-%i The Sombe Developers</source>
         <translation>Copyright (C) 2015-%i The Sombe Kernontwikkelaars</translation>
     </message>
     <message>
@@ -6512,8 +6512,8 @@ Sombe Coin Portemonnee</translation>
         <translation>Error tijdens het laden van wallet.dat: Portemonnee corrupt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sombe Coin</source>
-        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van Sombe Coin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sombe</source>
+        <translation>Fout bij het laden van wallet.dat: Portemonnee vereist een nieuwere versie van Sombe</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -6604,8 +6604,8 @@ Sombe Coin Portemonnee</translation>
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sombe Coin is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. Sombe Coin wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. Sombe is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. Sombe wordt afgesloten.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -6944,8 +6944,8 @@ Sombe Coin Portemonnee</translation>
         <translation>Voorbereiden van hersynchronisatie...</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Sombe Coin will not work properly.</source>
-        <translation>Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd ingesteld staat, werkt Sombe Coin niet goed.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Sombe will not work properly.</source>
+        <translation>Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd ingesteld staat, werkt Sombe niet goed.</translation>
     </message>
     <message>
         <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
@@ -7268,8 +7268,8 @@ Sombe Coin Portemonnee</translation>
         <translation>Portemonnee %s verblijft buiten de data directory %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sombe Coin to complete</source>
-        <translation>Wallet moest worden herschreven: start Sombe Coin opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Sombe to complete</source>
+        <translation>Wallet moest worden herschreven: start Sombe opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>

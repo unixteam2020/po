@@ -1514,7 +1514,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+0"/>
-        <source>Sombe Coin</source>
+        <source>Sombe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1525,7 +1525,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+6"/>
-        <source>About Sombe Coin</source>
+        <source>About Sombe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1593,17 +1593,17 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location line="+90"/>
-        <source>Welcome to Sombe Coin.</source>
+        <source>Welcome to Sombe.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+35"/>
-        <source>As this is the first time the program is launched, you can choose where Sombe Coin will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Sombe will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>Sombe Coin will download and store a copy of the Sombe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Sombe will download and store a copy of the Sombe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1628,7 +1628,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <location filename="../intro.cpp" line="+101"/>
-        <source>Sombe Coin</source>
+        <source>Sombe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2593,7 +2593,7 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</source>
         <location filename="../Sombe/Sombegui.cpp" line="+70"/>
         <location line="+292"/>
         <location line="+68"/>
-        <source>Sombe Coin</source>
+        <source>Sombe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2628,7 +2628,7 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</source>
     </message>
     <message>
         <location line="+37"/>
-        <source>Sombe Coin client</source>
+        <source>Sombe client</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3068,7 +3068,7 @@ transaction history, making transactions untraceable </source>
         <location line="+7"/>
         <location line="+13"/>
         <location line="+19"/>
-        <source>Sombe Coin</source>
+        <source>Sombe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3093,7 +3093,7 @@ transaction history, making transactions untraceable </source>
     </message>
     <message>
         <location line="+63"/>
-        <source>Sombe Coin didn&apos;t yet exit safely...</source>
+        <source>Sombe didn&apos;t yet exit safely...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6461,7 +6461,7 @@ Are you sure?
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+71"/>
-        <source>Sombe Coin is shutting down...</source>
+        <source>Sombe is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6497,7 +6497,7 @@ Are you sure?
     </message>
     <message>
         <location filename="../Sombe/splash.cpp" line="+29"/>
-        <source>Sombe Coin</source>
+        <source>Sombe</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6505,7 +6505,7 @@ Are you sure?
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+36"/>
-        <source>Sombe Coin</source>
+        <source>Sombe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6525,7 +6525,7 @@ Are you sure?
     </message>
     <message>
         <location line="+1"/>
-        <source>The Sombe Coin developers</source>
+        <source>The Sombe developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7442,7 +7442,7 @@ backup will be created.
     <message>
         <location line="+89"/>
         <source>Welcome to
-Sombe Coin Wallet</source>
+Sombe Wallet</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7558,7 +7558,7 @@ Sombe Coin Wallet</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. Sombe Coin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Sombe is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7793,7 +7793,7 @@ Sombe Coin Wallet</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. Sombe Coin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Sombe is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7813,7 +7813,7 @@ Sombe Coin Wallet</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Sombe Coin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Sombe will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7958,7 +7958,7 @@ Sombe Coin Wallet</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The Sombe Coin Developers</source>
+        <source>Copyright (C) 2015-%i The Sombe Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8053,7 +8053,7 @@ Sombe Coin Wallet</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sombe Coin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sombe</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8168,7 +8168,7 @@ Sombe Coin Wallet</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Sombe Coin is shutting down.</source>
+        <source>Initialization sanity check failed. Sombe is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8590,7 +8590,7 @@ Sombe Coin Wallet</source>
     </message>
     <message>
         <location line="-213"/>
-        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Sombe Coin will not work properly.</source>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Sombe will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8995,7 +8995,7 @@ Sombe Coin Wallet</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Sombe Coin to complete</source>
+        <source>Wallet needed to be rewritten: restart Sombe to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -1,5 +1,5 @@
 //Copyright (c) 2019-2020 The PIVX developers
-//Copyright (c) 2020 The Sombe Coin developers
+//Copyright (c) 2020 The Sombe developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -67,7 +67,7 @@ SombeGUI::SombeGUI(const NetworkStyle* networkStyle, QWidget* parent) :
 
     QString windowTitle = QString::fromStdString(GetArg("-windowtitle", ""));
     if (windowTitle.isEmpty()) {
-        windowTitle = tr("Sombe Coin") + " - ";
+        windowTitle = tr("Sombe") + " - ";
         windowTitle += ((enableWallet) ? tr("Wallet") : tr("Node"));
     }
     windowTitle += " " + networkStyle->getTitleAddText();
@@ -365,7 +365,7 @@ void SombeGUI::messageInfo(const QString& text)
 
 void SombeGUI::message(const QString& title, const QString& message, unsigned int style, bool* ret)
 {
-    QString strTitle =  tr("Sombe Coin"); // default title
+    QString strTitle =  tr("Sombe"); // default title
     // Default to information icon
     int nNotifyIcon = Notificator::Information;
 
@@ -434,7 +434,7 @@ bool SombeGUI::openStandardDialog(QString title, QString body, QString okBtn, QS
     } else {
         dialog = new DefaultDialog();
         dialog->setText(title, body, okBtn);
-        dialog->setWindowTitle(tr("Sombe Coin"));
+        dialog->setWindowTitle(tr("Sombe"));
         dialog->adjustSize();
         dialog->raise();
         dialog->exec();

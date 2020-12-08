@@ -111,11 +111,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>选择发送Sombe coin的地址</translation>
+        <translation>选择发送Sombe的地址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>选择接收Sombe coin的地址</translation>
+        <translation>选择接收Sombe的地址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -1210,16 +1210,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>版本</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-位)</translation>
     </message>
     <message>
-        <source>About Sombe Coin</source>
-        <translation>关于Sombe Coin</translation>
+        <source>About Sombe</source>
+        <translation>关于Sombe</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1273,16 +1273,16 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>欢迎</translation>
     </message>
     <message>
-        <source>Welcome to Sombe Coin.</source>
-        <translation>欢迎使用 Sombe Coin</translation>
+        <source>Welcome to Sombe.</source>
+        <translation>欢迎使用 Sombe</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sombe Coin will store its data.</source>
-        <translation>由于这是该程序第一次启动，您可以选择存储Sombe Coin 数据的位置。</translation>
+        <source>As this is the first time the program is launched, you can choose where Sombe will store its data.</source>
+        <translation>由于这是该程序第一次启动，您可以选择存储Sombe 数据的位置。</translation>
     </message>
     <message>
-        <source>Sombe Coin will download and store a copy of the Sombe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sombe Coin将下载并存储Sombe区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
+        <source>Sombe will download and store a copy of the Sombe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sombe将下载并存储Sombe区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1301,8 +1301,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>好的</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2095,8 +2095,8 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
 <context>
     <name>SombeGUI</name>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2123,8 +2123,8 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
         <translation>关闭应用</translation>
     </message>
     <message>
-        <source>Sombe Coin client</source>
-        <translation>Sombe Coin 客户端</translation>
+        <source>Sombe client</source>
+        <translation>Sombe 客户端</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2453,8 +2453,8 @@ transaction history, making transactions untraceable </source>
         <translation>%1 毫秒</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2473,7 +2473,7 @@ transaction history, making transactions untraceable </source>
         <translation>读取主节点配置文件出错:%1</translation>
     </message>
     <message>
-        <source>Sombe Coin didn't yet exit safely...</source>
+        <source>Sombe didn't yet exit safely...</source>
         <translation>Sombe核心尚未安全退出……</translation>
     </message>
     <message>
@@ -5225,7 +5225,7 @@ Are you sure?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sombe Coin is shutting down...</source>
+        <source>Sombe is shutting down...</source>
         <translation>Sombe 核心正在关闭...</translation>
     </message>
     <message>
@@ -5255,15 +5255,15 @@ Are you sure?
         <translation>正在下载…</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -5278,7 +5278,7 @@ Are you sure?
         <translation>达世币核心开发者</translation>
     </message>
     <message>
-        <source>The Sombe Coin developers</source>
+        <source>The Sombe developers</source>
         <translation>Sombe 核心开发者</translation>
     </message>
     <message>
@@ -5982,7 +5982,7 @@ backup will be created.
     </message>
     <message>
         <source>Welcome to
-Sombe Coin Wallet</source>
+Sombe Wallet</source>
         <translation>欢迎
 Sombe核心钱包</translation>
     </message>
@@ -6077,7 +6077,7 @@ Sombe核心钱包</translation>
         <translation>绑定到给定地址监听JSON-RPC连接。使用[主机]: IPv6的端口符号。可以多次指定此选项(默认:绑定到所有接口)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sombe Coin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Sombe is probably already running.</source>
         <translation>无法获取数据目录%s锁。Sombe核心可能已经在运行了。</translation>
     </message>
     <message>
@@ -6265,7 +6265,7 @@ Sombe核心钱包</translation>
         <translation>网络版本字符串的总长度(%i)超过最大长度(%i)。减少任务的数量或大小。</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sombe Coin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Sombe is probably already running.</source>
         <translation>无法绑定到此计算机上的%s。Sombe核心可能已经在运行了。</translation>
     </message>
     <message>
@@ -6281,8 +6281,8 @@ Sombe核心钱包</translation>
         <translation>警告:-支付tx费用设置的非常高!这是您发送交易时要支付的交易费。</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sombe Coin will not work properly.</source>
-        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，Sombe Coin将无法正常工作。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sombe will not work properly.</source>
+        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，Sombe将无法正常工作。</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -6397,7 +6397,7 @@ Sombe核心钱包</translation>
         <translation>版权所有(C) 2014-%i的达世核心开发者</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Sombe Coin Developers</source>
+        <source>Copyright (C) 2015-%i The Sombe Developers</source>
         <translation>版权所有(C) 2015-%i Sombe核心开发者</translation>
     </message>
     <message>
@@ -6473,7 +6473,7 @@ Sombe核心钱包</translation>
         <translation>加载钱包出错。dat:钱包损坏</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sombe Coin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sombe</source>
         <translation>加载的钱包出错。dat: 钱包需要更新版本的Sombe核心</translation>
     </message>
     <message>
@@ -6565,7 +6565,7 @@ Sombe核心钱包</translation>
         <translation>信息</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sombe Coin is shutting down.</source>
+        <source>Initialization sanity check failed. Sombe is shutting down.</source>
         <translation>初始化完整性检查失败。Sombe核心快要关闭了。</translation>
     </message>
     <message>
@@ -6905,8 +6905,8 @@ Sombe核心钱包</translation>
         <translation>准备重新同步……</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Sombe Coin will not work properly.</source>
-        <translation>请检查您的电脑的日期和时间是否正确!如果你的时间错误，Sombe Coin将无法正常工作。</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Sombe will not work properly.</source>
+        <translation>请检查您的电脑的日期和时间是否正确!如果你的时间错误，Sombe将无法正常工作。</translation>
     </message>
     <message>
         <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
@@ -7229,7 +7229,7 @@ Sombe核心钱包</translation>
         <translation>钱包%s驻留在数据目录%s之外</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sombe Coin to complete</source>
+        <source>Wallet needed to be rewritten: restart Sombe to complete</source>
         <translation>钱包需要重写:重新启动Sombe核心完成</translation>
     </message>
     <message>

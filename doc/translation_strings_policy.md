@@ -1,7 +1,7 @@
 Translation Strings Policy
 ===========================
 
-This document provides guidelines for internationalization of the Sombe Coin software.
+This document provides guidelines for internationalization of the Sombe software.
 
 How to translate?
 ------------------

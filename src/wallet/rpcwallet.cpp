@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 //Copyright (c) 2015-2020 The PIVX developers
-//Copyright (c) 2020 The Sombe Coin developers
+//Copyright (c) 2020 The Sombe developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -3094,7 +3094,7 @@ UniValue autocombinerewards(const UniValue& params, bool fHelp)
 	if (fHelp || params.size() < 1 || (fEnable && params.size() != 2) || params.size() > 2)
 		throw std::runtime_error(
 			"autocombinerewards enable ( threshold )\n"
-			"\nWallet will automatically monitor for any coins with value below the threshold amount, and combine them if they reside with the same Sombe Coin address\n"
+			"\nWallet will automatically monitor for any coins with value below the threshold amount, and combine them if they reside with the same Sombe address\n"
 			"When autocombinerewards runs it will create a transaction, and therefore will be subject to transaction fees.\n"
 
 			"\nArguments:\n"

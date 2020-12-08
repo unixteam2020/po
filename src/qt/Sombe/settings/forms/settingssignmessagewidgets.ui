@@ -276,7 +276,7 @@
                </size>
               </property>
               <property name="text">
-               <string>Sombe Coin address or contact label</string>
+               <string>Sombe address or contact label</string>
               </property>
              </widget>
             </item>

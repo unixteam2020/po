@@ -1208,16 +1208,16 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>verzija</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Sombe Coin</source>
-        <translation>O Sombe Coin-u</translation>
+        <source>About Sombe</source>
+        <translation>O Sombe-u</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1271,16 +1271,16 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Sombe Coin.</source>
-        <translation>Dobrodošli u Sombe Coin.</translation>
+        <source>Welcome to Sombe.</source>
+        <translation>Dobrodošli u Sombe.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sombe Coin will store its data.</source>
-        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će Sombe Coin pohraniti svoje podatke.</translation>
+        <source>As this is the first time the program is launched, you can choose where Sombe will store its data.</source>
+        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će Sombe pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>Sombe Coin will download and store a copy of the Sombe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sombe Coin preuzima i pohranjuje kopiju Sombe blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <source>Sombe will download and store a copy of the Sombe block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Sombe preuzima i pohranjuje kopiju Sombe blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1299,8 +1299,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>OK</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -2093,8 +2093,8 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
 <context>
     <name>SombeGUI</name>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2121,7 +2121,7 @@ https://www.transifex.com/Sombe-project/Sombe-project-translations</translation>
         <translation>Napusti aplikaciju</translation>
     </message>
     <message>
-        <source>Sombe Coin client</source>
+        <source>Sombe client</source>
         <translation>SBEIX Core Klijent</translation>
     </message>
     <message>
@@ -2451,8 +2451,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2471,8 +2471,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Greška pri čitanju masternode konfiguracijske datoteke: %1</translation>
     </message>
     <message>
-        <source>Sombe Coin didn't yet exit safely...</source>
-        <translation>Sombe Coin nije ugašen sigurno...</translation>
+        <source>Sombe didn't yet exit safely...</source>
+        <translation>Sombe nije ugašen sigurno...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -4419,7 +4419,7 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Masternode je računalo koje pokreće full node Sombe Coin novčanik sa
+Masternode je računalo koje pokreće full node Sombe novčanik sa
 zahtjevanih 10,000 SBE-a osiguranog zaloga da pruži dodatne usluge
 mreži, i zauzvrat redovito primi dio nagrade blokova.
 Te usluge uključuju:
@@ -5258,8 +5258,8 @@ Jeste li sigurni?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sombe Coin is shutting down...</source>
-        <translation>Sombe Coin se zatvara...</translation>
+        <source>Sombe is shutting down...</source>
+        <translation>Sombe se zatvara...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -5288,15 +5288,15 @@ Jeste li sigurni?
         <translation>Učitavanje...</translation>
     </message>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Sombe Coin</source>
-        <translation>Sombe Coin</translation>
+        <source>Sombe</source>
+        <translation>Sombe</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -5311,8 +5311,8 @@ Jeste li sigurni?
         <translation>Dash Core programeri</translation>
     </message>
     <message>
-        <source>The Sombe Coin developers</source>
-        <translation>Sombe Coin programeri</translation>
+        <source>The Sombe developers</source>
+        <translation>Sombe programeri</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -6015,7 +6015,7 @@ se nova sigurnosna kopija.
     </message>
     <message>
         <source>Welcome to
-Sombe Coin Wallet</source>
+Sombe Wallet</source>
         <translation>Dobrodošli u
 Sombe temeljni novčanik</translation>
     </message>
@@ -6110,8 +6110,8 @@ Sombe temeljni novčanik</translation>
         <translation>Pridržavajte se na navedenu adresu da biste slušali veze JSON-RPC. Koristite [host]: port notation za IPv6. Ova se opcija može odrediti više puta (zadano: vezati se na sva sučelja)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sombe Coin is probably already running.</source>
-        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. Sombe Coin vjerojatno već radi.</translation>
+        <source>Cannot obtain a lock on data directory %s. Sombe is probably already running.</source>
+        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. Sombe vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -6298,8 +6298,8 @@ Sombe temeljni novčanik</translation>
         <translation>Ukupna duljina teksta mrežne verzije (%i) prelazi maksimalnu duljinu (%i). Smanjite broj ili veličinu uacommentsa.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sombe Coin is probably already running.</source>
-        <translation>Nije moguće vezati se na %s na ovom računalu. Sombe Coin vjerojatno već radi.</translation>
+        <source>Unable to bind to %s on this computer. Sombe is probably already running.</source>
+        <translation>Nije moguće vezati se na %s na ovom računalu. Sombe vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -6314,8 +6314,8 @@ Sombe temeljni novčanik</translation>
         <translation>Upozorenje: -paytxfee je vrlo visoka! To je transakcijska naknada koju ćete platiti ako šaljete transakciju.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sombe Coin will not work properly.</source>
-        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Sombe Coin neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sombe will not work properly.</source>
+        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Sombe neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -6430,8 +6430,8 @@ Sombe temeljni novčanik</translation>
         <translation>Autorska prava (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The Sombe Coin Developers</source>
-        <translation>Autorska prava (C) 2015-%i The Sombe Coin Developers</translation>
+        <source>Copyright (C) 2015-%i The Sombe Developers</source>
+        <translation>Autorska prava (C) 2015-%i The Sombe Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -6507,7 +6507,7 @@ Sombe temeljni novčanik</translation>
         <translation>Pogreška pri učitavanju wallet.dat: Novčanik oštećen</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Sombe Coin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Sombe</source>
         <translation>Pogreška prilikom učitavanja wallet.dat: Novčanik zahtijeva noviju verziju Sombe jezgre</translation>
     </message>
     <message>
@@ -6599,8 +6599,8 @@ Sombe temeljni novčanik</translation>
         <translation>Informacije</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sombe Coin is shutting down.</source>
-        <translation>Provjera ispravnosti inicijalizacije nije uspjela. Sombe Coin se zatvara.</translation>
+        <source>Initialization sanity check failed. Sombe is shutting down.</source>
+        <translation>Provjera ispravnosti inicijalizacije nije uspjela. Sombe se zatvara.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -6939,8 +6939,8 @@ Sombe temeljni novčanik</translation>
         <translation>Priprema za resinkronizaciju...</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Sombe Coin will not work properly.</source>
-        <translation>Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Sombe Coin neće raditi ispravno.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Sombe will not work properly.</source>
+        <translation>Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Sombe neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
@@ -7263,8 +7263,8 @@ Sombe temeljni novčanik</translation>
         <translation>Novčanik %s nalazi se izvan direktorija podataka %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sombe Coin to complete</source>
-        <translation>Potrebno je prepisati novčanik: ponovo pokrenite Sombe Coin</translation>
+        <source>Wallet needed to be rewritten: restart Sombe to complete</source>
+        <translation>Potrebno je prepisati novčanik: ponovo pokrenite Sombe</translation>
     </message>
     <message>
         <source>Wallet options:</source>

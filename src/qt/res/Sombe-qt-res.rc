@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Sombe Coin"
-            VALUE "FileDescription",    "Sombe Coin (OSS GUI client for Sombe)"
+            VALUE "CompanyName",        "Sombe"
+            VALUE "FileDescription",    "Sombe (OSS GUI client for Sombe)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "Sombe-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "Sombe-qt.exe"
-            VALUE "ProductName",        "Sombe Coin"
+            VALUE "ProductName",        "Sombe"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

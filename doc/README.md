@@ -1,13 +1,13 @@
-Sombe Coin
+Sombe
 =============
 
 Setup
 ---------------------
-[Sombe Coin](http://Sombe.org/wallet) is the original Sombe client and it builds the backbone of the network. However, it downloads and stores the entire history of Sombe transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Sombe](http://Sombe.org/wallet) is the original Sombe client and it builds the backbone of the network. However, it downloads and stores the entire history of Sombe transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Sombe Coin on your native platform.
+The following are some helpful notes on how to run Sombe on your native platform.
 
 ### Unix
 
@@ -33,7 +33,7 @@ for help and more information.
 
 Building
 ---------------------
-The following are developer notes on how to build Sombe Coin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Sombe on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
