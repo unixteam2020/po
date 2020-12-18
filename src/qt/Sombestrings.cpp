@@ -225,10 +225,10 @@ QT_TRANSLATE_NOOP("Sombe-core", ""
 QT_TRANSLATE_NOOP("Sombe-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("Sombe-core", "(2117 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("Sombe-core", "(2017 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("Sombe-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("Sombe-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("Sombe-core", "(must be 2117 for mainnet)"),
+QT_TRANSLATE_NOOP("Sombe-core", "(must be 2017 for mainnet)"),
 QT_TRANSLATE_NOOP("Sombe-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("Sombe-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("Sombe-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
