@@ -1634,6 +1634,7 @@ int64_t GetBlockValue(int nHeight)
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
 {
 	int64_t ret = 0;
+    blockValue = 5;
 
 	const int last_pow_block = Params().GetConsensus().height_last_PoW;
 
