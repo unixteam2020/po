@@ -342,7 +342,7 @@
                   <enum>Qt::NoFocus</enum>
                  </property>
                  <property name="text">
-                  <string>https://www.Sombe.com/</string>
+                  <string>https://www.Sombe.org/</string>
                  </property>
                 </widget>
                </item>
@@ -922,7 +922,7 @@
                            &lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;
 
                            &lt;ul&gt;
-                           &lt;li&gt;Instant transactions (SwiftX)&lt;/li&gt;
+                           &lt;li&gt;Instant transactions (IbanX)&lt;/li&gt;
                            &lt;li&gt;Validation of transactions within each block&lt;/li&gt;
                            &lt;li&gt;Act as an additional full node in the network&lt;/li&gt;
                            &lt;/ul&gt;
